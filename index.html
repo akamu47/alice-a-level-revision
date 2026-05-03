@@ -195,9 +195,14 @@
         concepts:   { items: pol.concepts || [],        label: 'Concept',     subj: 'pol', mode: 'concepts', href: './subjects/politics.html', emoji: '📖', display: c => c.term || idOf(c) }
       };
 
+      // Coerce any non-array items into [] so the rest of the code is safe
+      Object.keys(deckSpec).forEach(k => {
+        if (!Array.isArray(deckSpec[k].items)) deckSpec[k].items = [];
+      });
+
       const decksForShaky = {};
       Object.keys(deckSpec).forEach(k => {
-        decksForShaky[k] = (deckSpec[k].items || []).map(idOf).filter(Boolean);
+        decksForShaky[k] = deckSpec[k].items.map(idOf).filter(Boolean);
       });
 
       const shaky = getShakyCards(decksForShaky, 6);

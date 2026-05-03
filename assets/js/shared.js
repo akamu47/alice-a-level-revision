@@ -334,7 +334,7 @@ function el(tag, attrs = {}, ...children) {
 }
 
 // --- Cache busting hint -----------------------------------------------
-window.APP_VERSION = '20260503180122';
+window.APP_VERSION = '20260503180455';
 
 // --- Register service worker (cache-busted per deploy) ----------------
 (function registerSW() {
