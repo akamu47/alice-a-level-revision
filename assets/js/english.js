@@ -416,32 +416,59 @@ function openTheme(area, theme) {
       el('span', { class: 'tag eng' }, 'sub ' + (idx + 1) + '/' + theme.subthemes.length)));
     block.appendChild(el('h3', { class: 'serif', style: 'font-size: 1.1rem; margin: 4px 0 12px' }, sub.name));
 
-    block.appendChild(blurtRecall({
-      prompt: 'Recall a quote and analysis for this sub-theme.',
+    if (!sub.items || !sub.items.length) {
+      block.appendChild(el('p', { class: 'muted' }, '(no quotes for this sub-theme)'));
+      area.appendChild(block);
+      return;
+    }
+
+    // 1) Blurt the QUOTES first — then reveal them.
+    block.appendChild(phPart({
+      label: '📝 Quotes for this sub-theme',
+      prompt: 'Blurt the supporting quote' + (sub.items.length === 1 ? '' : 's') + ' (any keywords).',
+      placeholder: 'Words you remember from the quote\u2026',
       targets: sub.items.map(it => ({ text: it.quote })),
       hint: lvl => {
         if (lvl === 1) return '💡 ' + sub.items.length + ' supporting quote' + (sub.items.length === 1 ? '' : 's') + '.';
-        if (lvl === 2 && sub.items[0]) return '✏️ First starts: \u201c' + sub.items[0].quote.split(/\s+/).slice(0, 2).join(' ') + '\u2026\u201d';
-        return '📖 Click Check to see them all.';
+        if (lvl === 2 && sub.items[0]) return '✏️ Starts: \u201c' + sub.items[0].quote.split(/\s+/).slice(0, 2).join(' ') + '\u2026\u201d';
+        return '📖 Click Check to reveal.';
       },
       reveal: () => {
         const wrap = el('div', {});
         sub.items.forEach(item => {
-          const card = el('div', { class: 'stagger-item', style: 'padding: 10px 14px; margin-bottom: 8px; background: var(--bg); border-radius: 6px' });
-          card.appendChild(el('div', { class: 'quote-text', style: 'margin-bottom: 6px' }, '"' + item.quote + '"'));
-          (item.analysis || []).forEach(a => {
-            card.appendChild(el('p', { style: 'font-size: 0.88rem; margin: 4px 0; color: var(--ink-mute)' }, '· ' + a));
-          });
-          wrap.appendChild(card);
+          wrap.appendChild(el('div', { class: 'stagger-item pq-text-quote', style: 'margin-bottom: 6px' }, '\u201c' + item.quote + '\u201d'));
         });
-        if (!wrap.children.length) wrap.appendChild(el('div', { class: 'muted' }, '(no quotes for this sub-theme)'));
         return wrap;
-      },
-      onComplete: () => {
-        const confId = theme.label + '::' + sub.name.slice(0, 30);
-        showConfidenceRow(block, 'themes', confId, () => {});
       }
     }));
+
+    // 2) For each quote that has analysis bullets — separate blurt for the analysis.
+    sub.items.forEach((item, qi) => {
+      const analysis = item.analysis || [];
+      if (!analysis.length) return;
+      const allText = analysis.join(' ');
+      const shortQ = '\u201c' + item.quote.split(/\s+/).slice(0, 6).join(' ') + (item.quote.split(/\s+/).length > 6 ? '\u2026' : '') + '\u201d';
+      block.appendChild(phPart({
+        label: '🔍 Analysis: ' + shortQ,
+        prompt: 'What\u2019s the analysis / why does this quote matter?',
+        placeholder: 'Devices, effect, links\u2026',
+        targets: [{ text: allText }],
+        hint: lvl => {
+          if (lvl === 1) return '💡 ' + analysis.length + ' analytical point' + (analysis.length === 1 ? '' : 's') + '.';
+          if (lvl === 2) return '✏️ Starts: \u201c' + (analysis[0] || '').split(/\s+/).slice(0, 3).join(' ') + '\u2026\u201d';
+          return '📖 Click Check to reveal.';
+        },
+        reveal: () => {
+          const wrap = el('div', { class: 'stagger-item', style: 'background: var(--bg); border-radius: 6px; padding: 8px 12px' });
+          analysis.forEach(a => wrap.appendChild(el('p', { style: 'font-size: 0.92rem; margin: 4px 0; color: var(--ink-soft); line-height: 1.5' }, '· ' + a)));
+          return wrap;
+        }
+      }));
+    });
+
+    // Confidence row at the bottom of the sub-theme
+    const confId = theme.label + '::' + sub.name.slice(0, 30);
+    showConfidenceRow(block, 'themes', confId, () => {});
 
     area.appendChild(block);
   });
@@ -505,9 +532,9 @@ function buildPlath(area) {
 }
 
 /* Build one side (Plath OR Hughes) with proper colour-coded sections.
-   Uses a blurt-first recall: user types what they remember, then reveals
-   poems, text_quotes, critic_quotes, context, bullets, each in its own
-   visually distinct block. */
+   v3 — each part (poems, text quotes, critic quotes, context, full notes) is
+   its own blurt-then-reveal mini-section, mirroring how Alice has them in
+   her notes. She blurts each part, checks against the reveal, then moves on. */
 function buildPHColumn(side, title, data, themeLabel) {
   const col = el('div', { class: 'compare-col ' + side });
   col.appendChild(el('h4', {}, title));
@@ -525,69 +552,124 @@ function buildPHColumn(side, title, data, themeLabel) {
     return col;
   }
 
-  col.appendChild(blurtRecall({
-    prompt: 'For ' + (side === 'plath' ? 'Plath' : 'Hughes') + ': name a poem, recall a key quote and a critic\u2019s view.',
-    targets: textQuotes.map(q => ({ text: q })).concat(criticQuotes.map(c => ({ text: c.quote || '' }))),
-    hint: lvl => {
-      if (lvl === 1 && poems.length) return '🔡 Poem' + (poems.length > 1 ? 's' : '') + ': ' + poems.map(p => p[0] + '_'.repeat(Math.max(0, p.length - 1))).join(' · ');
-      if (lvl === 2 && textQuotes[0]) return '✏️ A key quote starts: \u201c' + textQuotes[0].split(/\s+/).slice(0, 2).join(' ') + '\u2026\u201d';
-      return '📖 Click Check to reveal everything.';
-    },
-    reveal: () => {
-      const wrap = el('div', {});
+  const sideName = side === 'plath' ? 'Plath' : 'Hughes';
 
-      if (poems.length) {
-        wrap.appendChild(el('div', { class: 'stagger-item' },
-          el('span', { class: 'pq-section-label' }, 'Poems'),
-          ...poems.map(p => el('span', { class: 'pq-poem-title' }, '\u2018' + p + '\u2019'))
-        ));
+  // 1) POEMS — which poems treat this theme on this side?
+  if (poems.length) {
+    col.appendChild(phPart({
+      label: '📜 Poems',
+      prompt: 'Which ' + sideName + ' poem' + (poems.length === 1 ? '' : 's') + ' treat' + (poems.length === 1 ? 's' : '') + ' this theme?',
+      placeholder: 'e.g. Lesbos, Wuthering\u2026',
+      targets: poems.map(p => ({ text: p })),
+      hint: lvl => {
+        if (lvl === 1) return '💡 ' + poems.length + ' poem' + (poems.length === 1 ? '' : 's') + ' to recall.';
+        if (lvl === 2) return '🔡 First letter' + (poems.length === 1 ? '' : 's') + ': ' + poems.map(p => p[0]).join(' · ');
+        return '📖 Click Check to reveal.';
+      },
+      reveal: () => {
+        const wrap = el('div', { class: 'stagger-item' });
+        poems.forEach(p => wrap.appendChild(el('span', { class: 'pq-poem-title' }, '\u2018' + p + '\u2019')));
+        return wrap;
       }
+    }));
+  }
 
-      if (textQuotes.length) {
-        const tqBlock = el('div', { class: 'stagger-item' });
-        tqBlock.appendChild(el('span', { class: 'pq-section-label' }, 'Text quotes (' + (side === 'plath' ? 'Plath' : 'Hughes') + '\u2019s words)'));
-        textQuotes.forEach(q => {
-          tqBlock.appendChild(el('div', { class: 'pq-text-quote' }, '\u201c' + q + '\u201d'));
-        });
-        wrap.appendChild(tqBlock);
+  // 2) TEXT QUOTES — the poet's own words (yellow)
+  if (textQuotes.length) {
+    col.appendChild(phPart({
+      label: '📝 ' + sideName + '\u2019s words',
+      prompt: 'Blurt a key quote from ' + sideName + ' for this theme.',
+      placeholder: 'Any words you remember\u2026',
+      targets: textQuotes.map(q => ({ text: q })),
+      hint: lvl => {
+        if (lvl === 1) return '💡 ' + textQuotes.length + ' text quote' + (textQuotes.length === 1 ? '' : 's') + ' to recall.';
+        if (lvl === 2 && textQuotes[0]) return '✏️ Starts: \u201c' + textQuotes[0].split(/\s+/).slice(0, 2).join(' ') + '\u2026\u201d';
+        return '📖 Click Check to reveal them all.';
+      },
+      reveal: () => {
+        const wrap = el('div', { class: 'stagger-item' });
+        textQuotes.forEach(q => wrap.appendChild(el('div', { class: 'pq-text-quote' }, '\u201c' + q + '\u201d')));
+        return wrap;
       }
+    }));
+  }
 
-      if (criticQuotes.length) {
-        const cqBlock = el('div', { class: 'stagger-item' });
-        cqBlock.appendChild(el('span', { class: 'pq-section-label' }, 'Critic quotes'));
+  // 3) CRITIC QUOTES (purple)
+  if (criticQuotes.length) {
+    col.appendChild(phPart({
+      label: '🎓 Critic quotes',
+      prompt: 'Blurt a critic\u2019s view on ' + sideName + ' for this theme (any words).',
+      placeholder: 'Critic\u2019s argument or name\u2026',
+      targets: criticQuotes.map(c => ({ text: (c.quote || '') + ' ' + (c.critic || '') })),
+      hint: lvl => {
+        if (lvl === 1) return '💡 ' + criticQuotes.length + ' critic quote' + (criticQuotes.length === 1 ? '' : 's') + '.';
+        if (lvl === 2 && criticQuotes[0]) {
+          const c = criticQuotes[0];
+          return '✏️ One says \u201c' + (c.quote || '').split(/\s+/).slice(0, 3).join(' ') + '\u2026\u201d';
+        }
+        return '📖 Click Check to reveal.';
+      },
+      reveal: () => {
+        const wrap = el('div', { class: 'stagger-item' });
         criticQuotes.forEach(c => {
           const card = el('div', { class: 'pq-critic-quote' });
           card.appendChild(el('span', {}, c.quote || ''));
           if (c.critic) card.appendChild(el('span', { class: 'pq-critic-attrib' }, '— ' + c.critic));
-          cqBlock.appendChild(card);
+          wrap.appendChild(card);
         });
-        wrap.appendChild(cqBlock);
+        return wrap;
       }
+    }));
+  }
 
-      if (context.length) {
-        const ctxBlock = el('div', { class: 'stagger-item' });
-        ctxBlock.appendChild(el('span', { class: 'pq-section-label' }, 'Context'));
-        context.forEach(c => {
-          ctxBlock.appendChild(el('div', { class: 'pq-context' }, c));
-        });
-        wrap.appendChild(ctxBlock);
+  // 4) CONTEXT (red)
+  if (context.length) {
+    col.appendChild(phPart({
+      label: '🌍 Context',
+      prompt: 'What context links ' + sideName + ' to this theme? (biographical / historical)',
+      placeholder: 'Any context you remember\u2026',
+      targets: context.map(c => ({ text: c })),
+      hint: lvl => {
+        if (lvl === 1) return '💡 ' + context.length + ' context point' + (context.length === 1 ? '' : 's') + '.';
+        if (lvl === 2 && context[0]) return '✏️ Starts: \u201c' + context[0].split(/\s+/).slice(0, 3).join(' ') + '\u2026\u201d';
+        return '📖 Click Check to reveal.';
+      },
+      reveal: () => {
+        const wrap = el('div', { class: 'stagger-item' });
+        context.forEach(c => wrap.appendChild(el('div', { class: 'pq-context' }, c)));
+        return wrap;
       }
+    }));
+  }
 
-      if (bullets.length) {
-        const det = el('details', { class: 'stagger-item', style: 'margin-top: 10px' },
-          el('summary', { class: 'muted', style: 'font-size: 0.85rem; cursor: pointer' }, 'Full notes (' + bullets.length + ' bullets)'));
-        const ul = el('ul', { style: 'font-size: 0.85rem; padding: 8px 0 0 16px; line-height: 1.5; color: var(--ink-soft)' });
-        bullets.forEach(b => ul.appendChild(el('li', { style: 'margin-bottom: 4px' }, b)));
-        det.appendChild(ul);
-        wrap.appendChild(det);
-      }
-
-      return wrap;
-    },
-    onComplete: () => {}
-  }));
+  // 5) FULL NOTES bullets — collapsible, no blurt (it's the long-form notes)
+  if (bullets.length) {
+    const det = el('details', { style: 'margin-top: 10px; padding: 10px 12px; border: 1px dashed var(--line); border-radius: 8px' },
+      el('summary', { class: 'muted', style: 'font-size: 0.85rem; cursor: pointer' }, '📖 Full analysis notes (' + bullets.length + ' bullets)'));
+    const ul = el('ul', { style: 'font-size: 0.85rem; padding: 8px 0 0 16px; line-height: 1.5; color: var(--ink-soft); margin: 0' });
+    bullets.forEach(b => ul.appendChild(el('li', { style: 'margin-bottom: 4px' }, b)));
+    det.appendChild(ul);
+    col.appendChild(det);
+  }
 
   return col;
+}
+
+/* phPart — helper that wraps blurtRecall in a labelled mini-section,
+   so each part of a column or sub-theme reads like a chunk from Alice\u2019s
+   notes: a heading, a blurt box, then a reveal. */
+function phPart(opts) {
+  const wrap = el('div', { class: 'ph-part', style: 'margin: 14px 0; padding: 12px 14px; background: var(--bg); border-radius: 8px; border: 1px solid var(--line-soft)' });
+  if (opts.label) wrap.appendChild(el('div', { class: 'ph-part-label', style: 'font-family: var(--font-display); font-size: 0.95rem; font-weight: 500; margin-bottom: 8px; color: var(--ink)' }, opts.label));
+  wrap.appendChild(blurtRecall({
+    prompt: opts.prompt,
+    placeholder: opts.placeholder,
+    targets: opts.targets,
+    hint: opts.hint,
+    reveal: opts.reveal,
+    onComplete: () => {}
+  }));
+  return wrap;
 }
 
 /* ----------------------------------------------------------------------

@@ -528,6 +528,27 @@ input[type="text"]:focus, textarea:focus, select:focus { outline: none; border-c
 .subject-header h1 { margin-bottom: 12px; }
 .subject-header .meta { color: var(--ink-mute); font-size: 0.95rem; }
 
+/* PDF link button on subject headers ----------------------------------- */
+.pdf-link {
+  display: inline-flex; align-items: center; gap: 6px;
+  margin-top: 12px;
+  padding: 7px 14px;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  font-size: 0.88rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s, transform 0.15s;
+}
+.pdf-link:hover {
+  background: var(--bg);
+  border-color: var(--solid);
+  transform: translateY(-1px);
+}
+.pdf-link:active { transform: translateY(0); }
+
 /* Footer --------------------------------------------------------------- */
 footer {
   text-align: center; padding: 40px 0 24px; color: var(--ink-mute); font-size: 0.85rem;
