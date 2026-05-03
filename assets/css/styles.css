@@ -389,6 +389,130 @@ input[type="text"]:focus, textarea:focus, select:focus { outline: none; border-c
 @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 .fade-in { animation: fadeIn .35s ease; }
 
+/* Stagger reveal ------------------------------------------------------- */
+@keyframes staggerIn {
+  from { opacity: 0; transform: translateY(12px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+.stagger-item { opacity: 0; }
+.stagger-item.stagger-go { animation: staggerIn 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+
+/* Blurt-first recall --------------------------------------------------- */
+.blurt-wrap { margin: 16px 0 8px; }
+.blurt-prompt { font-family: var(--font-display); font-size: 1.05rem; color: var(--ink); margin: 0 0 10px; line-height: 1.4; }
+.blurt-input {
+  width: 100%; padding: 12px 14px; border: 2px solid var(--line);
+  border-radius: var(--radius); font-family: var(--font-display); font-size: 1rem;
+  line-height: 1.5; color: var(--ink); background: var(--bg);
+  resize: vertical; min-height: 84px; box-sizing: border-box;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.blurt-input:focus { outline: none; border-color: var(--gold); box-shadow: 0 0 0 3px rgba(184,134,11,0.12); }
+.blurt-input:disabled { background: var(--line-soft); color: var(--ink-mute); }
+.blurt-btns { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+.blurt-btns .btn { padding: 8px 14px; font-size: 0.88rem; }
+.blurt-score { min-height: 32px; margin-top: 12px; }
+.blurt-score-pill {
+  display: inline-block; padding: 6px 14px; border-radius: 999px;
+  font-family: var(--font-sans); font-size: 0.88rem; font-weight: 500;
+  line-height: 1.4;
+}
+.blurt-score-pill.good { background: var(--solid-bg); color: var(--solid); }
+.blurt-score-pill.close { background: var(--okay-bg); color: var(--okay); }
+.blurt-score-pill.no { background: var(--shaky-bg); color: var(--shaky); }
+.blurt-reveal { margin-top: 14px; }
+.blurt-reveal:empty { display: none; }
+
+/* Cloze fill-in-the-blank -------------------------------------------- */
+.cloze {
+  font-family: var(--font-display); font-size: 1.1rem; line-height: 1.7;
+  color: var(--ink); margin: 12px 0;
+}
+.cloze-shown { color: var(--ink); }
+.cloze-gap {
+  display: inline-block; min-width: 80px; padding: 0 6px; margin: 0 2px;
+  border-bottom: 2px dashed var(--gold); color: transparent;
+  font-family: var(--font-mono);
+  letter-spacing: 0.1em;
+}
+.cloze-input {
+  display: inline-block; min-width: 200px; padding: 4px 10px;
+  border: 2px dashed var(--gold); border-radius: 6px;
+  background: rgba(184,134,11,0.05); font-family: var(--font-display);
+  font-size: 1rem; color: var(--ink); margin: 0 4px;
+}
+.cloze-input:focus { outline: none; background: rgba(184,134,11,0.12); }
+
+/* Critic vs text quote distinction in Plath/Hughes ------------------ */
+.pq-poem-title {
+  display: block; font-family: var(--font-display); font-style: italic;
+  font-size: 1.05rem; font-weight: 600; color: var(--ink);
+  margin: 4px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--line);
+}
+.pq-text-quote {
+  background: rgba(255, 235, 100, 0.18); padding: 6px 10px; border-radius: 4px;
+  border-left: 3px solid #E0C84A; margin: 6px 0;
+  font-family: var(--font-display); font-style: italic; line-height: 1.5;
+}
+.pq-critic-quote {
+  background: rgba(160, 43, 147, 0.07); padding: 8px 12px; border-radius: 4px;
+  border-left: 3px solid #A02B93; margin: 8px 0; line-height: 1.5;
+}
+.pq-critic-attrib { display: block; font-size: 0.82rem; color: #A02B93; font-weight: 500; margin-top: 4px; font-family: var(--font-sans); }
+.pq-context {
+  background: rgba(217, 73, 73, 0.06); padding: 6px 10px; border-radius: 4px;
+  border-left: 3px solid #D94949; margin: 6px 0; font-size: 0.92rem;
+}
+.pq-section-label {
+  display: inline-block; font-family: var(--font-sans); font-size: 0.72rem;
+  font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--ink-mute); margin: 12px 0 6px;
+}
+
+/* Confidence button colour helpers (used by .blurt-score-pill) */
+:root {
+  --solid-bg: rgba(34, 139, 65, 0.10);
+  --okay-bg:  rgba(225, 145, 30, 0.12);
+  --shaky-bg: rgba(216, 71, 51, 0.10);
+}
+
+/* Share-friend banner ------------------------------------------------ */
+.share-banner {
+  background: linear-gradient(135deg, rgba(184,134,11,0.12) 0%, rgba(184,134,11,0.04) 100%);
+  border: 1px solid rgba(184,134,11,0.25); border-radius: var(--radius);
+  padding: 18px 22px; margin: 28px 0; display: flex; align-items: center;
+  justify-content: space-between; gap: 16px; flex-wrap: wrap;
+}
+.share-banner .share-text { flex: 1; min-width: 220px; }
+.share-banner h3 { margin: 0 0 4px; font-family: var(--font-display); font-size: 1.15rem; }
+.share-banner p { margin: 0; color: var(--ink-soft); font-size: 0.9rem; }
+.share-banner-text { flex: 1; min-width: 220px; display: flex; flex-direction: column; gap: 2px; line-height: 1.4; }
+.share-banner-text strong { font-family: var(--font-display); font-weight: 500; font-size: 1.05rem; }
+.share-banner-text .share-banner-sub { color: var(--ink-soft); font-size: 0.88rem; }
+.share-banner-text .share-banner-emoji { display: inline-block; margin-right: 8px; font-size: 1.2rem; }
+.share-banner-btn { white-space: nowrap; }
+
+/* Share-mode (friend's view) name prompt */
+.share-name-modal {
+  position: fixed; inset: 0; background: rgba(31, 27, 22, 0.55);
+  display: flex; align-items: center; justify-content: center; z-index: 1000;
+}
+.share-name-modal .panel,
+.share-name-modal .share-name-card {
+  background: var(--bg); padding: 32px; border-radius: 12px;
+  max-width: 420px; width: 90%; box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+}
+.share-name-modal h2 { margin: 0 0 8px; font-family: var(--font-display); }
+.share-name-modal p { margin: 0 0 12px; color: var(--ink-soft); font-size: 0.95rem; }
+.share-name-modal input {
+  width: 100%; box-sizing: border-box; padding: 10px 14px;
+  font-size: 1rem; border: 1px solid var(--line); border-radius: 8px;
+  font-family: var(--font-sans); margin-top: 4px; margin-bottom: 16px;
+  background: var(--bg-elev); color: var(--ink);
+}
+.share-name-modal input:focus { outline: 2px solid var(--solid); outline-offset: 1px; }
+.share-name-modal button { width: 100%; }
+
 /* Subject page header -------------------------------------------------- */
 .subject-header {
   padding: 36px 0 16px;

@@ -26,11 +26,21 @@
 
 <div class="container">
 
+  <!-- Share-with-a-friend banner (only on Alice's view) -->
+  <div class="share-banner" id="shareBanner" hidden>
+    <span class="share-banner-text">
+      <span class="share-banner-emoji">📖</span>
+      <strong>Share this with a friend doing the same papers</strong>
+      <span class="share-banner-sub">— they get the revision tools without your personal data.</span>
+    </span>
+    <button class="btn btn-ghost share-banner-btn" id="shareCopyBtn">copy link</button>
+  </div>
+
   <section class="hero">
-    <div class="greeting">
+    <div class="greeting" id="greetingLine">
       Hi Alice — <em>you've got this</em>.
     </div>
-    <p class="subtitle">A*, A*, A is on the cards. Revise a little every day, and 13 May won't surprise you.</p>
+    <p class="subtitle" id="subtitleLine">A*, A*, A is on the cards. Revise a little every day, and 13 May won't surprise you.</p>
     <div class="streak-pill" id="streakPill"><span class="dot"></span><span id="streakText">starting fresh today</span></div>
   </section>
 
@@ -145,9 +155,66 @@
     }
   });
 
+  // ----- Share-mode setup ----------------------------------------------
+  const SHARE = isShareMode();
+  if (SHARE) {
+    document.body.classList.add('share-mode');
+    // Friendly modal asking for the friend's name (saved per browser)
+    let friendName = shareUserName();
+    if (!friendName) {
+      const overlay = document.createElement('div');
+      overlay.className = 'share-name-modal';
+      overlay.innerHTML = `
+        <div class="share-name-card">
+          <h2 class="serif">Welcome 👋</h2>
+          <p>This is a revision tool built for an A-Level student doing the same papers as you.</p>
+          <p class="muted" style="font-size:.9rem">Tell us your first name so we can greet you properly.</p>
+          <input type="text" id="shareNameInput" placeholder="Your first name" autocomplete="given-name" />
+          <button class="btn btn-primary" id="shareNameOk">let's go →</button>
+        </div>`;
+      document.body.appendChild(overlay);
+      const submit = () => {
+        const v = (document.getElementById('shareNameInput').value || '').trim();
+        if (!v) return;
+        setShareUserName(v); friendName = v;
+        overlay.remove();
+        applyShareGreeting(friendName);
+      };
+      document.getElementById('shareNameOk').addEventListener('click', submit);
+      document.getElementById('shareNameInput').addEventListener('keydown', e => { if (e.key === 'Enter') submit(); });
+      setTimeout(() => document.getElementById('shareNameInput').focus(), 50);
+    } else {
+      applyShareGreeting(friendName);
+    }
+    function applyShareGreeting(n) {
+      document.getElementById('greetingLine').innerHTML = 'Hi ' + escapeHtml(n) + ' — <em>good luck</em>.';
+      document.getElementById('subtitleLine').textContent = 'A revision tool for WJEC English Lit + Edexcel UK Politics. Same papers as a friend of ours.';
+    }
+  } else {
+    // Show the share-with-a-friend banner
+    const banner = document.getElementById('shareBanner');
+    banner.hidden = false;
+    document.getElementById('shareCopyBtn').addEventListener('click', () => {
+      const url = location.origin + location.pathname + '?share=1';
+      const fallbackCopy = () => {
+        const ta = document.createElement('textarea');
+        ta.value = url; document.body.appendChild(ta); ta.select();
+        try { document.execCommand('copy'); } catch (e) {}
+        ta.remove();
+      };
+      const btn = document.getElementById('shareCopyBtn');
+      const done = () => { btn.textContent = '✓ copied'; setTimeout(() => { btn.textContent = 'copy link'; }, 2000); };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(done).catch(() => { fallbackCopy(); done(); });
+      } else {
+        fallbackCopy(); done();
+      }
+    });
+  }
+
   // Full timetable list
   const list = document.getElementById('timetableList');
-  window.EXAMS.forEach(e => {
+  getExams().forEach(e => {
     const t = timeUntil(e.date);
     const past = t.past;
     const row = document.createElement('div');
@@ -160,7 +227,7 @@
       </div>
       <div class="info">
         <div class="title">${e.title}</div>
-        <div class="meta">${e.paper} · ${e.duration} · seat ${e.seat}</div>
+        <div class="meta">${e.paper} · ${e.duration}${SHARE ? '' : ' · seat ' + e.seat}</div>
       </div>
       <div class="countdown-mini">
         ${past ? 'done' : `<span class="num">${t.days}</span> day${t.days===1?'':'s'}`}

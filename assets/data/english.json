@@ -3506,13 +3506,9 @@
         "theme": "Domesticity – marriage",
         "plath": {
           "poems": [
-            "Lesbos",
-            "hate",
-            "gate",
-            "whining decked out as art"
+            "Lesbos"
           ],
-          "quotes": [
-            "In Lesbos she abandons her usual penchant for order and lets the lines stack raggedly down the page",
+          "text_quotes": [
             "The potatoes hiss",
             "The fluorescent light wincing on and off like a terrible migraine.",
             "Where they crap and puke and cry and she can’t hear.",
@@ -3520,40 +3516,60 @@
             "hair",
             "affair",
             "air",
-            "Sylvia Plath’s ‘Lesbos’ powerfully presents the island as an unreachable ideal place, the counterpart to everything that is wrong with real women’s lives.",
             "It is love you are full of. You know who you hate.",
             "even in your zen heaven we shan’t meet"
           ],
-          "bullets": [
-            "‘Lesbos’",
-            "“In Lesbos she abandons her usual penchant for order and lets the lines stack raggedly down the page” David Trinidad – structure reflects the uncontrolled emotions in this chaotic and hostile environment. Free verse, abandons 3/4/5 line stanza characteristic structure. Long stanzas of varying lengths.",
+          "critic_quotes": [
+            {
+              "quote": "In Lesbos she abandons her usual penchant for order and lets the lines stack raggedly down the page",
+              "critic": "David Trinidad –"
+            },
+            {
+              "quote": "Sylvia Plath’s ‘Lesbos’ powerfully presents the island as an unreachable ideal place, the counterpart to everything that is wrong with real women’s lives.",
+              "critic": "Emily Wilson"
+            },
+            {
+              "quote": "Contrary to Edward Butscher’s view that the poem is ‘whining decked out as art’ and its personal nature, it is also universal in its depiction of stifling, suffocating domesticity.",
+              "critic": ""
+            }
+          ],
+          "context": [
             "Wrote the poem in the wake of the breakdown of her relationship with Hughes while staying with the Kanes in Cornwall, a couple with whom she had ambivalent feelings.",
+            "Plath separating from Hughes, poem not really a criticism of Kathy Kane at all, projection of her own marriage insecurities onto the couple as a way to release her anger."
+          ],
+          "bullets": [
+            "structure reflects the uncontrolled emotions in this chaotic and hostile environment.",
+            "Free verse, abandons 3/4/5 line stanza characteristic structure.",
+            "Long stanzas of varying lengths.",
             "Criticism of Kathy Kane – striking meditation on the roles women are expected to fill, the hostility it breeds between women.",
             "Title: immediately introduces notion of sisterhood and female solidarity.",
-            "“The potatoes hiss” “The fluorescent light wincing on and off like a terrible migraine.” – animates the kitchen space with an almost hostile energy. Intense sensory language. Harsh, cold, and clinical environment evoked rather than the warmth frequently associated with domestic environments.",
+            "– animates the kitchen space with an almost hostile energy.",
+            "Intense sensory language.",
+            "Harsh, cold, and clinical environment evoked rather than the warmth frequently associated with domestic environments.",
             "Demonstrates how the domestic environment can be painful and uncomfortable.",
-            "Presents motherhood in twisted, pessimistic way: “Where they crap and puke and cry and she can’t hear.”  - polysyndetic list creates a sense of accumulation and overwhelm. Blunt visceral words. Evokes the raw, unglamorous realties of motherhood. Commentary on how motherhood is romanticised",
-            "The speaker imagines a world where they “should meet in another life, we should meet in air, me and you.” a fantasy of a paradise, like Lesbos the Greek island",
+            "Presents motherhood in twisted, pessimistic way:",
+            "- polysyndetic list creates a sense of accumulation and overwhelm.",
+            "Blunt visceral words.",
+            "Evokes the raw, unglamorous realties of motherhood.",
+            "Commentary on how motherhood is romanticised",
+            "The speaker imagines a world where they",
+            "a fantasy of a paradise, like Lesbos the Greek island",
             "Suggests that the only place for female kinship and freedom is in an entirely imagined world outside of the domestic sphere",
-            "Triplet, rhyme: “hair” “affair” and “air” – poetically contrived and rigidly constructed, fantasy",
-            "“Sylvia Plath’s ‘Lesbos’ powerfully presents the island as an unreachable ideal place, the counterpart to everything that is wrong with real women’s lives.” – Emily Wilson",
-            "“It is love you are full of. You know who you hate.” – chiasmus of love and hate, shows how marriage can warp a relationship, thin line between love and hate.",
+            "Triplet, rhyme:",
+            "– poetically contrived and rigidly constructed, fantasy",
+            "– chiasmus of love and hate, shows how marriage can warp a relationship, thin line between love and hate.",
             "The ‘hate’ and ‘gate’ rhyme of the following line creates a sense of entrapment as if marriage and the domestic life is imprisoning.",
-            "Poem ends with chilling, vindictive line: “even in your zen heaven we shan’t meet” – not about religion or secularity, rather a commentary on the performative domestic life that the female companion leads and the falsehood of it. Impossibility of unity between these women.",
-            "Both critiques the patriarchal system that forces women into these positions and conforms to it, by criticising her female companion for not meeting their standards.",
-            "Plath separating from Hughes, poem not really a criticism of Kathy Kane at all, projection of her own marriage insecurities onto the couple as a way to release her anger.",
-            "Contrary to Edward Butscher’s view that the poem is ‘whining decked out as art’ and its personal nature, it is also universal in its depiction of stifling, suffocating domesticity."
+            "Poem ends with chilling, vindictive line:",
+            "– not about religion or secularity, rather a commentary on the performative domestic life that the female companion leads and the falsehood of it.",
+            "Impossibility of unity between these women.",
+            "Both critiques the patriarchal system that forces women into these positions and conforms to it, by criticising her female companion for not meeting their standards."
           ]
         },
         "hughes": {
           "poems": [
-            "Her Husband",
-            "Rights",
-            "jurors",
-            "brief"
+            "Her Husband"
           ],
-          "quotes": [
-            "A poem of domestic bitterness. (…) The man and the woman are permanently separated … [they are] stock characters, and their relationships is part of the standard love story of poverty.",
+          "text_quotes": [
             "Let her learn with scrubbing brush and scrubbing board the stubborn character of money",
             "Dull with coal-dust deliberately",
             "Let her learn through what kind of dust he has earned his thirst … what sweat he has exchanged for his money.",
@@ -3561,33 +3577,48 @@
             "Exchanged",
             "Blood-weight of money",
             "He’ll humble her",
-            "Women were still economically dependent on their husbands",
-            "For they have their rights. Their jurors are to be assembled. Their brief goes straight up to heaven",
-            "up to heaven",
-            "for they will have their rights is definitive",
-            "the rise of divorces saw the rise of paranoia around the institution of marriage."
+            "For they have their rights. Their jurors are to be assembled. Their brief goes straight up to heaven"
+          ],
+          "critic_quotes": [
+            {
+              "quote": "A poem of domestic bitterness. (…) The man and the woman are permanently separated … [they are] stock characters, and their relationships is part of the standard love story of poverty.",
+              "critic": "Maggie Dickie Uroff – not a poem meant to antagonise either person, but rather to shed light on both sides of the domestic experience"
+            }
+          ],
+          "context": [
+            "“Women were still economically dependent on their husbands” even by the end of the 1970s – Amy Worcester",
+            "1960s divorce became increasingly common and established new hope for women. However, “the rise of divorces saw the rise of paranoia around the institution of marriage.” – Amy Worcester on marriage in the 60s and 70s"
           ],
           "bullets": [
-            "‘Her Husband’",
             "Mutual resentment that can develop between people under the pressures of domestic responsibilities – between a couple rather than between women.",
             "Stark, unsentimental depiction of marriage.",
             "Domestic world shaped by economic hardship.",
             "Hughes strips the romanticism from marriage, depicted it instead as a transactional, dehumanising institution.",
-            "“A poem of domestic bitterness. (…) The man and the woman are permanently separated … [they are] stock characters, and their relationships is part of the standard love story of poverty.” - Maggie Dickie Uroff – not a poem meant to antagonise either person, but rather to shed light on both sides of the domestic experience.",
             "3rd person voice – distance and detachment, mimicking that felt within the relationship.",
-            "“Let her learn with scrubbing brush and scrubbing board the stubborn character of money” - plosive alliteration, violent and almost aggressive. Immediately introduces that this is a hostile domestic environment. Harsh physicality of the woman’s domestic rile. The monetary hardship is inextricably linked to physical labour – both her and her husband’s. Evokes the monotony of housework.",
-            "However, the heavy dental alliteration of the opening lines evokes the exhaustion of the husband, creating pathos and sympathy for him. “Dull with coal-dust deliberately” – Hughes paints a world caked in industrial grime. Terse and compact phrase.",
-            "“Let her learn through what kind of dust he has earned his thirst … what sweat he has exchanged for his money.” – money is not a symbol of success but of bodily degradation.",
-            "“Earned” is bitterly ironic, what he earns through backbreaking labour is not rest or satisfaction, but thirst.",
-            "“Exchanged” – sacrifice, his sweat for currency, commodification of the working-class body. Tonally bitter, dehumanising.",
-            "“Blood-weight of money” – not just earned through labour but bled for – there is something morally compromised and bodily costly about it. Monosyllables of blood and weight feel heavy, echoing that money as an oppressive force in their marriage.",
+            "- plosive alliteration, violent and almost aggressive.",
+            "Immediately introduces that this is a hostile domestic environment.",
+            "Harsh physicality of the woman’s domestic rile.",
+            "The monetary hardship is inextricably linked to physical labour – both her and her husband’s.",
+            "Evokes the monotony of housework.",
+            "However, the heavy dental alliteration of the opening lines evokes the exhaustion of the husband, creating pathos and sympathy for him.",
+            "– Hughes paints a world caked in industrial grime.",
+            "Terse and compact phrase.",
+            "– money is not a symbol of success but of bodily degradation.",
+            "” is bitterly ironic, what he earns through backbreaking labour is not rest or satisfaction, but thirst.",
+            "” – sacrifice, his sweat for currency, commodification of the working-class body.",
+            "Tonally bitter, dehumanising.",
+            "” – not just earned through labour but bled for – there is something morally compromised and bodily costly about it.",
+            "Monosyllables of blood and weight feel heavy, echoing that money as an oppressive force in their marriage.",
             "Hughes turns money into a visceral antagonist.",
-            "“He’ll humble her” – suggests he exerts dominance not just economically but emotionally and physically. Chilling simplicity. Disturbing connotations of submission, humiliation, and even violence. “Women were still economically dependent on their husbands” even by the end of the 1970s – Amy Worcester",
-            "“For they have their rights. Their jurors are to be assembled. Their brief goes straight up to heaven”",
+            "– suggests he exerts dominance not just economically but emotionally and physically.",
+            "Chilling simplicity.",
+            "Disturbing connotations of submission, humiliation, and even violence.",
             "‘Rights’ ‘jurors’ ‘brief’",
-            "The suggestion is that although they may have rights, they are passed “up to heaven” where real justice is never realised. Hughes highlights the emptiness of institutional promises.",
-            "Heaven here is not a source of salvation but a filing cabinet for the working class’s grievances. Their suffering is institutionally erased – their love story isn’t unique, but one of systemic invisibility and class struggle.",
-            "“for they will have their rights is definitive” – acknowledges divorce as a possibility but doesn’t celebrate it. 1960s divorce became increasingly common and established new hope for women. However, “the rise of divorces saw the rise of paranoia around the institution of marriage.” – Amy Worcester on marriage in the 60s and 70s"
+            "The suggestion is that although they may have rights, they are passed “up to heaven” where real justice is never realised.",
+            "Hughes highlights the emptiness of institutional promises.",
+            "Heaven here is not a source of salvation but a filing cabinet for the working class’s grievances.",
+            "Their suffering is institutionally erased – their love story isn’t unique, but one of systemic invisibility and class struggle.",
+            "“for they will have their rights is definitive” – acknowledges divorce as a possibility but doesn’t celebrate it."
           ]
         }
       },
@@ -3595,61 +3626,75 @@
         "theme": "Domesticity - parenthood",
         "plath": {
           "poems": [
-            "you",
-            "Nick and the Candlestick"
+            "you’re"
           ],
-          "quotes": [
-            "By candlelight",
-            "Pregnancy makes the body strange and foreign.",
+          "text_quotes": [
             "You’re Clownlike, happiest on your hands,",
-            "Feet to the stars",
-            "dodo",
-            "For a woman to be deprived of the Great Experience her body is formed to partake of, to nourish, is a great and wasting death.",
-            "Wrapped up in yourself like a spool,",
+            "Wrapped up in yourself like a spoo",
             "Bent-backed Atlas",
-            "A Mexican bean’ - foreignness, detachment, as if the mother doesn’t feel completely connected to the baby\nDiane Middlebrook - this poem expresses a parent’s feelings of anxious alienation from the infant. \n “A clean slate, with your own face on"
+            "A Mexican bean’"
+          ],
+          "critic_quotes": [
+            {
+              "quote": "By candlelight",
+              "critic": "can be read as [an example] of maternal ambivalence in its primary sense: the coexistence of tender feelings with the resentment of being entrapped by one’s condition. - Alice Braun (this could be better applied to Edge/ you’re)"
+            },
+            {
+              "quote": "Pregnancy makes the body strange and foreign.",
+              "critic": "Katherine Robinson on ‘Nick and the Candlestick’"
+            },
+            {
+              "quote": "Diane Middlebrook - this poem expresses a parent’s feelings of anxious alienation from the infant.",
+              "critic": ""
+            }
+          ],
+          "context": [
+            "Plath wrote in journal: “For a woman to be deprived of the Great Experience her body is formed to partake of, to nourish, is a great and wasting death.” - fate, giving birth is destiny fulfilled, completes her purpose as a woman."
           ],
           "bullets": [
-            "‘you’re’",
-            "“By candlelight” can be read as [an example] of maternal ambivalence in its primary sense: the coexistence of tender feelings with the resentment of being entrapped by one’s condition. - Alice Braun (this could be better applied to Edge/ you’re)",
-            "“Pregnancy makes the body strange and foreign.” - Katherine Robinson on ‘Nick and the Candlestick’",
-            "“You’re Clownlike, happiest on your hands,” - aspirant alliteration evokes breathless happiness, playful/whimsical language evokes excitement",
+            "- aspirant alliteration evokes breathless happiness, playful/whimsical language evokes excitement",
             "“Feet to the stars” - idea of fate, suggests that she feels she was destined to be a mother",
             "Mention of “dodo” evokes something more primal suggesting that the baby is keen to live with this playful rejection of extinction.",
-            "Plath wrote in journal: “For a woman to be deprived of the Great Experience her body is formed to partake of, to nourish, is a great and wasting death.” - fate, giving birth is destiny fulfilled, completes her purpose as a woman.",
-            "“Wrapped up in yourself like a spool,” - undertone of anxiety, image of umbilical cord, idea of threads unwinding, fragile and delicate",
-            "“Bent-backed Atlas” idea of burden to the baby with this classical allusion of carrying an extreme weight. Great responsibility that comes with being a mother",
-            "“A Mexican bean’ - foreignness, detachment, as if the mother doesn’t feel completely connected to the baby",
-            "Diane Middlebrook - this poem expresses a parent’s feelings of anxious alienation from the infant.",
+            "l,” - undertone of anxiety, image of umbilical cord, idea of threads unwinding, fragile and delicate",
+            "idea of burden to the baby with this classical allusion of carrying an extreme weight.",
+            "Great responsibility that comes with being a mother",
+            "- foreignness, detachment, as if the mother doesn’t feel completely connected to the baby",
             "“A clean slate, with your own face on” - sense of anxiety but also hope that her child will be separate from her trauma.",
-            "Two stanzas of 9 lines - self-contained image of the nine months of pregnancy, as if the poem tells the story of a pregnancy that starts with total excitement but becomes more worrisome as anxiety creeps in."
+            "Two stanzas of 9 lines - self-contained image of the nine months of pregnancy, as if the poem tells the story of a pregnancy that starts with total excitement but becomes more worrisome as anxiety creeps in.",
+            "Both depicts the joy and excitement to be found in becoming a parent.",
+            "However, Plath depicts an anxiety that Hughes does not, an anxiety in the responsibility that comes with parenthood"
           ]
         },
         "hughes": {
           "poems": [
-            "Full moon and Little Frieda",
-            "full moon and little Frieda"
+            "Full moon and Little Frieda"
           ],
-          "quotes": [
-            "a poetic reply",
+          "text_quotes": [
             "Cool small evening",
             "unspilled milk",
             "Moon! Moon",
-            "an artist",
-            "gazing amazed",
-            "amazed"
+            "an artist” stepping back and “gazing amazed"
           ],
+          "critic_quotes": [
+            {
+              "quote": "Diana Middlebrook calls ‘full moon and little Frieda’ “a poetic reply” to Morning Song",
+              "critic": ""
+            }
+          ],
+          "context": [],
           "bullets": [
-            "‘Full moon and Little Frieda’",
-            "Diana Middlebrook calls ‘full moon and little Frieda’ “a poetic reply” to Morning Song",
             "Celebration of childhood innocence and wonder",
-            "“Cool small evening” - metaphorical smallness shows how ordinary of a night it is and therefore sets the stage for how children find beauty and awe in the simple and ordinary and therefore elicit the same reaction in their watching parents.",
-            "The metaphors of blood and milk recall birth and babyhood, “unspilled milk” suggests tension and potential, mimicking the potential a young child has, to experience the world for the first time.",
-            "“Moon! Moon” - sudden exclamation breaks the tension and shows how just like the moon, Frieda is an everyday miracle and her excitement at seeing it in turn awakens Hughes to both wonders.",
+            "- metaphorical smallness shows how ordinary of a night it is and therefore sets the stage for how children find beauty and awe in the simple and ordinary and therefore elicit the same reaction in their watching parents.",
+            "The metaphors of blood and milk recall birth and babyhood, “",
+            "suggests tension and potential, mimicking the potential a young child has, to experience the world for the first time.",
+            "- sudden exclamation breaks the tension and shows how just like the moon, Frieda is an everyday miracle and her excitement at seeing it in turn awakens Hughes to both wonders.",
             "Her urgent repetition conveys her awe through the toddler-like speech. (MOON SYMBOLISM)",
-            "Image of moon as “an artist” stepping back and “gazing amazed” creates a sense of awe and wonder reflecting back and forth between Frieda, the moon, and also Hughes.",
+            "Image of moon as “",
+            "” creates a sense of awe and wonder reflecting back and forth between Frieda, the moon, and also Hughes.",
             "The diacope of “amazed” underscores the mutual surprise and delight.",
-            "The artist moon becomes an image of Hughes himself, as he created Frieda, amazed at his daughter’s own amazement and existence."
+            "The artist moon becomes an image of Hughes himself, as he created Frieda, amazed at his daughter’s own amazement and existence.",
+            "Both depicts the joy and excitement to be found in becoming a parent.",
+            "However, Plath depicts an anxiety that Hughes does not, an anxiety in the responsibility that comes with parenthood"
           ]
         }
       },
@@ -3659,72 +3704,94 @@
           "poems": [
             "Cut"
           ],
-          "quotes": [
+          "text_quotes": [
             "A flap like a hat",
             "Whose side are they on?",
-            "Redcoats",
             "I am ill. I have taken a pill to kill",
             "A million soldiers run, redcoats, every one.",
-            "the poem explores the way war and violence become banal and morally ambiguous.",
             "Your turkey wattle",
             "The Indian’s axed your scalp",
             "The stain on your gauze Klu Klux Klan",
-            "dissociates the speaker from the injury",
-            "explore the anaesthetising effects of spectatorship.",
             "Dirty girl"
           ],
+          "critic_quotes": [
+            {
+              "quote": "Deborah Nelson: “the poem explores the way war and violence become banal and morally ambiguous.”",
+              "critic": ""
+            },
+            {
+              "quote": "Deborah Nelson: “dissociates the speaker from the injury” allowing the poem to “explore the anaesthetising effects of spectatorship.”",
+              "critic": ""
+            }
+          ],
+          "context": [
+            "idea credited to Hannah Ardent in her book The Banality of Evil (1961)",
+            "Image would’ve been especially associated with a very present violence for readers as, at the time Plath was writing, the third clan was opposing the civil rights movement in the 60s and committing savage racist attacks"
+          ],
           "bullets": [
-            "‘Cut’  - historical and personal violence",
+            "- historical and personal violence",
             "Comments on the glorification of historic violence and its lasting impacts on people",
-            "“A flap like a hat” – unexpected, almost playful comparison creates discomfort by trivialising the wound, highlighting the banality if violence, an idea credited to Hannah Ardent in her book The Banality of Evil (1961)",
-            "Re-emphasised in juvenile register of “Whose side are they on?”",
+            "– unexpected, almost playful comparison creates discomfort by trivialising the wound, highlighting the banality if violence, an",
+            "Re-emphasised in juvenile register of",
             "“Redcoats” and the American war for independence is seen as a thrilling game rather than a tragedy.",
-            "Rhyme of “I am ill. I have taken a pill to kill” – gives impression of a kind of childish chant or nursery rhyme, how we underplay the significance of acts of violence.",
-            "Similar effect with sing-song rhythm of “A million soldiers run, redcoats, every one.”",
-            "Deborah Nelson: “the poem explores the way war and violence become banal and morally ambiguous.”",
-            "“Your turkey wattle” interwoven with extremely violent images “The Indian’s axed your scalp” – relates brutality to an image of Thanksgiving and celebration, directly criticising his historic American violence is honoured in the name of patriotism rather than being recognised for the devastation it was.",
-            "The loaded image of “The stain on your gauze Klu Klux Klan” – refers to the white hoods of white supremacist organisation founded in 1865. Image would’ve been especially associated with a very present violence for readers as, at the time Plath was writing, the third clan was opposing the civil rights movement in the 60s and committing savage racist attacks.",
+            "– gives impression of a kind of childish chant or nursery rhyme, how we underplay the significance of acts of violence.",
+            "Similar effect with sing-song rhythm of",
+            "interwoven with extremely violent images",
+            "– relates brutality to an image of Thanksgiving and celebration, directly criticising his historic American violence is honoured in the name of patriotism rather than being recognised for the devastation it was.",
+            "The loaded image of “",
+            "– refers to the white hoods of white supremacist organisation founded in 1865.",
             "The image of the gauze creates the sense of an attempt to mask and hide the violence but the blood shows through anyways.",
             "Combined with the poem’s historic references moving from past present creates the idea that the guilt and shame of American violence is generational and ignoring it or worse, celebrating it, only allows it to continue.",
-            "Deborah Nelson: “dissociates the speaker from the injury” allowing the poem to “explore the anaesthetising effects of spectatorship.” – perhaps the poem is intentionally distant to show how ignorance and dismissiveness towards the violence in our history can facilitate further violence and being a spectator can desensitise us to the tragedy.",
-            "“Dirty girl” – intense shame the speaker has due to the violence in her nation’s history making her feel dirty and polluted. She wants to cleanse herself and purge herself of the guilt and in a way, this is exactly what the poem is meant to be for the speaker, an act of catharsis."
+            "– perhaps the poem is intentionally distant to show how ignorance and dismissiveness towards the violence in our history can facilitate further violence and being a spectator can desensitise us to the tragedy.",
+            "– intense shame the speaker has due to the violence in her nation’s history making her feel dirty and polluted.",
+            "She wants to cleanse herself and purge herself of the guilt and in a way, this is exactly what the poem is meant to be for the speaker, an act of catharsis."
           ]
         },
         "hughes": {
           "poems": [
-            "Hawk Roosting",
-            "Creation",
-            "Sophistry",
-            "manners",
-            "Guernica"
+            "Hawk Roosting"
           ],
-          "quotes": [
-            "the murderousness of nature through such brilliantly objective means",
+          "text_quotes": [
             "My hooked head and hooked feet",
             "The air’s buoyancy and the sun’s ray are of advantage to me",
             "It took the whole of Creation to produce my foot, my each feather.",
             "There is no sophistry in my body: My manners are tearing off heads.",
-            "Tearing off heads",
-            "pummels his readers with the harshest, most solid words in order to batter them into submission",
-            "Raw sex-and-violence imagery"
+            "Tearing off heads"
+          ],
+          "critic_quotes": [
+            {
+              "quote": "ML Rosenthal: no other poet managed to describe “the murderousness of nature through such brilliantly objective means”",
+              "critic": ""
+            },
+            {
+              "quote": "John Press “pummels his readers with the harshest, most solid words in order to batter them into submission”",
+              "critic": ""
+            },
+            {
+              "quote": "Alan Brownjohn: “Raw sex-and-violence imagery”",
+              "critic": ""
+            }
+          ],
+          "context": [
+            "Fashion for artistic depictions of violence following war, influenced by artworks like Picasso’s ‘Guernica’ which plainly and brutally expresses war’s violence.",
+            "George Steiner asserts that Plath’s poem is the ‘Guernica of modern poetry"
           ],
           "bullets": [
-            "‘Hawk Roosting’ – violence as a fundamental, neutral force of nature",
-            "ML Rosenthal: no other poet managed to describe “the murderousness of nature through such brilliantly objective means”",
-            "“My hooked head and hooked feet” – aspirant alliteration and guttural sounds emphasises the sharpness of the creature’s weapons. Designed to kill and fulfil its predatory purpose.",
-            "“The air’s buoyancy and the sun’s ray are of advantage to me” – ecstatic, nature is set up perfectly so he can kill",
+            "– violence as a fundamental, neutral force of nature",
+            "– aspirant alliteration and guttural sounds emphasises the sharpness of the creature’s weapons.",
+            "Designed to kill and fulfil its predatory purpose.",
+            "– ecstatic, nature is set up perfectly so he can kill",
             "Air allows the hawk to fly, the sun allows it to see its prey",
             "Nature is entirely indifferent to its violence and allows, even encourages, it to happen",
             "The enjambment here creates a sense of breezy easiness, mimicking how the hawk can fly wherever it wants",
-            "“It took the whole of Creation to produce my foot, my each feather.” – divine right to kill, natural, ‘Creation’ is capitalised alluding to the Christian creation myth, hawk has a mandate from God as a predator to inflict violence and kill",
+            "– divine right to kill, natural, ‘Creation’ is capitalised alluding to the Christian creation myth, hawk has a mandate from God as a predator to inflict violence and kill",
             "The hawk sees himself as the pinnacle of the evolutionary process.",
-            "“There is no sophistry in my body: My manners are tearing off heads.” – ‘Sophistry’ and ‘manners’ belong to human notions of morality which don’t apply to nature. Violence is just as much a part of nature as beauty, violence and innocence in the natural world at least, coexist in balance.",
-            "“Tearing off heads” – brutality makes it a stark and shocking moment, violence may be ugly and brutal, but it isn’t wrong or unnatural.",
-            "John Press “pummels his readers with the harshest, most solid words in order to batter them into submission”",
-            "Alan Brownjohn: “Raw sex-and-violence imagery”",
-            "Hughes has been criticised for being deliberately hyperbolic and brutal, but perhaps it is too easy to read this poem in this way. Hughes simply presents us with the violence that does exist in the natural world, without providing an opinion on whether it is good or bad. In this way, his descriptions are potentially mimetic, and the aforementioned critics fall into the trap of imposing human frameworks of morality onto nature where they simply don’t apply.",
-            "Fashion for artistic depictions of violence following war, influenced by artworks like Picasso’s ‘Guernica’ which plainly and brutally expresses war’s violence.",
-            "George Steiner asserts that Plath’s poem is the ‘Guernica of modern poetry"
+            "– ‘Sophistry’ and ‘manners’ belong to human notions of morality which don’t apply to nature.",
+            "Violence is just as much a part of nature as beauty, violence and innocence in the natural world at least, coexist in balance.",
+            "– brutality makes it a stark and shocking moment, violence may be ugly and brutal, but it isn’t wrong or unnatural.",
+            "Hughes has been criticised for being deliberately hyperbolic and brutal, but perhaps it is too easy to read this poem in this way.",
+            "Hughes simply presents us with the violence that does exist in the natural world, without providing an opinion on whether it is good or bad.",
+            "In this way, his descriptions are potentially mimetic, and the aforementioned critics fall into the trap of imposing human frameworks of morality onto nature where they simply don’t apply."
           ]
         }
       },
@@ -3732,14 +3799,13 @@
         "theme": "Violence and brutality – effects",
         "plath": {
           "poems": [
-            "The stones",
-            "food tubes",
-            "Stitches my fissures"
+            "The stones"
           ],
-          "quotes": [
+          "text_quotes": [
+            "anvil",
             "Sky-circle",
             "This is the after-hell",
-            "food tubes embrace",
+            "‘food tubes’ ’pincers’ ‘Stitches my fissures’ ’doctor heads’",
             "sponges",
             "kiss",
             "lichens away",
@@ -3748,23 +3814,31 @@
             "dead men leave eyes for others",
             "There is nothing to do. I shall be good as new."
           ],
+          "critic_quotes": [],
+          "context": [
+            "In 1958 Plath and Hughes moved to Boston and Plath took a part time job at a hospital,"
+          ],
           "bullets": [
-            "‘The stones’ – human response to brutality",
+            "’ – human response to brutality",
             "Delves into the aftermath of brutality, reconstruction after destruction",
             "Begins with an image of stasis introspection, creating a sense of being trapped in an alien world.",
-            "Imagery of an anvil suggests a brutal process of reshaping or forging, setting the tone for dehumanising reconstruction",
-            "“Sky-circle” – evokes a surreal detachment.",
-            "“This is the after-hell” – suggests that she’s been through hell and violence and now is one the other side. But this other side is a form of hell itself.",
-            "Semantic field of medical imagery: ‘food tubes’ ’pincers’ ‘Stitches my fissures’ ’doctor heads’ – poem takes place in a hospital.",
-            "In 1958 Plath and Hughes moved to Boston and Plath took a part time job at a hospital, perhaps In this poem she imagines herself as one of the people she may have encountered.",
+            "Imagery of an",
+            "suggests a brutal process of reshaping or forging, setting the tone for dehumanising reconstruction",
+            "– evokes a surreal detachment.",
+            "– suggests that she’s been through hell and violence and now is one the other side.",
+            "But this other side is a form of hell itself.",
+            "Semantic field of medical imagery:",
+            "– poem takes place in a hospital.",
+            "perhaps In this poem she imagines herself as one of the people she may have encountered.",
             "Tension between deconstruction and reconstruction is introduced with numerous images of both mending and fragmentation/decomposition.",
-            "Speaker’s fissures are stitched, her legs are swaddled, “food tubes embrace” her, “sponges” “kiss” her “lichens away”.",
-            "These clinical images of construction and mending are both positive as she’s being fixed and sinister as we get the sense that these things are being done to her and she’s completely powerless: “There is nothing to do”",
+            "Speaker’s fissures are stitched, her legs are swaddled, “",
+            "These clinical images of construction and mending are both positive as she’s being fixed and sinister as we get the sense that these things are being done to her and she’s completely powerless: “",
             "Healing is an ambivalent thing – not always positive and can sometimes, especially when its being done to you by others, feel invasive and unwanted.",
             "abundance of reconstructive images and the poem looking at first glance on paper with its even stanza lengths, a very whole and rounded poem",
             "upon deeper inspection it’s actually fragmented and riddled with images of decomposition with the tercets leaving hollowness and blankness on the page and a sense of needing to be fixed.",
-            "“City of spare parts” where “dead men leave eyes for others” – reduces humanity to interchangeable components, stripping away individuality. The commodification of body parts reflects a dehumanised view of identity.",
-            "“There is nothing to do. I shall be good as new.” – ironic as the speaker is not good as new but put back together, this time with flaws, cracks, and evidence of being broken.",
+            "– reduces humanity to interchangeable components, stripping away individuality.",
+            "The commodification of body parts reflects a dehumanised view of identity.",
+            "– ironic as the speaker is not good as new but put back together, this time with flaws, cracks, and evidence of being broken.",
             "Conveys how it’s devastating to survive as you’re left with mendings, a symbol of being healed but also a constant reminder of once being broken."
           ]
         },
@@ -3772,20 +3846,25 @@
           "poems": [
             "Snowdrop"
           ],
-          "quotes": [
+          "text_quotes": [
             "Now the globe shrunk tight/ Round the mouse’s dulled wintering heart",
             "as if moulded in brass",
             "She too pursues her ends",
             "Her pale head hangs heavy as metal"
           ],
+          "critic_quotes": [],
+          "context": [],
           "bullets": [
-            "‘Snowdrop’ – nature’s response to brutality",
+            "– nature’s response to brutality",
             "Explores the universal struggle to survive",
-            "“Now the globe shrunk tight/ Round the mouse’s dulled wintering heart” – combination of micro and macro cosmic imagery creates a sense of asphyxiation and contraction while the assonance gives the line a soporific quality.",
+            "– combination of micro and macro cosmic imagery creates a sense of asphyxiation and contraction while the assonance gives the line a soporific quality.",
             "The enjambment of the lines also subtly evokes the constriction as the first line seems to exert its grip around the following.",
-            "Weasel and crow described as moving “as if moulded in brass” – movements appear heavy and stiff from the cold. The use of manmade imagery when describing nature also creates a sense of the industrial brutality of winter. Nature in this poem changes in response to the harsh environment and becomes harder and stiffer.",
-            "“She too pursues her ends” – exposes ultimately hopeful attitude, that the tulip will endure the effects of violence that the natural world imposes and due to its ability to adapt, it survives the harshness of winter in the end.",
-            "“Her pale head hangs heavy as metal” – violence engenders more violence in the natural world, this quality of nature, its resilience and ability to survive in the face of such brutality, which makes it so powerful.",
+            "Weasel and crow described as moving",
+            "– movements appear heavy and stiff from the cold.",
+            "The use of manmade imagery when describing nature also creates a sense of the industrial brutality of winter.",
+            "Nature in this poem changes in response to the harsh environment and becomes harder and stiffer.",
+            "– exposes ultimately hopeful attitude, that the tulip will endure the effects of violence that the natural world imposes and due to its ability to adapt, it survives the harshness of winter in the end.",
+            "– violence engenders more violence in the natural world, this quality of nature, its resilience and ability to survive in the face of such brutality, which makes it so powerful.",
             "Encourages resilience as a response."
           ]
         }
@@ -3796,70 +3875,77 @@
           "poems": [
             "Edge"
           ],
-          "quotes": [
+          "text_quotes": [
             "the woman is perfected. /Her dead/body wears the smile of accomplishment",
-            "perfected",
-            "dead",
-            "dead",
             "smile of accomplishment",
             "The illusion of Greek necessity.",
-            "the illusions",
-            "Refuses to affirm the … existence of the divine",
-            "a white serpent",
             "Pitcher of milk",
             "now empty",
-            "She has folded them back into her body.",
-            "At home, all I ever saw was the Christian Science Monitor, which appeared on the doorstep at five o’clock every day but Sunday and treated suicides and"
+            "She has folded them back into her body."
+          ],
+          "critic_quotes": [
+            {
+              "quote": "Refuses to affirm the … existence of the divine",
+              "critic": "Constance Scheerer"
+            }
+          ],
+          "context": [
+            "Genesis context",
+            "“At home, all I ever saw was the Christian Science Monitor, which appeared on the doorstep at five o’clock every day but Sunday and treated suicides and” – The Bell Jar"
           ],
           "bullets": [
-            "‘Edge’",
-            "Opens with “the woman is perfected. /Her dead/body wears the smile of accomplishment” - poem equates death with perfection and the slant rhyme of “perfected” and “dead” reinforces this idea. The stark enjambment after “dead” also emphasises its finality, dismissing any idea of life after death. Could also be an ironic comment on how a patriarchal society imposes such impossible standards on women that they feel they can only be perfect in death.",
-            "Considering that this was the last poem Plath wrote before her suicide, the sinister “smile of accomplishment” that evokes a sense of pride and celebration, as if the woman was responsible for her own death, is especially significant.",
+            "- poem equates death with perfection and the slant rhyme of “perfected” and “dead” reinforces this idea.",
+            "The stark enjambment after “dead” also emphasises its finality, dismissing any idea of life after death.",
+            "Could also be an ironic comment on how a patriarchal society imposes such impossible standards on women that they feel they can only be perfect in death.",
+            "Considering that this was the last poem Plath wrote before her suicide, the sinister",
+            "that evokes a sense of pride and celebration, as if the woman was responsible for her own death, is especially significant.",
             "This allusion to suicide within the poem means it could be somewhat semi-autobiographical, and a representation of the way Plath feels about death.",
-            "Wears “The illusion of Greek necessity.” - ironises the idea of Greek tragic fate where someone has an untimely death because it was decreed by the gods and therefore inescapable. Because it is only “the illusions” the speaker understands it was by choice rather than fate.",
-            "“Refuses to affirm the … existence of the divine” – Constance Scheerer",
+            "- ironises the idea of Greek tragic fate where someone has an untimely death because it was decreed by the gods and therefore inescapable.",
+            "Because it is only “the illusions” the speaker understands it was by choice rather than fate.",
             "Poem’s form is somewhat restrained and careful, with the brevity and abundance of negative space while the third person perspective creates distance, affording the poem an observational and almost relaxed quality, something unusual compared to Plath’s normal confessionalism style.",
             "Despite the dark topic of death, the voice isn’t particularly emotional, conveying the woman’s calm attitude towards death.",
             "___________",
-            "Describes the children as “a white serpent” - predatory, introduces idea of the pressure of motherhood and hints that this may have been a reason for the woman’s death - Genesis context",
-            "“Pitcher of milk” is “now empty” - mother’s breast with no more milk left for breastfeeding, being a mother has drained her and now she has nothing left to give to her children.",
-            "“She has folded them back into her body.” - strange reversal of an image of birth, act of uncreation just like death is, however it is gentle and comforting here, image of death as something that isn’t always tragic",
-            "“At home, all I ever saw was the Christian Science Monitor, which appeared on the doorstep at five o’clock every day but Sunday and treated suicides and” – The Bell Jar"
+            "Describes the children as “a white serpent” - predatory, introduces idea of the pressure of motherhood and hints that this may have been a reason for the woman’s death -",
+            "- mother’s breast with no more milk left for breastfeeding, being a mother has drained her and now she has nothing left to give to her children.",
+            "- strange reversal of an image of birth, act of uncreation just like death is, however it is gentle and comforting here, image of death as something that isn’t always tragic"
           ]
         },
         "hughes": {
           "poems": [
-            "Hawk Roosting",
-            "Creation",
-            "red in tooth and claw",
-            "sophistry",
-            "manners"
+            "Hawk Roosting"
           ],
-          "quotes": [
+          "text_quotes": [
             "Hooked head and hooked feet",
             "The air’s buoyancy and the sun’s ray are of advantage to me",
             "It took the whole of Creation to produce my foot, my each feather.",
-            "There is no sophistry in my body: my manners are tearing off heads.",
-            "tearing off heads",
-            "Simply Nature",
-            "Only human beings can imagine death and thus glory in it"
+            "There is no sophistry in my body: my manners are tearing off heads."
+          ],
+          "critic_quotes": [
+            {
+              "quote": "Simply Nature” – Hughes",
+              "critic": ""
+            },
+            {
+              "quote": "Only human beings can imagine death and thus glory in it",
+              "critic": "Herbert Lomas"
+            }
+          ],
+          "context": [
+            "Darwinism, Tennyson’s ‘red in tooth and claw’"
           ],
           "bullets": [
-            "‘Hawk Roosting’",
             "Hawk given the powers of English, views death as unremarkable and a common, innate part of nature.",
-            "“Hooked head and hooked feet” - aspirant alliteration and guttural sounds emphasise the sharpness of the creature’s killing weapons",
+            "- aspirant alliteration and guttural sounds emphasise the sharpness of the creature’s killing weapons",
             "Hawk is designed perfectly to kill and to fulfil its predatorial purpose",
-            "“The air’s buoyancy and the sun’s ray are of advantage to me” - ecstatic, nature is set up perfectly so that he can kill",
+            "- ecstatic, nature is set up perfectly so that he can kill",
             "Air allows the hawk to fly, and the sun allows him to see his pray",
             "Nature is entirely indifferent to death and allows, even encourages, it to happen.",
             "The enjambment here creates s sense of breezy easiness, mimicking how the hawk can fly wherever he wants.",
-            "“It took the whole of Creation to produce my foot, my each feather.” - divine right to kill, natural, ‘Creation’ is capitalised alluding to the Christian creation myth, hawk has a mandate from God as a predator to kill",
+            "” - divine right to kill, natural, ‘Creation’ is capitalised alluding to the Christian creation myth, hawk has a mandate from God as a predator to kill",
             "The hawk sees himself as the pinnacle of the evolutionary process.",
-            "Darwinism, Tennyson’s ‘red in tooth and claw’",
-            "“There is no sophistry in my body: my manners are tearing off heads.”  - ‘sophistry’ and ‘manners’ belong to human notions of morality which don’t apply to nature. The balance of the natural world seems infinitely complex to humanity, but it is remarkably simple: there is predator and prey and no such thing as good or evil.",
-            "The brutality of “tearing off heads” - stark and shocking moment, while death may be ugly and brutal, it isn’t wrong or unnatural.",
-            "“Simply Nature” – Hughes",
-            "“Only human beings can imagine death and thus glory in it” – Herbert Lomas"
+            "- ‘sophistry’ and ‘manners’ belong to human notions of morality which don’t apply to nature.",
+            "The balance of the natural world seems infinitely complex to humanity, but it is remarkably simple: there is predator and prey and no such thing as good or evil.",
+            "The brutality of “tearing off heads” - stark and shocking moment, while death may be ugly and brutal, it isn’t wrong or unnatural."
           ]
         }
       },
@@ -3867,63 +3953,73 @@
         "theme": "Death – inevitability",
         "plath": {
           "poems": [
-            "Death & Co.",
-            "lidded",
-            "masturbating",
-            "Glitter"
+            "Death & Co."
           ],
-          "quotes": [
+          "text_quotes": [
             "The one who never looks up, whose eyes are lidded and balled, like Blake’s",
             "I am red meat. His beak clasps sidewise.",
             "Masturbating a glitter",
-            "There is an insistence here that borders on obsession and hysteria",
             "He wants to be loved",
-            "Somebody’s done for"
+            "Somebody’s done for” -"
+          ],
+          "critic_quotes": [
+            {
+              "quote": "Arthur h. Oberg - “There is an insistence here that borders on obsession and hysteria” -",
+              "critic": ""
+            }
+          ],
+          "context": [
+            "direct reference to William Blake’s plaster life cast of his head,"
           ],
           "bullets": [
-            "‘Death & Co.’",
             "Plath critiques the average persons fear of death by contrasting their views of death in the first half of the poem with her own at the end.",
             "Speaker describes on of two figures of death, the one that most people see:",
-            "“The one who never looks up, whose eyes are lidded and balled, like Blake’s” - direct reference to William Blake’s plaster life cast of his head, creates a cold and lifeless image with the permanently ‘lidded’ eyes alluding to eternal sleep rather than any kind of afterlife.",
+            "creates a cold and lifeless image with the permanently ‘lidded’ eyes alluding to eternal sleep rather than any kind of afterlife.",
             "Represents how many people think that death is a lonely, hollow state of complete stillness, as if your body becomes a lifeless cast of what it once was.",
-            "“I am red meat. His beak clasps sidewise.” - vulturine image, with death as a predator, humanity its prey, parodies how we think that death is always after us and critiques the idea of living in fear of death coming after us.",
+            "- vulturine image, with death as a predator, humanity its prey, parodies how we think that death is always after us and critiques the idea of living in fear of death coming after us.",
             "As Plath moves onto discuss the second figure of death after the Volta, the portrayal becomes almost ridiculous",
-            "“Masturbating a glitter” - ‘masturbating’ is the antithesis of new life, its potential that ends up amounting to nothing. ‘Glitter’ - somewhat celebratory and uncomfortably playful",
+            "- ‘masturbating’ is the antithesis of new life, its potential that ends up amounting to nothing. ‘Glitter’ - somewhat celebratory and uncomfortably playful",
             "Speaker finding some kind of perverse pleasure in death",
-            "Arthur h. Oberg - “There is an insistence here that borders on obsession and hysteria” - kind of hysterical element to this poem, as if the speaker is ecstatic about the idea of death, line “He wants to be loved” certainly has a very affectionate tone.",
-            "“Somebody’s done for” - ends with blunt line, so far death has been completely mystified and unknowable, associated with all kinds of juxtaposing images, however, with this final line we finally get some certainty.",
+            "kind of hysterical element to this poem, as if the speaker is ecstatic about the idea of death, line",
+            "certainly has a very affectionate tone.",
+            "ends with blunt line, so far death has been completely mystified and unknowable, associated with all kinds of juxtaposing images, however, with this final line we finally get some certainty.",
             "Dull, insipid climax - tells us that the only thing we know for sure is that death is guaranteed and so beyond that, there’s no point in trying to understand or grapple with the concept.",
             "Telling us to accept that its coming and live or lives in spite of it anyways."
           ]
         },
         "hughes": {
           "poems": [
-            "Examination at Womb-door",
-            "Crow",
-            "held"
+            "Examination at Womb-door"
           ],
-          "quotes": [
+          "text_quotes": [
             "scrawny",
             "bristly",
             "still-working",
             "questionable",
             "Given, stolen, or held pending trial? Held.",
-            "Who owns the whole rainy, stony earth? Death",
-            "Death is the sole owner of the universe, stronger than hope, will, love, or life.",
-            "but"
+            "Who owns the whole rainy, stony earth? Death"
+          ],
+          "critic_quotes": [
+            {
+              "quote": "Death is the sole owner of the universe, stronger than hope, will, love, or life.",
+              "critic": "Margaret Dickie Uroff"
+            }
+          ],
+          "context": [
+            "Poem also features in a collection titled ‘Crow’"
           ],
           "bullets": [
-            "‘Examination at Womb-door’",
             "Hughes comments on Death’s looming presence.",
-            "Even before the poem begins, death is always lingering in the background, even with the choice of a crow as one of the main subjects of the poem – Poem also features in a collection titled ‘Crow’ – Crows are often associated with death and the gothic.",
-            "First Stanza, lexical field of images that convey the frailty of the physical body: “scrawny” “bristly” “still-working” “questionable” – sense of doubt in the ability of the physical body to beat death",
+            "Even before the poem begins, death is always lingering in the background, even with the choice of a crow as one of the main subjects of the poem –",
+            "– Crows are often associated with death and the gothic.",
+            "First Stanza, lexical field of images that convey the frailty of the physical body:",
+            "– sense of doubt in the ability of the physical body to beat death",
             "Enhanced by the anaphora and abundance of questions which contribute to a sense of commodification of the body and death’s ultimate ownership over life",
-            "“Given, stolen, or held pending trial? Held.” – legalistic language conveys an uncertainty and tentative quality, suggesting the idea that death could happen at any moment.",
+            "– legalistic language conveys an uncertainty and tentative quality, suggesting the idea that death could happen at any moment.",
             "Word ‘held’ alludes to Christian idea of purgatory, portraying death as a place of solitude and suspension",
             "Certainty of death without the reassurance that Plath provides",
-            "“Who owns the whole rainy, stony earth? Death” – indirectly alludes to Genesis 26 except instead of the earth being owned by man, it’s owned by death.",
+            "– indirectly alludes to Genesis 26 except instead of the earth being owned by man, it’s owned by death.",
             "Certainty in God is replaced by certainty in death.",
-            "“Death is the sole owner of the universe, stronger than hope, will, love, or life.” – Margaret Dickie Uroff",
             "This idea is conveyed in the final stanza where the epiphora creates a sense of accumulation and crescendo in death’s power where with each line it seems to get more and more powerful.",
             "However, this is obliterated by the final “but” where the dramatic cut to the tension is ironised with the crow claiming to be more powerful than death.",
             "This bathos highlights the absolute ridiculousness of anything thinking itself to be more powerful than death."
@@ -3934,33 +4030,39 @@
         "theme": "Death – romanticised vs brutalised",
         "plath": {
           "poems": [
-            "Ariel",
-            "Foam",
-            "glitter",
-            "cauldron",
-            "red"
+            "Ariel"
           ],
-          "quotes": [
-            "driven by a death wish",
+          "text_quotes": [
             "Stasis in darkness",
             "God’s lioness,/How one we grow",
             "And now i/ Foam to wheat, a glitter of seas",
             "White/Godiva, I unpeel -/ dead hands, dead stringencies",
             "Suicidal, at one with the drive",
-            "motion is almost always positive",
             "Into the red/Eye, the cauldron of morning"
           ],
+          "critic_quotes": [
+            {
+              "quote": "Warren: Plath is “driven by a death wish”",
+              "critic": ""
+            },
+            {
+              "quote": "Kendall: “motion is almost always positive” in Plath’s poems",
+              "critic": ""
+            }
+          ],
+          "context": [],
           "bullets": [
-            "‘Ariel’",
             "Plath presents death as ecstatic, aestheticised and almost transcendent, blurring liberation with self-annihilation",
-            "Warren: Plath is “driven by a death wish”",
-            "“Stasis in darkness” – poem opens in paralysis, but rapidly accelerates into movement, suggesting death as an escape from bodily and psychological entrapment",
-            "“God’s lioness,/How one we grow” – biblical/mythic register elevates the ride beyond ordinary experience. The fusion of rider and horse suggests the dissolution of individual identity; death is romanticised as a moment of sublime unity",
-            "“And now i/ Foam to wheat, a glitter of seas” – enjambment mirrors acceleration. ‘Foam’ suggests dissolution while ‘glitter’ aestheticises the speaker’s disintegration, making death beautiful rather than grotesque",
-            "“White/Godiva, I unpeel -/ dead hands, dead stringencies” – Lady Godiva allusion frames the speaker as rebellious nad heroic. Unpeel suggests shedding restrictive identities, repetition of dead suggests such a fascination, implies that liberation requires a symbolic or literal death",
-            "“Suicidal, at one with the drive” – explicit connection between motion, freedom and death. The adjective is shocking, but the syntax makes the self-destruction seem purposeful, even empowered",
-            "Kendall: “motion is almost always positive” in Plath’s poems",
-            "“Into the red/Eye, the cauldron of morning” – may symbolise sunrise and rebirth but ‘cauldron’ evokes combustion and sacrifice. The split across the line break isolates ‘red’ connoting blood and violence before resolution",
+            "– poem opens in paralysis, but rapidly accelerates into movement, suggesting death as an escape from bodily and psychological entrapment",
+            "– biblical/mythic register elevates the ride beyond ordinary experience.",
+            "The fusion of rider and horse suggests the dissolution of individual identity; death is romanticised as a moment of sublime unity",
+            "” – enjambment mirrors acceleration. ‘Foam’ suggests dissolution while ‘glitter’ aestheticises the speaker’s disintegration, making death beautiful rather than grotesque",
+            "” – Lady Godiva allusion frames the speaker as rebellious nad heroic.",
+            "Unpeel suggests shedding restrictive identities, repetition of dead suggests such a fascination, implies that liberation requires a symbolic or literal death",
+            "– explicit connection between motion, freedom and death.",
+            "The adjective is shocking, but the syntax makes the self-destruction seem purposeful, even empowered",
+            "– may symbolise sunrise and rebirth but ‘cauldron’ evokes combustion and sacrifice.",
+            "The split across the line break isolates ‘red’ connoting blood and violence before resolution",
             "Plath writes purely for herself",
             "Death is linked to movement and speed",
             "Plath aestheticises self-destruction through glittering, elemental imagery"
@@ -3968,10 +4070,9 @@
         },
         "hughes": {
           "poems": [
-            "View of a pig",
-            "it"
+            "View of a pig"
           ],
-          "quotes": [
+          "text_quotes": [
             "It was too dead",
             "Such weight and thick pink bulk",
             "I thumped it without feeling remorse",
@@ -3979,17 +4080,25 @@
             "Of earthly pleasure as it had been, seemed a false effort",
             "It’s squeal was the rending of metal"
           ],
+          "critic_quotes": [],
+          "context": [],
           "bullets": [
-            "‘View of a pig’",
             "Hughes presents death as brutal, undignified and anti-romantic",
-            "“It was too dead” – blunt, monosyllabic, strips death of mystery and transcendence. The phrase is almost absurdly plain, refusing any spiritual consolation",
+            "– blunt, monosyllabic, strips death of mystery and transcendence.",
+            "The phrase is almost absurdly plain, refusing any spiritual consolation",
             "First two stanzas are heavily end-stopped, creating a sense of finality and lifeless weight",
             "The repeated ‘it’ anaphora objectifies the pig, reducing it to an item, clinical precision",
-            "“Such weight and thick pink bulk” – plosive consonants and heavy monosyllables emphasise the sheer materiality of the corpse. Death is not release but mass, flesh and heaviness. Denies the possibility of a noble death",
-            "“I thumped it without feeling remorse” – the speaker’s emotional detachment is disturbing. Hughes presents a desensitised response to death, as if the corpse is too physically dead to inspire pity",
-            "“Just so much/ A poundage of lard and pork” – economic language reduces the animal to a commodity. Death erases individuality and turns the body into consumable matter",
-            "“Of earthly pleasure as it had been, seemed a false effort” – even the pig’s former life is retrospectively dismissed. Death makes life appear ridiculous and futile",
-            "“It’s squeal was the rending of metal” – harsh industrial imagery. The pig’s suffering is not lyrical but grating, mechanical and brutal",
+            "” – plosive consonants and heavy monosyllables emphasise the sheer materiality of the corpse.",
+            "Death is not release but mass, flesh and heaviness.",
+            "Denies the possibility of a noble death",
+            "” – the speaker’s emotional detachment is disturbing.",
+            "Hughes presents a desensitised response to death, as if the corpse is too physically dead to inspire pity",
+            "” – economic language reduces the animal to a commodity.",
+            "Death erases individuality and turns the body into consumable matter",
+            "” – even the pig’s former life is retrospectively dismissed.",
+            "Death makes life appear ridiculous and futile",
+            "” – harsh industrial imagery.",
+            "The pig’s suffering is not lyrical but grating, mechanical and brutal",
             "Desensitised audience that Hughes is writing to",
             "Death is linked to weight and stillness",
             "Hughes strips death of symbolism, forcing the reader to confront the flesh itself"
@@ -4000,54 +4109,65 @@
         "theme": "Nature – brutality",
         "plath": {
           "poems": [
-            "Tulips",
-            "sudden tongues"
+            "Tulips"
           ],
-          "quotes": [
+          "text_quotes": [
             "Too excitable",
             "their redness speaks to my wound",
             "They seem to float, though they weigh me down.",
-            "contrasts the seductively anaesthetic blankness of the hospital with the ‘sudden tongues’ of the red flowers, which hurt the speaker back to life.",
             "the vivid tulips eat my oxygen"
           ],
+          "critic_quotes": [
+            {
+              "quote": "Plath “contrasts the seductively anaesthetic blankness of the hospital with the ‘sudden tongues’ of the red flowers, which hurt the speaker back to life.” – Christina Britzolakis",
+              "critic": ""
+            }
+          ],
+          "context": [],
           "bullets": [
-            "‘Tulips’",
             "Nature completely incongruous to the setting",
-            "“Too excitable” amongst the bleak, clinical environment of a hospital.",
+            "amongst the bleak, clinical environment of a hospital.",
             "The iambic pentameter of sections of the poem and the militaristic feel it evokes illustrates the order and control within the hospital environment that stands in stark contrast to the uncontrollability and unpredictability of nature.",
             "This juxtaposition serves to demonstrate the resilience of nature to conformity, however, Plath doesn’t see this as positive and instead resents the tulips for their relentlessness and glaring light amongst all the bleakness.",
-            "Describes a dialogue between her blood and the tulips: “their redness speaks to my wound” – the tulips’ colour mirrors that of the speaker’s blood, except for the tulips, this connection comes from health and life whereas from the speaker it comes from a wound.",
+            "Describes a dialogue between her blood and the tulips:",
+            "– the tulips’ colour mirrors that of the speaker’s blood, except for the tulips, this connection comes from health and life whereas from the speaker it comes from a wound.",
             "The tulips’ abundance of life makes the speaker’s lifelessness all the more apparent",
-            "“They seem to float, though they weigh me down.” – tulips’ ability to persevere exposes the speakers’ inability to do so herself.",
-            "Plath “contrasts the seductively anaesthetic blankness of the hospital with the ‘sudden tongues’ of the red flowers, which hurt the speaker back to life.” – Christina Britzolakis",
+            "– tulips’ ability to persevere exposes the speakers’ inability to do so herself.",
             "Perhaps the extreme contrast does hurt the speaker, it does not bring them back to life and rather it makes her feel despondent and hopeless",
-            "Sense of competition between the speaker and the tulips: “the vivid tulips eat my oxygen” – image of survival of the fittest, resource battles that occur in primal nature",
+            "Sense of competition between the speaker and the tulips:",
+            "– image of survival of the fittest, resource battles that occur in primal nature",
             "As if the only other living thing in the hospital environment, the tulips automatically become her enemy",
-            "Uncanny tension, tulips become predatory."
+            "Uncanny tension, tulips become predatory.",
+            "Hughes: somewhat hopeful, admiring nature’s ability to adapt to harsh circumstances and endure through brutality",
+            "Plath: finds this quality of nature jarring in the way it reveals her own weaknesses"
           ]
         },
         "hughes": {
           "poems": [
             "Snowdrop"
           ],
-          "quotes": [
+          "text_quotes": [
             "Now the globe shrunk tight/ Round the mouse’s dulled withering heart",
             "as if moulded in brass",
             "She too pursues her ends",
             "Her pale head hangs heavy as metal"
           ],
+          "critic_quotes": [],
+          "context": [],
           "bullets": [
-            "‘Snowdrop’",
             "Nature’s response to brutality, admiration",
             "Explores the universal struggle to survive",
-            "“Now the globe shrunk tight/ Round the mouse’s dulled withering heart” – combination of micro and microcosmic imagery creates a sense of asphyxiation and contraction while the assonance gives the line a soporific quality",
+            "– combination of micro and microcosmic imagery creates a sense of asphyxiation and contraction while the assonance gives the line a soporific quality",
             "Enjambment of the lines also subtly evokes the constriction as the first line seems to exert its grip around the following.",
-            "Weasel and crow described as moving “as if moulded in brass” – animals’ movements appear heavy and stiff from the cold",
+            "Weasel and crow described as moving",
+            "– animals’ movements appear heavy and stiff from the cold",
             "Use of manmade imagery when describing nature creates a sense of the industrial brutality of winter.",
-            "“She too pursues her ends” – exposes ultimately hopeful attitude of the poem",
+            "– exposes ultimately hopeful attitude of the poem",
             "Due to the snowdrop’s ability to adapt, it makes it out and survives the harshness of winter in the end.",
-            "“Her pale head hangs heavy as metal” – encapsulates how violence engenders more violence in the natural world.",
-            "It is this quality of nature, its resilience and ability to survive against all odds, that makes it so powerful."
+            "– encapsulates how violence engenders more violence in the natural world.",
+            "It is this quality of nature, its resilience and ability to survive against all odds, that makes it so powerful.",
+            "Hughes: somewhat hopeful, admiring nature’s ability to adapt to harsh circumstances and endure through brutality",
+            "Plath: finds this quality of nature jarring in the way it reveals her own weaknesses"
           ]
         }
       },
@@ -4055,62 +4175,82 @@
         "theme": "Nature – vs man",
         "plath": {
           "poems": [
-            "Wuthering Heights",
-            "house lights",
-            "small change",
-            "me"
+            "Heights"
           ],
-          "quotes": [
+          "text_quotes": [
             "The horizons ring me like faggots,",
+            "Title",
             "Evaporates",
             "Solider",
             "Dissolve",
             "But they only dissolve and dissolve",
             "The house lights gleam like small change",
-            "The sky leans on me, me.",
-            "Rejects the romantic celebration of unity with nature"
+            "The sky leans on me, me."
+          ],
+          "critic_quotes": [
+            {
+              "quote": "Rejects the romantic celebration of unity with nature",
+              "critic": "Eileen M. Aird"
+            }
+          ],
+          "context": [
+            "Subverts the idea of Romantic isolationism",
+            "subverts the notion of the Romantic hero"
           ],
           "bullets": [
-            "‘Wuthering Heights’",
             "Plath finds nature alienating and depressing.",
             "Nature is cold and apathetic and humans with all our Romantic notions can’t seem to grasp that nature doesn’t care about us.",
-            "“The horizons ring me like faggots,” – creates a sense of claustrophobia, as if the speaker is simultaneously trapped and separated. Subverts the idea of Romantic isolationism where romantics think you have revelatory encounters with nature when you go out on your own.",
+            "– creates a sense of claustrophobia, as if the speaker is simultaneously trapped and separated.",
+            "where romantics think you have revelatory encounters with nature when you go out on your own.",
             "Here, the speaker seems to tell us that that’s completely delusional and nature is ruthless and dangerous and doesn’t care about you and being alone in nature is alienating and entrapping.",
-            "Title – blurs the line between true nature and our pre-conceived notions by drawing on a sense of familiarity – using the well known novel by Emily Brontë ‘Wuthering Heights’. Blurs the line between a fictionalised and real landscape, creating a sense of disorientation and unease.",
-            "“Evaporates” “Solider” “Dissolve” – combination of images of solidity and dissolution in the first stanza creates a paradox between the two states, adding to a sense of unease and impermanence amongst nature.",
+            "– blurs the line between true nature and our pre-conceived notions by drawing on a sense of familiarity – using the well known novel by Emily Brontë ‘Wuthering Heights’.",
+            "Blurs the line between a fictionalised and real landscape, creating a sense of disorientation and unease.",
+            "– combination of images of solidity and dissolution in the first stanza creates a paradox between the two states, adding to a sense of unease and impermanence amongst nature.",
             "Furthered, tension reflected in both the form and rhythm:",
-            "“But they only dissolve and dissolve” – anapestic rhythm mimics the images of collapse and formation",
+            "– anapestic rhythm mimics the images of collapse and formation",
             "the line lengths in the first stanza which concaves and convenes evokes the un-forming and reforming and impermanence of the ever-changing landscape before the speaker.",
             "Creates a sense of instability and chaos between man and nature, building tension of not knowing what’s to come next",
-            "“The house lights gleam like small change” – ‘house lights’ symbolically represent human consciousness, has ‘small change’ – shows how inferior human civilisation is and how pointless it is to think that we can understand or even control nature.",
-            "“The sky leans on me, me.” – playful repetition of ‘me’ satirises and subverts the notion of the Romantic hero who has a unique and personal experience with nature.",
-            "The speaker reminds us of nature’s indifference",
-            "“Rejects the romantic celebration of unity with nature” – Eileen M. Aird"
+            "” – ‘house lights’ symbolically represent human consciousness, has ‘small change’ – shows how inferior human civilisation is and how pointless it is to think that we can understand or even control nature.",
+            "– playful repetition of ‘me’ satirises and",
+            "who has a unique and personal experience with nature.",
+            "The speaker reminds us of nature’s indifference"
           ]
         },
         "hughes": {
           "poems": [
             "Pike"
           ],
-          "quotes": [
+          "text_quotes": [
             "Malevolent aged grin",
             "Jaws hooked clamp and fangs",
-            "red in tooth and claw",
             "killers from the egg",
-            "Outlasted every visible stone/ of the monastery",
-            "Pushing of the sublime into the brutal"
+            "Abundance of enjambment",
+            "Outlasted every visible stone/ of the monastery"
+          ],
+          "critic_quotes": [
+            {
+              "quote": "Pushing of the sublime into the brutal",
+              "critic": "John Kinsella"
+            }
+          ],
+          "context": [
+            "reminiscent of Tennyson’s famous description of nature as “red in tooth and claw”",
+            "Darwinian view of nature",
+            "Romantic idea of a revelatory encounter with nature,"
           ],
           "bullets": [
-            "‘Pike’",
             "Hughes finds nature’s violence awe-inspiring and significant",
-            "“Malevolent aged grin” and “Jaws hooked clamp and fangs” – depicts nature as inherently evil and violent, reminiscent of Tennyson’s famous description of nature as “red in tooth and claw”.",
+            "– depicts nature as inherently evil and violent,",
             "Hughes superimposes human notions of binary morality onto the natural world, describing something as categorically good or bad.",
-            "Hughes also takes a Darwinian view of nature, describing it as “killers from the egg” – completely subverts the idea of childhood innocence and implies that nature and animals are innately aggressive and violent.",
-            "Abundance of enjambment in the ending of the poem creates a sense of anticipation and tension as if something’s about to happen. However, this is also somewhat ironic because the speaker could easily be waiting for something that might not ever happen.",
-            "This plays on the Romantic idea of a revelatory encounter with nature, exposing how its naïve to impose significance on an everyday phenomenon or to think that yourself and nature have any kind of significant relationship.",
-            "“Outlasted every visible stone/ of the monastery” – nature’s superiority over humanity, a symbol of religious belief has been broken down but nature still endures.",
-            "Darwinian perspective conveys the idea of human insignificance and man’s belief systems and moral frameworks being intruders to the natural world.",
-            "“Pushing of the sublime into the brutal” – John Kinsella"
+            "Hughes also takes a",
+            ", describing it as",
+            "– completely subverts the idea of childhood innocence and implies that nature and animals are innately aggressive and violent.",
+            "in the ending of the poem creates a sense of anticipation and tension as if something’s about to happen.",
+            "However, this is also somewhat ironic because the speaker could easily be waiting for something that might not ever happen.",
+            "This plays on the",
+            "exposing how its naïve to impose significance on an everyday phenomenon or to think that yourself and nature have any kind of significant relationship.",
+            "– nature’s superiority over humanity, a symbol of religious belief has been broken down but nature still endures.",
+            "Darwinian perspective conveys the idea of human insignificance and man’s belief systems and moral frameworks being intruders to the natural world."
           ]
         }
       },
@@ -4118,93 +4258,98 @@
         "theme": "Liberation/ transcendence",
         "plath": {
           "poems": [
-            "Ariel",
-            "stasis",
-            "one we grow",
-            "Foam",
-            "Glitter of seas",
-            "Unpeel",
-            "white",
-            "dead",
-            "stringencies",
-            "cauldron",
-            "red",
-            "airy spirit"
+            "Ariel"
           ],
-          "quotes": [
+          "text_quotes": [
             "Stasis in darkness",
-            "These new poems of mine have one thing in common. They were all written at about four in the morning – that still, blue, almost eternal hour before cock-crows, before the baby’s cry, before the glassy music of the milkman setting his bottles",
-            "pour of tor and distances",
             "Splits and passes",
             "Gods lioness/ How one we grow",
             "and now I/ Foam to wheat, a glitter of seas",
             "White/Godiva, I unpeel-/ dead hands, dead stringencies",
             "Into the red/Eye, the cauldron of morning"
           ],
+          "critic_quotes": [
+            {
+              "quote": "These new poems of mine have one thing in common. They were all written at about four in the morning – that still, blue, almost eternal hour before cock-crows, before the baby’s cry, before the glassy music of the milkman setting his bottles",
+              "critic": "critic"
+            },
+            {
+              "quote": "Hughes: “Ariel was the name of the horse on which she went riding weekly … her horse bolted, the stirrups fell off, and she came all the way home to the stables, about two miles, at full gallop, hanging around the horses neck.",
+              "critic": ""
+            }
+          ],
+          "context": [
+            "Ariel in the tempest: Shakespeare’s ‘airy spirit’, a symbol of imagination, transcendence and creativity, enslaved by prospero",
+            "Written on Plath’s 30th birthday, October 27th 1962"
+          ],
           "bullets": [
-            "‘Ariel’",
             "Transcendence is presented as both ecstatic liberation and self-annihilation",
-            "The poem opens in darkness – “Stasis in darkness” – suggesting paralysis before transformation",
+            "The poem opens in darkness – “",
+            "– suggesting paralysis before transformation",
             "Simple syntax create immobile feel with abstract noun ‘stasis’ suggesting emotional and creative blockage as well as just literal",
             "Darkness is not merely physical but psychological",
             "The caesura isolates the phrase, mirroring suspension before movement",
-            "“These new poems of mine have one thing in common. They were all written at about four in the morning – that still, blue, almost eternal hour before cock-crows, before the baby’s cry, before the glassy music of the milkman setting his bottles”",
             "The ride becomes a metaphor for artistic and spiritual release",
-            "The kinetic verbs – “pour of tor and distances” “Splits and passes” – create forward propulsion, mimicking the gallop itself",
-            "“Gods lioness/ How one we grow” – biblical register elevates the ride to a mythic scale. Lioness connotes power and predatory grace, but also danger – introducing the poem’s key tension",
-            "The syntactic fusion of ‘one we grow’ collapses subject boundaries – rider and horse merge. Transcendence here is annihilation of the separate self",
-            "Momentum then erupts: “and now I/ Foam to wheat, a glitter of seas”",
+            "The kinetic verbs – “",
+            "– create forward propulsion, mimicking the gallop itself",
+            "– biblical register elevates the ride to a mythic scale.",
+            "Lioness connotes power and predatory grace, but also danger – introducing the poem’s key tension",
+            "The syntactic fusion of ‘one we grow’ collapses subject boundaries – rider and horse merge.",
+            "Transcendence here is annihilation of the separate self",
+            "Momentum then erupts: “",
             "Enjambment propels the line forward, mimicking the horse’s acceleration",
             "‘Foam’ suggests dissolution – the speaker becomes formless energy rather than stable identity",
             "‘Glitter of seas’ introduces vast, macrocosmic, elemental imagery; transcendence is oceanic and boundary-dissolving",
-            "Yet this liberation is violent: “White/Godiva, I unpeel-/ dead hands, dead stringencies”",
+            "Yet this liberation is violent: “",
             "The allusion to lady Godiva invokes rebellion, saviour figure who rides naked through the streets",
             "‘Unpeel’ suggests shedding social constraints and ‘white’ connotes purity, rebirth",
             "But the harsh dental consonants in ‘dead’ and ‘stringencies’ emphasise that liberation requires stripping away restrictive identities – possibly even life itself",
-            "“Into the red/Eye, the cauldron of morning” – may symbolise sunrise and rebirth but ‘cauldron’ evokes combustion and sacrifice. The split across the line break isolates ‘red’ connoting blood and violence before resolution",
+            "– may symbolise sunrise and rebirth but ‘cauldron’ evokes combustion and sacrifice.",
+            "The split across the line break isolates ‘red’ connoting blood and violence before resolution",
             "The transcendence culminates in incineration",
-            "Plath’s liberation is double-edged – an ecstatic freedom that may also be self-destruction. Transcendence becomes indistinguishable from obliteration",
-            "Ariel in the tempest: Shakespeare’s ‘airy spirit’, a symbol of imagination, transcendence and creativity, enslaved by prospero",
-            "Written on Plath’s 30th birthday, October 27th 1962 – poem carries autobiographical urgency.",
-            "Hughes: “Ariel was the name of the horse on which she went riding weekly … her horse bolted, the stirrups fell off, and she came all the way home to the stables, about two miles, at full gallop, hanging around the horses neck. – links transcendence to real physical risk"
+            "Plath’s liberation is double-edged – an ecstatic freedom that may also be self-destruction.",
+            "Transcendence becomes indistinguishable from obliteration",
+            "– poem carries autobiographical urgency.",
+            "– links transcendence to real physical risk"
           ]
         },
         "hughes": {
           "poems": [
-            "Jaguar",
-            "spins",
-            "him",
-            "no cage to him",
-            "Thrust"
+            "Jaguar"
           ],
-          "quotes": [
+          "text_quotes": [
             "the apes yawn and adore their fleas in the sun",
-            "nut",
-            "Strut",
             "Strut like cheap tarts",
             "It might be painted on a nursery wall",
             "By the bang of blood in the brain",
             "He spins from the bars but there’s no cage to him",
-            "more than a visionary to his cell",
             "The world rolls under the long thrust of his heel",
-            "over the cage floor the horizons come",
-            "Hughes identified with the predatory animals themselves"
+            "over the cage floor the horizons come"
           ],
+          "critic_quotes": [
+            {
+              "quote": "Hart: “Hughes identified with the predatory animals themselves”",
+              "critic": ""
+            }
+          ],
+          "context": [],
           "bullets": [
-            "‘Jaguar’",
             "Hughes presents transcendence as psychological defiance rather than self-erasure",
-            "The zoo animals are initially characterised with lethargy (first half): “the apes yawn and adore their fleas in the sun” – long vowel sounds immediately drain the energy out of the first line (inertia echoed in the assonance)",
+            "The zoo animals are initially characterised with lethargy (first half): “",
+            "– long vowel sounds immediately drain the energy out of the first line (inertia echoed in the assonance)",
             "The syllabic verse, anaphoric, end-stops and enclosed rhyme (“nut” “Strut”) of the first stanza create a mundane, uniform feeling, caged quality",
-            "Parrots “Strut like cheap tarts” humiliating degradation, reducing them to prostitution, begging for attention and food",
-            "“It might be painted on a nursery wall” – wild creatures becomes so one dimensional in this zoo that they may as well be drawings, romanticised, censored",
+            "humiliating degradation, reducing them to prostitution, begging for attention and food",
+            "– wild creatures becomes so one dimensional in this zoo that they may as well be drawings, romanticised, censored",
             "Second half of poem shifts focus to the jaguar",
-            "“By the bang of blood in the brain” – plosive alliteration, power and violence, syntax breaks down (lack of an object), freedom",
-            "“He spins from the bars but there’s no cage to him” – conjunction pivots from physical confinement to metaphysical freedom. Internal rhyme of ‘spins’ and ‘him’ create circularity – his energy is self-sustaining",
+            "– plosive alliteration, power and violence, syntax breaks down (lack of an object), freedom",
+            "– conjunction pivots from physical confinement to metaphysical freedom.",
+            "Internal rhyme of ‘spins’ and ‘him’ create circularity – his energy is self-sustaining",
             "The paradox ‘no cage to him’ as well as “more than a visionary to his cell” suggests that he transcends his captivity with his mind",
-            "“The world rolls under the long thrust of his heel” – rolls implies cosmic motion, the jaguar becomes axis mundi. Unlike Plath’s dissolution of self, Hughes’ transcendence expands identity",
+            "– rolls implies cosmic motion, the jaguar becomes axis mundi.",
+            "Unlike Plath’s dissolution of self, Hughes’ transcendence expands identity",
             "‘Thrust’ conveys phallic power and assertion",
-            "Final line “over the cage floor the horizons come” – image of hope embedded into the cage floor, the world is at his feet",
-            "Hart: “Hughes identified with the predatory animals themselves”"
+            "Final line “",
+            "– image of hope embedded into the cage floor, the world is at his feet"
           ]
         }
       },
@@ -4212,70 +4357,70 @@
         "theme": "Transcendence",
         "plath": {
           "poems": [
-            "Mirror",
-            "Silver",
-            "exact",
-            "swallow",
-            "searching",
-            "drowned",
-            "day after day"
+            "Mirror"
           ],
-          "quotes": [
+          "text_quotes": [
             "I am silver and exact. I have no preconceptions",
-            "Locating the centre of consciousness in the mirror isolates the woman",
             "Whatever I see I swallow immediately",
             "I am not cruel, only truthful",
             "now I am a lake",
             "A woman bends over me,/ searching my reaches for what she really is",
-            "In me she has drowned a young girl, and in me an old woman/ Rises toward her day after day, like a terrible fish",
-            "like a terrible fish"
+            "In me she has drowned a young girl, and in me an old woman/ Rises toward her day after day, like a terrible fish"
           ],
+          "critic_quotes": [
+            {
+              "quote": "Locating the centre of consciousness in the mirror isolates the woman",
+              "critic": "van dyne"
+            }
+          ],
+          "context": [],
           "bullets": [
-            "‘Mirror’",
-            "“I am silver and exact. I have no preconceptions” – blunt declarative syntax and monosyllabic certainty establish a voice of clinical precision.",
-            "“Locating the centre of consciousness in the mirror isolates the woman” – van dyne – makes the woman an object of scrutiny rather than subject, preventing her transcendence",
+            "– blunt declarative syntax and monosyllabic certainty establish a voice of clinical precision.",
+            "– makes the woman an object of scrutiny rather than subject, preventing her transcendence",
             "‘Silver’ connotes sterility and coldness, while ‘exact’ suggests mathematical objectivity",
             "The mirror rejects transcendence entirely – it claims to reflect without interpretation, a flat material surface devoid of spiritual elevation",
-            "“Whatever I see I swallow immediately” – verb ‘swallow’ suggests mechanical ingestion",
-            "No transformative process – no alchemy of perception into meaning. Experience is consumed and reproduced instantly",
-            "“I am not cruel, only truthful” unlike Hughes’ celebratory sublime, Plath’s truth is anti-romantic. The mirror offers no consolation, no aesthetic distance. Reality Is unmediated and unforgiving.",
-            "When the perspective shifts – “now I am a lake” – this could suggest potential transcendence, as lakes in romantic poetry often symbolise depth and reflection. However the lake here does not liberate.",
-            "“A woman bends over me,/ searching my reaches for what she really is” – enjambment mirrors the woman’s leaning posture, but the verb ‘searching’ implies anxiety rather than revelation.",
+            "– verb ‘swallow’ suggests mechanical ingestion",
+            "No transformative process – no alchemy of perception into meaning.",
+            "Experience is consumed and reproduced instantly",
+            "unlike Hughes’ celebratory sublime, Plath’s truth is anti-romantic.",
+            "The mirror offers no consolation, no aesthetic distance.",
+            "Reality Is unmediated and unforgiving.",
+            "When the perspective shifts –",
+            "– this could suggest potential transcendence, as lakes in romantic poetry often symbolise depth and reflection.",
+            "However the lake here does not liberate.",
+            "– enjambment mirrors the woman’s leaning posture, but the verb ‘searching’ implies anxiety rather than revelation.",
             "There is no epiphany, she doesn’t find transcendence, instead she finds decay",
-            "“In me she has drowned a young girl, and in me an old woman/ Rises toward her day after day, like a terrible fish”",
-            "Violent verb ‘drowned’ suggests that youth has been killed by time’s reflection. The simile “like a terrible fish” is bathetic, grotesque and anti-sublime.",
+            "Violent verb ‘drowned’ suggests that youth has been killed by time’s reflection.",
+            "The simile “like a terrible fish” is bathetic, grotesque and anti-sublime.",
             "Instead of a beautiful metamorphosis, ageing becomes monstrous",
             "The clinical ‘day after day’ reinforces inevitability, there is no spiritual transcendence – only the relentless progression of time"
           ]
         },
         "hughes": {
           "poems": [
-            "Football at slack",
-            "Plunging",
-            "bareback of hill",
-            "spouted"
+            "Football at slack"
           ],
-          "quotes": [
+          "text_quotes": [
             "between plunging valleys, on a bareback of hill",
             "The merry-coloured men spouted like water to head it",
             "The glare light/mixed its mad oils and threw glooms",
             "And once again a golden holocaust/lifted the cloud’s edge, to watch them"
           ],
+          "critic_quotes": [],
+          "context": [],
           "bullets": [
-            "‘Football at slack’",
             "Hughes transforms an everyday football match into a moment of quasi-romantic sublimity, elevating the every day into something mythic and transcendent",
-            "The setting immediately expands the everyday into vastness: “between plunging valleys, on a bareback of hill”",
+            "The setting immediately expands the everyday into vastness: “",
             "‘Plunging’ gives the valleys violent motion",
             "The phrase ‘bareback of hill’ anthropomorphises the landscape, turning geography into living anatomy",
             "The football match isn’t enclosed like Plath’s mirror – it is exposed to elemental grandeur",
-            "“The merry-coloured men spouted like water to head it”",
             "The verb ‘spouted’ turn the players into fountains or geysers",
             "The simile dissolves the solidity of the body – they become an elemental force",
             "The game transcends sport and becomes ritualistic movement with nature",
-            "“The glare light/mixed its mad oils and threw glooms” = the synaeshtetic image of light mixing oils invokes artistic creation – the sky becomes a cosmic canvas",
+            "= the synaeshtetic image of light mixing oils invokes artistic creation – the sky becomes a cosmic canvas",
             "Chaotic brilliance",
             "Unlike Plath’s sterile silver, Hughes’ light is volatile and generative",
-            "“And once again a golden holocaust/lifted the cloud’s edge, to watch them” – oxymoronic pairing of beauty and destruction suggests overwhelming cosmic power",
+            "– oxymoronic pairing of beauty and destruction suggests overwhelming cosmic power",
             "The sun becomes a conscious observer – this everyday match is witnessed by a celestial force",
             "Human action momentarily participates in something mythic"
           ]
@@ -4284,70 +4429,81 @@
       {
         "theme": "Personal experience/  confessionalism",
         "plath": {
-          "poems": [
-            "Ariel",
-            "Stasis",
-            "drive",
-            "Removes the mask",
-            "containment"
-          ],
-          "quotes": [
+          "poems": [],
+          "text_quotes": [
             "Stasis in darkness",
-            "pour of tor and distances",
             "Splits and passes",
             "And now i/foam to wheat, a glitter of seas",
             "Suicidal, at one with the drive",
             "Into the red/Eye, the cauldron of morning"
           ],
-          "bullets": [
-            "‘Ariel’",
-            "Plath presents the creative process as intensely personal, bodily and existential. The poem reads like an enacted experience rather than a detached reflection.",
-            "The poem opens in paralysis – “Stasis in darkness”",
-            "‘Stasis’ suggests emotional and creative blockage. The darkness is psychological as much as literal.",
-            "Creativity begins not in inspiration, but in inertia – a recognisably personal struggle.",
-            "These new poems of mine have one thing in common. They were all written at about four in the morning – that still, blue, almost eternal hour before cock-crows, before the baby’s cry, before the glassy music of the milkman setting his bottles”",
-            "The ride becomes a metaphor for artistic and spiritual release",
-            "The kinetic verbs – “pour of tor and distances” “Splits and passes” – create forward propulsion, mimicking the gallop itself but also the propulsion towards creation",
-            "“And now i/foam to wheat, a glitter of seas” – the enjambment mimics acceleration. The speaker dissolves into foam – no longer a stable identity but kinetic energy. This reflects the loss of ego in creative immersion.",
-            "Unlike Hughes’ careful metaphorical shaping, Plath’s syntax feels breathless and uncontained.",
-            "“Suicidal, at one with the drive”",
-            "Startling adjective. Creative ‘drive’ aligns with self-destructive impulse. Reflects the extremity of confessional poetry – creativity is not symbolic play but existential exposure",
-            "“Into the red/Eye, the cauldron of morning”",
-            "Violent imagery suggests both rebirth and combustion. The poem enacts transformation but the cost is severe. Creativity is ecstatic it dangerous.",
-            "Rosenthall claimed the confessionalism (in Robert Lowell) ‘Removes the mask’ that previous poets had worn when writing about their own lives.",
+          "critic_quotes": [
+            {
+              "quote": "These new poems of mine have one thing in common. They were all written at about four in the morning – that still, blue, almost eternal hour before cock-crows, before the baby’s cry, before the glassy music of the milkman setting his bottles”",
+              "critic": ""
+            },
+            {
+              "quote": "Rosenthall claimed the confessionalism (in Robert Lowell) ‘Removes the mask’ that previous poets had worn when writing about their own lives.",
+              "critic": ""
+            }
+          ],
+          "context": [
             "In an era of Cold War ‘containment’ culture and intense legal debates over prince, confessional poets carved out new zones for private life and experience – world in which you are judged for your thoughts and feelings, confessionalists find a way to express this through poetry"
+          ],
+          "bullets": [
+            "Plath presents the creative process as intensely personal, bodily and existential.",
+            "The poem reads like an enacted experience rather than a detached reflection.",
+            "The poem opens in paralysis – “",
+            "‘Stasis’ suggests emotional and creative blockage.",
+            "The darkness is psychological as much as literal.",
+            "Creativity begins not in inspiration, but in inertia – a recognisably personal struggle.",
+            "The ride becomes a metaphor for artistic and spiritual release",
+            "The kinetic verbs – “",
+            "– create forward propulsion, mimicking the gallop itself but also the propulsion towards creation",
+            "– the enjambment mimics acceleration.",
+            "The speaker dissolves into foam – no longer a stable identity but kinetic energy.",
+            "This reflects the loss of ego in creative immersion.",
+            "Unlike Hughes’ careful metaphorical shaping, Plath’s syntax feels breathless and uncontained.",
+            "Startling adjective.",
+            "Creative ‘drive’ aligns with self-destructive impulse.",
+            "Reflects the extremity of confessional poetry – creativity is not symbolic play but existential exposure",
+            "Violent imagery suggests both rebirth and combustion.",
+            "The poem enacts transformation but the cost is severe.",
+            "Creativity is ecstatic it dangerous."
           ]
         },
         "hughes": {
           "poems": [
-            "The thought-fox",
-            "imagine",
-            "prints",
-            "Stink",
-            "suicidal"
+            "The thought-fox"
           ],
-          "quotes": [
+          "text_quotes": [
             "I imagine this midnight moment’s forest",
             "a fox’s nose touches twig, leaf",
-            "how one we grow",
             "Set neat prints into the snow",
             "with sudden sharp hot stink of fox/ it enter s the dark hole of the head",
             "The page Is printed"
           ],
+          "critic_quotes": [],
+          "context": [],
           "bullets": [
-            "‘The thought-fox’",
             "In contrast, Hughes represents the creative process through metaphor and mythic mediation.",
             "But has a mythic/symbolic distance from the poem itself",
-            "“I imagine this midnight moment’s forest” – verb ‘imagine’ foregrounds consciousness, yet the forest suggests subconscious depth.",
+            "– verb ‘imagine’ foregrounds consciousness, yet the forest suggests subconscious depth.",
             "The tone is controlled and observational rather than immersed.",
-            "Inspiration appears tentatively – “a fox’s nose touches twig, leaf”",
-            "Careful monosyllables mimic delicate emergence. Creativity is incremental, not explosive. The fox is encountered here, not embodied. There isn’t the same fusion as in Ariel “how one we grow”",
-            "“Set neat prints into the snow” – the snow resembles the blank page and the ‘prints’ are words",
-            "Climactic moment remains symbolic – “with sudden sharp hot stink of fox/ it enter s the dark hole of the head”",
-            "Sharp’ – suggests something surgical about the way inspiration pierces his mind, contrasts with the earlier softness of snow imagery. Sensory vividness or intellectual acuity?",
-            "‘Stink’ signals that poetry originates in what civilisation represses – instinct, animality, the unconscious. Hughes aligns creativity with evolutionary impulse and raw animality rather than divine inspiration",
+            "Inspiration appears tentatively – “",
+            "Careful monosyllables mimic delicate emergence.",
+            "Creativity is incremental, not explosive.",
+            "The fox is encountered here, not embodied.",
+            "There isn’t the same fusion as in Ariel “how one we grow”",
+            "– the snow resembles the blank page and the ‘prints’ are words",
+            "Climactic moment remains symbolic – “",
+            "Sharp’ – suggests something surgical about the way inspiration pierces his mind, contrasts with the earlier softness of snow imagery.",
+            "Sensory vividness or intellectual acuity?",
+            "‘Stink’ signals that poetry originates in what civilisation represses – instinct, animality, the unconscious.",
+            "Hughes aligns creativity with evolutionary impulse and raw animality rather than divine inspiration",
             "Where Plath’s drive borders on ‘suicidal’, Hughes’ is organic and life-affirming",
-            "“The page Is printed” – calm, declarative closure. The creative act is completed without the same kind of exposure of confessionalism"
+            "” – calm, declarative closure.",
+            "The creative act is completed without the same kind of exposure of confessionalism"
           ]
         }
       },
@@ -4355,78 +4511,89 @@
         "theme": "Personal experience/ confessionalism",
         "plath": {
           "poems": [
-            "Daddy",
-            "kill",
-            "always been scared",
-            "I",
-            "What had changed",
-            "more than art, was the audience"
+            "Daddy"
           ],
-          "quotes": [
+          "text_quotes": [
             "Daddy, I have had to kill you",
             "Chuffing me off like a Jew. A Jew to dauchau, auschwitz, Belsen",
             "I have always been scared of you/ with your Luftwaffe, your gobbledygoo",
             "Every woman adores a Fascist,/ the boot in the face, the brute/ brute heart of a brute like you",
             "At twenty I tried to die/ and get back, back, back to you",
-            "Daddy, daddy, you bastard, i’m through",
-            "objective correlative"
+            "Daddy, daddy, you bastard, i’m through"
+          ],
+          "critic_quotes": [
+            {
+              "quote": "Even when we call her confessional, she is always creating a mythology” – Susan Schultz",
+              "critic": ""
+            },
+            {
+              "quote": "‘What had changed’ in these decades according to Christopher Grobe ‘more than art, was the audience’s desire. They wanted to know… their poets and politicians, their actors and news anchors too’",
+              "critic": ""
+            },
+            {
+              "quote": "Plath and Hughes not directly showing us their emotions, expressing them through symbols (nazi imagery etc) – “objective correlative” coined by TS Eliot (modernist)",
+              "critic": ""
+            }
+          ],
+          "context": [
+            "Because Plath’s father died when she was 8, the killing cannot be literal. The confession is emotional truth rather than factual reality",
+            "Most overt autobiographical moment, referencing Plath’s suicide attempt"
           ],
           "bullets": [
-            "‘Daddy’",
-            "Daddy represents confessional poetry at its most raw and confrontational. The personal experience is explicitly traumatic.",
-            "Even when we call her confessional, she is always creating a mythology” – Susan Schultz",
-            "“Daddy, I have had to kill you” - declarative bluntness is shocking, monosyllabic violence of ‘kill’ strips away poetic mediation",
+            "Daddy represents confessional poetry at its most raw and confrontational.",
+            "The personal experience is explicitly traumatic.",
+            "” - declarative bluntness is shocking, monosyllabic violence of ‘kill’ strips away poetic mediation",
             "Directly addresses the father, frames the poem as confrontation, blurs fantasy and autobiography",
-            "Because Plath’s father died when she was 8, the killing cannot be literal. The confession is emotional truth rather than factual reality – demonstrating how confessional poetry prioritises psychological authenticity over realism",
-            "“Chuffing me off like a Jew. A Jew to dauchau, auschwitz, Belsen” – references specific holocaust concentration camps. The personal is dramatised through historical horror. The confessional mode her is theatrical – private pain expressed through hyperbolic imagery",
-            "“I have always been scared of you/ with your Luftwaffe, your gobbledygoo”",
+            "– demonstrating how confessional poetry prioritises psychological authenticity over realism",
+            "” – references specific holocaust concentration camps.",
+            "The personal is dramatised through historical horror.",
+            "The confessional mode her is theatrical – private pain expressed through hyperbolic imagery",
             "The striking simplicity of ‘always been scared’ is childlike, conveying genuine fear",
             "Yet the juxtaposition of luftwaffe and nonsense baby language destabilises tone",
-            "nursery rhyme rhythm creates disturbing tonal dissonance. Childish cadence contrasts with violent content",
+            "nursery rhyme rhythm creates disturbing tonal dissonance.",
+            "Childish cadence contrasts with violent content",
             "This tonal oscillation is key to the poems confessionalist – the adult speaker recalls childhood terror, childish diction suggests regression",
             "Psychologically fragmented rather than composed or reflective",
-            "“Every woman adores a Fascist,/ the boot in the face, the brute/ brute heart of a brute like you”",
             "Sweeping generalisation, suggesting internalised attraction to dominance",
             "Violent image is visceral and degrading",
             "Repetition mimics pounding aggression",
             "Aligns with her marriage to Hughes – transference of paternal trauma onto husband  figures",
-            "“At twenty I tried to die/ and get back, back, back to you”",
-            "Most overt autobiographical moment, referencing Plath’s suicide attempt",
             "Repetition mimics desperation, monosyllables create rhythmic urgency, also something childlike",
             "Exposes her reality without metaphorical disguise – removes the mask",
-            "“Daddy, daddy, you bastard, i’m through”",
             "Repetition of daddy is childlike but bastard is adult rage",
             "Blunt monosyllables of ‘I’m through; delivers catharsis, finality",
-            "Poem ends in confrontation. No reconciliation – only violent emotional closure",
-            "‘What had changed’ in these decades according to Christopher Grobe ‘more than art, was the audience’s desire. They wanted to know… their poets and politicians, their actors and news anchors too’",
-            "Plath and Hughes not directly showing us their emotions, expressing them through symbols (nazi imagery etc) – “objective correlative” coined by TS Eliot (modernist)"
+            "Poem ends in confrontation.",
+            "No reconciliation – only violent emotional closure"
           ]
         },
         "hughes": {
           "poems": [
-            "Full moon and little Frieda"
+            "Full moon and little",
+            "ieda"
           ],
-          "quotes": [
+          "text_quotes": [
             "Cool small evening",
             "unspilled milk",
             "Moon! Moon",
-            "an artist",
-            "gazing amazed",
-            "amazed"
+            "an artist” stepping back and “gazing amazed"
           ],
+          "critic_quotes": [],
+          "context": [],
           "bullets": [
-            "‘Full moon and little Frieda’",
             "In contrast, Hughes’ poem expresses personal experience not through confessionalism but wonder and shared joy, yet he still retains symbolic distance",
             "Celebration of childhood innocence and wonder",
             "The setting is intimate",
-            "“Cool small evening” - metaphorical smallness shows how ordinary of a night it is and therefore sets the stage for how children find beauty and awe in the simple and ordinary and therefore elicit the same reaction in their watching parents.",
-            "The metaphors of blood and milk recall birth and babyhood, “unspilled milk” suggests tension and potential, mimicking the potential a young child has, to experience the world for the first time.",
-            "“Moon! Moon” - sudden exclamation breaks the tension and shows how just like the moon, Frieda is an everyday miracle and her excitement at seeing it in turn awakens Hughes to both wonders.",
+            "- metaphorical smallness shows how ordinary of a night it is and therefore sets the stage for how children find beauty and awe in the simple and ordinary and therefore elicit the same reaction in their watching parents.",
+            "The metaphors of blood and milk recall birth and babyhood, “",
+            "suggests tension and potential, mimicking the potential a young child has, to experience the world for the first time.",
+            "- sudden exclamation breaks the tension and shows how just like the moon, Frieda is an everyday miracle and her excitement at seeing it in turn awakens Hughes to both wonders.",
             "Her urgent repetition conveys her awe through the toddler-like speech. (MOON SYMBOLISM)",
-            "Image of moon as “an artist” stepping back and “gazing amazed” creates a sense of awe and wonder reflecting back and forth between Frieda, the moon, and also Hughes.",
+            "Image of moon as “",
+            "” creates a sense of awe and wonder reflecting back and forth between Frieda, the moon, and also Hughes.",
             "The diacope of “amazed” underscores the mutual surprise and delight.",
             "The artist moon becomes an image of Hughes himself, as he created Frieda, amazed at his daughter’s own amazement and existence.",
-            "Aesthetic reflection. Unlike Plath’s unmediated confession, Hughes uses metaphor to universalise the experience.",
+            "Aesthetic reflection.",
+            "Unlike Plath’s unmediated confession, Hughes uses metaphor to universalise the experience.",
             "Expresses indirectly through symbol and landscape”"
           ]
         }
@@ -4435,68 +4602,79 @@
         "theme": "Power – voice that claims supreme authority",
         "plath": {
           "poems": [
-            "mirror",
-            "Exact",
-            "the truth"
+            "mirror"
           ],
-          "quotes": [
+          "text_quotes": [
             "I am silver and exact. I have no preconceptions",
-            "Locating the centre of consciousness in the mirror isolates the woman",
             "I am not cruel, only truthful – the eye of a little god",
             "A woman bends over me, searching my reaches for what she really is",
             "In me she has drowned a young girl, and in me an old woman rises … like a terrible fish"
           ],
+          "critic_quotes": [
+            {
+              "quote": "Locating the centre of consciousness in the mirror isolates the woman",
+              "critic": "van dyne"
+            }
+          ],
+          "context": [],
           "bullets": [
-            "‘mirror’",
             "Patriarchal surveillance and reflective authority",
             "Power is expressed through surveillance, judgement and the internalisation of patriarchal standards",
             "Passive yet absolute",
             "The mirror claims objective neutrality, yet its authority is absolute",
-            "“I am silver and exact. I have no preconceptions” – declarative tone establishes epistemological dominance. Mirror positions itself as the arbiter of truth",
+            "– declarative tone establishes epistemological dominance.",
+            "Mirror positions itself as the arbiter of truth",
             "‘Exact’ implies mathematical precision – unchallengeable",
-            "The first person voice immediately claims authority over perception - “Locating the centre of consciousness in the mirror isolates the woman” – van dyne – makes the woman an object of scrutiny rather than subject",
-            "“I am not cruel, only truthful – the eye of a little god”",
-            "Mirror assumes divine omniscience. The eye suggests surveillance, a single, unblinking gaze",
-            "Power here is visual and disciplinary. The woman cannot escape scrutiny. The mirror offers no consolation, only ‘the truth’ (distorted by internalised patriarchal beliefs)",
-            "“A woman bends over me, searching my reaches for what she really is” – bend suggests submission, the woman is physically lowered before the mirror’s (now in the form of a lake) authority",
+            "The first person voice immediately claims authority over perception -",
+            "– makes the woman an object of scrutiny rather than subject",
+            "Mirror assumes divine omniscience.",
+            "The eye suggests surveillance, a single, unblinking gaze",
+            "Power here is visual and disciplinary.",
+            "The woman cannot escape scrutiny.",
+            "The mirror offers no consolation, only ‘the truth’ (distorted by internalised patriarchal beliefs)",
+            "– bend suggests submission, the woman is physically lowered before the mirror’s (now in the form of a lake) authority",
             "She depends on it for definition – identity is mediated through external judgment",
             "The dynamic reflects patriarchal structures – worth tied to appearance, value measured through external gaze",
-            "“In me she has drowned a young girl, and in me an old woman rises … like a terrible fish” – implies that ageing is monstrous. Bathetic, grotesque."
+            "– implies that ageing is monstrous.",
+            "Bathetic, grotesque."
           ]
         },
         "hughes": {
           "poems": [
-            "Hawk roosting",
-            "Creation",
-            "red in tooth and claw"
+            "Hawk roosting"
           ],
-          "quotes": [
+          "text_quotes": [
             "I sit at the top of the wood, my eyes closed",
             "It took the whole of Creation to produce my foot, my each feather.",
             "Now I hold creation in my foot",
             "My manners are tearing off heads",
-            "nothing has changed since I began. My eye has permitted no change",
-            "Pushing of the sublime into the brutal"
+            "nothing has changed since I began. My eye has permitted no change"
+          ],
+          "critic_quotes": [
+            {
+              "quote": "Pushing of the sublime into the brutal",
+              "critic": "John Kinsella"
+            }
+          ],
+          "context": [
+            "Darwinism, Tennyson’s ‘red in tooth and claw’"
           ],
           "bullets": [
-            "‘Hawk roosting’",
             "Hawk roosting presents power as active, unapologetic sovereignty",
-            "“I sit at the top of the wood, my eyes closed”",
-            "Unlike Plath’s surveillance mirror, the hawk does not need to see to maintain power. His position symbolises hierarchy and supremacy.",
-            "“It took the whole of Creation to produce my foot, my each feather.” - divine right to kill, natural, ‘Creation’ is capitalised alluding to the Christian creation myth, hawk has a mandate from God as a predator to kill",
+            "Unlike Plath’s surveillance mirror, the hawk does not need to see to maintain power.",
+            "His position symbolises hierarchy and supremacy.",
+            "” - divine right to kill, natural, ‘Creation’ is capitalised alluding to the Christian creation myth, hawk has a mandate from God as a predator to kill",
             "Unlike the mirrors modest ‘little gods the hawk implies cosmic centrality -  sees himself as the pinnacle of the evolutionary process.",
-            "Darwinism, Tennyson’s ‘red in tooth and claw’",
-            "“Now I hold creation in my foot” – possession, control,",
+            "– possession, control,",
             "Monosyllabic force makes the claim sounds unshakeable",
-            "Voice is unapologetic – “My manners are tearing off heads”",
+            "Voice is unapologetic – “",
             "Power here is instinctive, unquestioned",
             "Irrelevance of human moral frameworks",
-            "Chilling certainty: “nothing has changed since I began. My eye has permitted no change”",
+            "Chilling certainty: “",
             "Unlike the mirror, which passively reflects, the hawk is active",
             "His eye is not surveillance but control",
             "He governs reality",
-            "Voice is confident, stable, dominant",
-            "“Pushing of the sublime into the brutal” – John Kinsella"
+            "Voice is confident, stable, dominant"
           ]
         }
       },
@@ -4504,63 +4682,77 @@
         "theme": "Disturbing/taboo/ offensive",
         "plath": {
           "poems": [
-            "Daddy",
-            "every woman",
-            "Guernica",
-            "Guernica of modern poetry"
+            "Daddy"
           ],
-          "quotes": [
+          "text_quotes": [
             "An engine, an engine/ chuffing me off like a Jew",
             "A Jew to Dachau, Auschwitz, Belsen",
             "Not God but a swastika",
-            "Every woman adores a fascist/ the boot in the face",
-            "objective correlative"
+            "Every woman adores a fascist/ the boot in the face"
+          ],
+          "critic_quotes": [
+            {
+              "quote": "George Steiner asserts that Plath’s poem is the ‘Guernica of modern poetry’",
+              "critic": ""
+            },
+            {
+              "quote": "Plath and Hughes not directly showing us their emotions, expressing them through symbols (nazi imagery etc) – “objective correlative” coined by TS Eliot (modernist)",
+              "critic": ""
+            }
+          ],
+          "context": [
+            "Fashion for artistic depictions of violence following war, influenced by artworks like Picasso’s ‘Guernica’ which plainly and brutally expresses war’s violence."
           ],
           "bullets": [
-            "‘Daddy’",
             "Uses collective trauma for personal experience",
             "Disturbance lies in excess – emotional, rhetorical, historical",
-            "“An engine, an engine/ chuffing me off like a Jew” – childish repetition contrasts grotesquely with the historical horror that follows",
-            "“A Jew to Dachau, Auschwitz, Belsen” – specificity of the camps grounds the poem in historical atrocity. The shock lies in disproportion: personal grief is equated with genocide. Risks trivialisation, making the poem morally provocative",
-            "“Not God but a swastika” – father becomes a fascist symbol, swastika replaces divinity – political terror supplants religious authority",
-            "“Every woman adores a fascist/ the boot in the face” – Plath implicates not just herself but ‘every woman’",
+            "” – childish repetition contrasts grotesquely with the historical horror that follows",
+            "– specificity of the camps grounds the poem in historical atrocity.",
+            "The shock lies in disproportion: personal grief is equated with genocide.",
+            "Risks trivialisation, making the poem morally provocative",
+            "– father becomes a fascist symbol, swastika replaces divinity – political terror supplants religious authority",
+            "” – Plath implicates not just herself but ‘every woman’",
             "The violent image is humiliating and degrading",
-            "The repetition of brute mimics pounding aggression",
-            "Fashion for artistic depictions of violence following war, influenced by artworks like Picasso’s ‘Guernica’ which plainly and brutally expresses war’s violence.",
-            "George Steiner asserts that Plath’s poem is the ‘Guernica of modern poetry’",
-            "Plath and Hughes not directly showing us their emotions, expressing them through symbols (nazi imagery etc) – “objective correlative” coined by TS Eliot (modernist)"
+            "The repetition of brute mimics pounding aggression"
           ]
         },
         "hughes": {
           "poems": [
             "View of a pig"
           ],
-          "quotes": [
+          "text_quotes": [
             "It was too dead",
             "its weight oppressed me",
             "Such weight and thick pink bulk",
             "Just so much a poundage of lard and pork",
-            "It was like a sack of wheat",
-            "Pushing of the sublime into the brutal"
+            "It was like a sack of wheat"
           ],
+          "critic_quotes": [
+            {
+              "quote": "Pushing of the sublime into the brutal",
+              "critic": "John Kinsella"
+            }
+          ],
+          "context": [],
           "bullets": [
-            "‘View of a pig’",
             "Disturbing due to its unflinching, stark description of a dead pig rather than appropriation",
-            "Bluntness: “It was too dead” – death is not poeticised, it is heavy, inert, stubborn",
-            "Describes the body with stark realism – “its weight oppressed me”",
+            "Bluntness: “",
+            "– death is not poeticised, it is heavy, inert, stubborn",
+            "Describes the body with stark realism – “",
             "Suggests moral as well as physical burden",
-            "“Such weight and thick pink bulk” – pig becomes disturbingly close to human corporeality. Hughes refuses to distance the reader through pastoral or symbolic language.",
+            "– pig becomes disturbingly close to human corporeality.",
+            "Hughes refuses to distance the reader through pastoral or symbolic language.",
             "Rhythm is heavy, repeated plosives mimic the physical heaviness",
-            "“Just so much a poundage of lard and pork” – dismissive phrase, economic tone, calculated, transactional – no longer an animal but a commodity",
+            "– dismissive phrase, economic tone, calculated, transactional – no longer an animal but a commodity",
             "Death erases individuality, the body becomes a product",
             "Processed, consumable forms of flesh – pig is already linguistically butchered",
             "Unlike Plath’s symbolic violence, Hughes’ disturbance is material",
-            "“It was like a sack of wheat”",
-            "Simile reduces the animal to agricultural mass. No sentimental gloss. Death is ordinary and industrial.",
+            "Simile reduces the animal to agricultural mass.",
+            "No sentimental gloss.",
+            "Death is ordinary and industrial.",
             "The shock lies in refusal of consolation",
             "The pig is not aestheticised, redeemed or transcended, it is simply flesh",
-            "Hyperbolic metaphor vs refusal of metaphor",
-            "“Pushing of the sublime into the brutal” – John Kinsella"
+            "Hyperbolic metaphor vs refusal of metaphor"
           ]
         }
       },
@@ -4568,67 +4760,76 @@
         "theme": "Insight into human nature",
         "plath": {
           "poems": [
-            "Mirror",
-            "mirror stage",
-            "Day after day"
+            "Mirror"
           ],
-          "quotes": [
+          "text_quotes": [
             "I am silver and exact. I have no preconceptions",
-            "Locating the centre of consciousness in the mirror isolates the woman.",
             "Whatever I see I swallow immediately",
             "A woman bends over me, searching my reaches for what she really is",
             "In me she has drowned a young girl … like a terrible fish"
           ],
+          "critic_quotes": [
+            {
+              "quote": "Locating the centre of consciousness in the mirror isolates the woman.",
+              "critic": "Van Dyne"
+            }
+          ],
+          "context": [
+            "Recalls Lacanian theories of identity formation and the ‘mirror stage’ in which the self is constructed and destabilised through external image",
+            "Second wave feminism emerging in the early 1960s. Women increasingly critiquing beauty standards, domestic roles, objectification"
+          ],
           "bullets": [
-            "‘Mirror’",
             "Plath offers a bleak insight into the human condition: identity is fragile, externally mediated and deeply entangled with patriarchal beliefs",
-            "“I am silver and exact. I have no preconceptions” – mirror claims neutrality, yet this supposed objectivity becomes tyrannical",
+            "– mirror claims neutrality, yet this supposed objectivity becomes tyrannical",
             "Humans long for reassurance but the mirror provides only fact",
             "The insight here is uncomfortable: truth is indifferent to emotional need",
-            "“Locating the centre of consciousness in the mirror isolates the woman.” – Van Dyne – the woman doesn’t control the narrative, she must search externally for identity",
-            "“Whatever I see I swallow immediately”",
-            "No pause, no mercy. Human life is consumed moment by moment. Mirror becomes a symbol of temporal inevitability",
-            "“A woman bends over me, searching my reaches for what she really is”",
+            "– the woman doesn’t control the narrative, she must search externally for identity",
+            "No pause, no mercy.",
+            "Human life is consumed moment by moment.",
+            "Mirror becomes a symbol of temporal inevitability",
             "Searching suggests existential anxiety",
             "The woman seeks identity in reflection rather than within herself",
             "Plath exposes a universal human impulse: to define oneself through external image",
-            "Recalls Lacanian theories of identity formation and the ‘mirror stage’ in which the self is constructed and destabilised through external image",
-            "“In me she has drowned a young girl … like a terrible fish”",
             "Grotesque, bathetic simile reveals how ageing can feel monstrous under scrutiny",
             "Denies beauty or serenity – ageing is elite and frightening",
             "‘Day after day’ repetition reinforces inevitability",
-            "Crucially, this insight is gendered. The woman’s obsession reflects societal pressure, yet the poem suggests that the most relentless judge is internalised",
-            "Second wave feminism emerging in the early 1960s. Women increasingly critiquing beauty standards, domestic roles, objectification",
+            "Crucially, this insight is gendered.",
+            "The woman’s obsession reflects societal pressure, yet the poem suggests that the most relentless judge is internalised",
             "Mirror is symbolic of patriarchal surveillance"
           ]
         },
         "hughes": {
           "poems": [
-            "Thought fox",
-            "stink"
+            "Thought fox"
           ],
-          "quotes": [
+          "text_quotes": [
             "I imagine this midnight moment’s forest",
             "a fox’s nose touches twig, leaf",
             "Set neat prints into the snow",
             "With a sudden sharp hot stink of fox it enters the dark hole of the head",
             "The page is printed"
           ],
+          "critic_quotes": [],
+          "context": [
+            "Hughes believed poetry should reconnect modern humanity with instinct and the unconscious – influenced by DH Lawrence – fox can be read as the manifestation of instinct, a creative force beyond rationality",
+            "Writing in post ww2 Britain marked by rationalism and cultural exhaustion, his poetry turns towards primal instinct and animal vitality"
+          ],
           "bullets": [
-            "‘Thought fox’",
-            "“I imagine this midnight moment’s forest” – forest represents subconscious – dense, dark, unknowable",
+            "– forest represents subconscious – dense, dark, unknowable",
             "Hughes suggests that creativity emerges from hidden depths of the mind",
-            "The fox appears gradually: “a fox’s nose touches twig, leaf” – delicate monosyllables mimic tentative thought. Inspiration is subtle at first – exploratory rather than explosive",
-            "“Set neat prints into the snow” – snow symbolises the blank page, the prints symbolise words",
+            "The fox appears gradually: “",
+            "– delicate monosyllables mimic tentative thought.",
+            "Inspiration is subtle at first – exploratory rather than explosive",
+            "– snow symbolises the blank page, the prints symbolise words",
             "Hughes insightfully captures how ideas leave traces before fully forming",
             "Creativity is incremental",
-            "Climactic moment: “With a sudden sharp hot stink of fox it enters the dark hole of the head” – the visceral ‘stink’ emphasises instinct and animal vitality",
+            "Climactic moment: “",
+            "– the visceral ‘stink’ emphasises instinct and animal vitality",
             "Creativity is not purely intellectual – it is bodily, primal – rejects divine inspiration",
             "The dark hole suggests the unconscious mind",
-            "Sharp’ – suggests something surgical about the way inspiration pierces his mind, contrasts with the earlier softness of snow imagery. Sensory vividness or intellectual acuity",
-            "Hughes believed poetry should reconnect modern humanity with instinct and the unconscious – influenced by DH Lawrence – fox can be read as the manifestation of instinct, a creative force beyond rationality",
-            "Writing in post ww2 Britain marked by rationalism and cultural exhaustion, his poetry turns towards primal instinct and animal vitality",
-            "“The page is printed” – calm declarative closure"
+            "Sharp’ – suggests something surgical about the way inspiration pierces his mind, contrasts with the earlier softness of snow imagery.",
+            "Sensory vividness or intellectual acuity",
+            "” – calm declarative closure"
           ]
         }
       },
@@ -4636,61 +4837,67 @@
         "theme": "Creative process",
         "plath": {
           "poems": [
-            "words",
-            "axe",
-            "axes",
-            "echoes",
-            "Govern",
-            "indefatigable"
+            "words"
           ],
-          "quotes": [
+          "text_quotes": [
             "Axes/ After whose stroke the wood rings",
-            "Aggressive possibilities of language",
             "Wood rings",
             "Echoes travelling off from the centre like horses",
-            "ultimately escaping the speaker’s control",
             "Sap wells like tears, like the water striving to reestablish its mirror over the rock",
             "Riderless",
             "Dry",
             "From the bottom of the pool, fixed stars govern a life",
-            "entropic forces"
+            "‘Govern’"
+          ],
+          "critic_quotes": [
+            {
+              "quote": "Sarah Churchwell: “Aggressive possibilities of language”",
+              "critic": ""
+            },
+            {
+              "quote": "Christina Britzolakis: Words “ultimately escaping the speaker’s control”",
+              "critic": ""
+            },
+            {
+              "quote": "Steven Gould Axelrod calls the poem’s struggle against “entropic forces”",
+              "critic": ""
+            }
+          ],
+          "context": [
+            "Confessionalism: Plath drawing on her own experiences and emotions much like the confessionalists she is believed to have taken inspiration from – Emily Dickinson and Robert Lowell"
           ],
           "bullets": [
-            "‘words’",
             "Plath studies what happens once words exit",
             "Written 10 days before Plath took her life",
-            "Opens with poetic creation as an act of violence and rupture: “Axes/ After whose stroke the wood rings”",
+            "Opens with poetic creation as an act of violence and rupture:",
             "Act of writing is figured as a blow; the stroke of the pen becomes the stroke of an axe",
-            "Sarah Churchwell: “Aggressive possibilities of language” – words are not gentle tools of expression but weapons",
+            "– words are not gentle tools of expression but weapons",
             "Lacuna after ‘axe’ leaves sense of acoustic hollowness, allowing space for the words to echo",
-            "“Wood rings” evoke age, dynasty – the concentric memory of the tree resembles the layers of literary tradition  - poem acknowledges its own stance, reveals its predecessors",
+            "” evoke age, dynasty – the concentric memory of the tree resembles the layers of literary tradition  - poem acknowledges its own stance, reveals its predecessors",
             "Yet Plath’s axe cuts those rings – Even in Yeats’ former house she stages creation as rebellion against inherited forms while acknowledging her indebtedness to them",
-            "After the initial strike, Plath’s words cease to belong to the speaker: “Echoes travelling off from the centre like horses”",
+            "After the initial strike, Plath’s words cease to belong to the speaker: “",
             "Poem becomes centrifugal; language splinters outward from its point of origin in sporadic, uncontrolled movement",
-            "Christina Britzolakis: Words “ultimately escaping the speaker’s control”",
             "Trochee creates echoing effect ‘axes’ ‘echoes’",
             "Relocates the horse from Ariel as a wild bolting creature rather than a vehicle for self-liberation",
-            "“Sap wells like tears, like the water striving to reestablish its mirror over the rock” – sap, ostensibly life-giving, runs from a wound and becomes conflated with tears",
+            "– sap, ostensibly life-giving, runs from a wound and becomes conflated with tears",
             "The water strains to become a reflective surface that can claim accurate representation",
             "Plathian image reveals that words are an imitation of life rather than a form of life itself, language fails",
             "Poem itself feels liquid, concave and convex, transforming similes in a seamless way",
-            "“Riderless” “Dry” horses, words lose their meaning without the voice attached to them, dislocation between person and words",
+            "horses, words lose their meaning without the voice attached to them, dislocation between person and words",
             "Dissonance between the speaker when they wrote the words and the speaker now",
-            "Confessionalism: Plath drawing on her own experiences and emotions much like the confessionalists she is believed to have taken inspiration from – Emily Dickinson and Robert Lowell",
-            "“From the bottom of the pool, fixed stars govern a life” – looking into the bottom of a pool and seeing the reflection of the stars above us. Words claim objective truth and reality",
-            "‘Govern’ – loss of autonomy, being governed by the words she’s written and how other people  interpret them",
+            "– looking into the bottom of a pool and seeing the reflection of the stars above us.",
+            "Words claim objective truth and reality",
+            "– loss of autonomy, being governed by the words she’s written and how other people  interpret them",
             "It’s out of her control the minute she’s written it down on the paper",
-            "FORM:",
             "Plath’s regular quintains create a false shell of order while semantic coherence steadily dissolves",
-            "Blank spaces, abrupt caesurae and the irregular swell from monosyllables to polysyllables (‘indefatigable’) enact what Steven Gould Axelrod calls the poem’s struggle against “entropic forces”"
+            "Blank spaces, abrupt caesurae and the irregular swell from monosyllables to polysyllables (‘indefatigable’) enact what"
           ]
         },
         "hughes": {
           "poems": [
-            "Thought-fox",
-            "Stink"
+            "Thought-fox"
           ],
-          "quotes": [
+          "text_quotes": [
             "I imagine this midnight moment’s forest",
             "a fox’s nose touches twig, leaf",
             "Through the window I see no star",
@@ -4700,24 +4907,33 @@
             "And now, and now",
             "The page is printed"
           ],
+          "critic_quotes": [],
+          "context": [],
           "bullets": [
-            "‘Thought-fox’",
             "Hughes studies the genesis of poetry – ars poetica",
             "Hughes begins from almost total stillness rather than Plath’s force and violence, suggesting a radically different origin for creativity",
-            "“I imagine this midnight moment’s forest” – consciousness, natural also used as a metaphor for the creative process",
+            "” – consciousness, natural also used as a metaphor for the creative process",
             "Creativity is gradual visitation rather than a violent strike",
-            "Inspiration appears tentatively – “a fox’s nose touches twig, leaf”",
-            "Careful monosyllables mimic delicate emergence. Creativity is incremental, not explosive.",
-            "“Through the window I see no star” – pointedly refuses the conventional celestial emblem of poetic guidance. There is no romantic muse, divine inspiration, transcendental literary lineage. Statement against literary tradition, relocates inspiration within the earthly and animal rather than some higher force",
-            "The fox enters from the margins of darkness and moves steadily inward. Instead of echoes travelling away from the centre, Hughes’ thought concentrates into distinct form. Creativity is still not fully willed, but it is directional rather than dispersive.",
-            "“Widening deepening greenness” -dactylic, sense of fading and decreasing, fertile unconscious from which the poem emerges",
-            "Hughes’ fox is never riderless or anarchic: it leaves “neat prints” in the snow.",
-            "“with sudden sharp hot stink of fox/ it enter s the dark hole of the head”",
-            "Sharp’ – suggests something surgical about the way inspiration pierces his mind, contrasts with the earlier softness of snow imagery. Sensory vividness or intellectual acuity?",
-            "‘Stink’ signals that poetry originates in what civilisation represses – instinct, animality, the unconscious. Hughes aligns creativity with evolutionary impulse and raw animality rather than divine inspiration",
-            "FORM:",
-            "The poem’s almost chiastic movement inward and outward, with the repeated “And now, and now” at its centre, creates a cyclical atrocity",
-            "Hughes closes with the simple “The page is printed”. Unlike Plath’s stars, which expose the insufficiency of words, Hughes ends with successful embodiment: the invisible movement of thought has left visible marks,"
+            "Inspiration appears tentatively – “",
+            "Careful monosyllables mimic delicate emergence.",
+            "Creativity is incremental, not explosive.",
+            "– pointedly refuses the conventional celestial emblem of poetic guidance.",
+            "There is no romantic muse, divine inspiration, transcendental literary lineage.",
+            "Statement against literary tradition, relocates inspiration within the earthly and animal rather than some higher force",
+            "The fox enters from the margins of darkness and moves steadily inward.",
+            "Instead of echoes travelling away from the centre, Hughes’ thought concentrates into distinct form.",
+            "Creativity is still not fully willed, but it is directional rather than dispersive.",
+            "-dactylic, sense of fading and decreasing, fertile unconscious from which the poem emerges",
+            "Hughes’ fox is never riderless or anarchic: it leaves “",
+            "in the snow.",
+            "Sharp’ – suggests something surgical about the way inspiration pierces his mind, contrasts with the earlier softness of snow imagery.",
+            "Sensory vividness or intellectual acuity?",
+            "‘Stink’ signals that poetry originates in what civilisation represses – instinct, animality, the unconscious.",
+            "Hughes aligns creativity with evolutionary impulse and raw animality rather than divine inspiration",
+            "The poem’s almost chiastic movement inward and outward, with the repeated “",
+            "” at its centre, creates a cyclical atrocity",
+            "Hughes closes with the simple “",
+            "Unlike Plath’s stars, which expose the insufficiency of words, Hughes ends with successful embodiment: the invisible movement of thought has left visible marks,"
           ]
         }
       },
@@ -4727,72 +4943,90 @@
           "poems": [
             "Cut"
           ],
-          "quotes": [
+          "text_quotes": [
             "A flap like a hat",
             "Whose side are they on?",
-            "Redcoats",
             "I am ill. I have taken a pill to kill",
             "A million soldiers run, redcoats, every one.",
-            "the poem explores the way war and violence become banal and morally ambiguous.",
             "Your turkey wattle",
             "The Indian’s axed your scalp",
             "The stain on your gauze Klu Klux Klan",
-            "dissociates the speaker from the injury",
-            "explore the anaesthetising effects of spectatorship.",
             "Dirty girl"
           ],
+          "critic_quotes": [
+            {
+              "quote": "Deborah Nelson: “the poem explores the way war and violence become banal and morally ambiguous.”",
+              "critic": ""
+            },
+            {
+              "quote": "Deborah Nelson: “dissociates the speaker from the injury” allowing the poem to “explore the anaesthetising effects of spectatorship.”",
+              "critic": ""
+            }
+          ],
+          "context": [
+            "idea credited to Hannah Ardent in her book The Banality of Evil (1961)",
+            "Image would’ve been especially associated with a very present violence for readers as, at the time Plath was writing, the third clan was opposing the civil rights movement in the 60s and committing savage racist attacks"
+          ],
           "bullets": [
-            "‘Cut’",
             "Although triggered by a minor personal injury, Plath rapidly expands the poem into a mediation on the universal legacy of historic violence and the collective shame it produces",
             "The cut finger becomes a symbolic wound through which national and human brutality erupts",
-            "“A flap like a hat” – unexpected, almost playful comparison creates discomfort by trivialising the wound, highlighting the banality if violence, an idea credited to Hannah Ardent in her book The Banality of Evil (1961)",
-            "Re-emphasised in juvenile register of “Whose side are they on?”",
+            "– unexpected, almost playful comparison creates discomfort by trivialising the wound, highlighting the banality if violence, an",
+            "Re-emphasised in juvenile register of",
             "“Redcoats” and the American war for independence is seen as a thrilling game rather than a tragedy.",
             "Comments on how violence can become spectacle",
             "Like a childish audience watching a game – the way collective audiences turn historical warfare into binary entertainment",
-            "Rhyme of “I am ill. I have taken a pill to kill” – gives impression of a kind of childish chant or nursery rhyme, how we underplay the significance of acts of violence.",
-            "Similar effect with sing-song rhythm of “A million soldiers run, redcoats, every one.”",
+            "– gives impression of a kind of childish chant or nursery rhyme, how we underplay the significance of acts of violence.",
+            "Similar effect with sing-song rhythm of",
             "Transforms a drop of blood into the entire history of the American War of Independence",
-            "Deborah Nelson: “the poem explores the way war and violence become banal and morally ambiguous.”",
-            "“Your turkey wattle” interwoven with extremely violent images “The Indian’s axed your scalp” – relates brutality to an image of Thanksgiving and celebration, directly criticising his historic American violence is honoured in the name of patriotism rather than being recognised for the devastation it was.",
-            "The loaded image of “The stain on your gauze Klu Klux Klan” – refers to the white hoods of white supremacist organisation founded in 1865. Image would’ve been especially associated with a very present violence for readers as, at the time Plath was writing, the third clan was opposing the civil rights movement in the 60s and committing savage racist attacks.",
+            "interwoven with extremely violent images",
+            "– relates brutality to an image of Thanksgiving and celebration, directly criticising his historic American violence is honoured in the name of patriotism rather than being recognised for the devastation it was.",
+            "The loaded image of “",
+            "– refers to the white hoods of white supremacist organisation founded in 1865.",
             "The image of the gauze creates the sense of an attempt to mask and hide the violence but the blood shows through anyways.",
             "Combined with the poem’s historic references moving from past present creates the idea that the guilt and shame of American violence is generational and ignoring it or worse, celebrating it, only allows it to continue.",
-            "Deborah Nelson: “dissociates the speaker from the injury” allowing the poem to “explore the anaesthetising effects of spectatorship.” – perhaps the poem is intentionally distant to show how ignorance and dismissiveness towards the violence in our history can facilitate further violence and being a spectator can desensitise us to the tragedy.",
-            "“Dirty girl” – speaker ends not with pain but with shame and contamination. Dirty implies moral pollution. She wants to cleanse herself and purge herself of the guilt and in a way, this is exactly what the poem is meant to be for the speaker, an act of catharsis.",
+            "– perhaps the poem is intentionally distant to show how ignorance and dismissiveness towards the violence in our history can facilitate further violence and being a spectator can desensitise us to the tragedy.",
+            "– speaker ends not with pain but with shame and contamination.",
+            "Dirty implies moral pollution.",
+            "She wants to cleanse herself and purge herself of the guilt and in a way, this is exactly what the poem is meant to be for the speaker, an act of catharsis.",
             "Exposes a universal tendency to watch, narrativise and therefore normalise violence until shame finally breaks through"
           ]
         },
         "hughes": {
           "poems": [
-            "Snowdrop",
-            "Too"
+            "Snowdrop"
           ],
-          "quotes": [
+          "text_quotes": [
             "Now the globe shrunk tight/ Round the mouse’s dulled withering heart",
             "as if moulded in brass",
             "She too pursues her ends",
-            "Her pale head hangs heavy as metal",
-            "Dramatic departure from the prevailing modes of the period"
+            "Her pale head hangs heavy as metal"
+          ],
+          "critic_quotes": [
+            {
+              "quote": "Dramatic departure from the prevailing modes of the period",
+              "critic": "Shaw"
+            }
+          ],
+          "context": [
+            "Hughes reaction against the movement poets (everyday life; lyric in simple language)"
           ],
           "bullets": [
-            "‘Snowdrop’",
             "Explores the universal struggle to survive",
-            "“Now the globe shrunk tight/ Round the mouse’s dulled withering heart” – combination of micro and microcosmic imagery creates a sense of asphyxiation and contraction while the assonance gives the line a soporific quality",
+            "– combination of micro and microcosmic imagery creates a sense of asphyxiation and contraction while the assonance gives the line a soporific quality",
             "Enjambment of the lines also subtly evokes the constriction as the first line seems to exert its grip around the following.",
-            "Weasel and crow described as moving “as if moulded in brass” – animals’ movements appear heavy and stiff from the cold",
+            "Weasel and crow described as moving",
+            "– animals’ movements appear heavy and stiff from the cold",
             "Use of manmade imagery when describing nature creates a sense of the industrial brutality of winter.",
-            "“She too pursues her ends” – exposes ultimately hopeful attitude of the poem",
+            "– exposes ultimately hopeful attitude of the poem",
             "Due to the snowdrop’s ability to adapt, it makes it out and survives the harshness of winter in the end.",
             "‘Too’ places the flower in the same universal struggle as the other animals in the poems: all life is engaged in relentless survival",
-            "“Her pale head hangs heavy as metal” – encapsulates how violence engenders more violence in the natural world.",
+            "– encapsulates how violence engenders more violence in the natural world.",
             "It is this quality of nature, its resilience and ability to survive against all odds, that makes it so powerful.",
             "Winter in the poem is not sentimentalised as picturesque; it is a testing ground in which living things become harsher in order to persist",
             "Universal biological truth",
             "BOTH POEMS begin with seemingly small focal points (cut thumb, snowdrop) but expand outward into universal experiences larger than the individual speaker",
             "Both suggest that violence is cyclical and self-perpetuating",
             "Plath’s conclusion is contaminated and guilty whereas Hughes’ is admiring and hopeful",
-            "Hughes reaction against the movement poets (everyday life; lyric in simple language) “Dramatic departure from the prevailing modes of the period” Shaw",
             "Hughes rejects the movements underlying belief that poetry should emerge from civilised consciousness",
             "The creative process is irrational rather than intellectual",
             "The language is sensuous and incantatory rather than plain-speaking"

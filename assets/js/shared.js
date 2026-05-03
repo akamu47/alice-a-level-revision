@@ -57,8 +57,20 @@ function dayOfYear() {
 }
 
 function getDailyQuote() {
-  const idx = dayOfYear() % window.DAILY_QUOTES.length;
-  return window.DAILY_QUOTES[idx];
+  // In share mode, hide quotes from "Dad" — those are personal to Alice.
+  const pool = (typeof isShareMode === 'function' && isShareMode())
+    ? window.DAILY_QUOTES.filter(q => q.author !== 'Dad')
+    : window.DAILY_QUOTES;
+  const idx = dayOfYear() % pool.length;
+  return pool[idx];
+}
+
+// Returns the EXAMS list, stripped of seat numbers when running in share mode.
+function getExams() {
+  if (typeof isShareMode === 'function' && isShareMode()) {
+    return window.EXAMS.map(e => ({ ...e, seat: '—' }));
+  }
+  return window.EXAMS;
 }
 
 function timeUntil(dateStr) {
@@ -333,8 +345,246 @@ function el(tag, attrs = {}, ...children) {
   return e;
 }
 
+/* =========================================================================
+   BLURT-FIRST RECALL — universal forced-recall component
+   =========================================================================
+   Usage:
+     blurtRecall({
+       prompt: 'What does Adam say?',                       // shown above input
+       targets: [{label:'quote-1', text:'…the bond of nature…'}, ...],
+       hint: cardData => 'first letters: T b o n d…',       // optional fn or string
+       reveal: () => HTMLElement,                           // builds the staggered reveal
+       onComplete: ({score}) => { // set confidence, advance
+     })
+   The widget enforces:
+     - input box where user must blurt or click 'Don't know' / 'Hint' to proceed
+     - fuzzy match against any target → ✓ / close / no
+     - stagger-animated reveal (uses .stagger-item)
+     - a non-empty placeholder so the reveal box is never blank
+   ========================================================================= */
+function blurtRecall(opts) {
+  const wrap = el('div', { class: 'blurt-wrap' });
+
+  // Prompt
+  if (opts.prompt) wrap.appendChild(el('p', { class: 'blurt-prompt' }, opts.prompt));
+
+  // Input row — textarea (multi-line for quote recall)
+  const input = el('textarea', {
+    placeholder: opts.placeholder || 'Type what you remember… (Enter to check, Shift+Enter for newline)',
+    class: 'blurt-input',
+    rows: '3'
+  });
+  wrap.appendChild(input);
+
+  // Buttons row
+  const btnRow = el('div', { class: 'blurt-btns' });
+  const checkBtn = el('button', { class: 'btn btn-primary' }, '✓ Check');
+  const hintBtn = el('button', { class: 'btn btn-ghost' }, '💡 Hint');
+  const dontKnowBtn = el('button', { class: 'btn btn-ghost' }, '? Don\u2019t know');
+  btnRow.appendChild(checkBtn);
+  btnRow.appendChild(hintBtn);
+  btnRow.appendChild(dontKnowBtn);
+  wrap.appendChild(btnRow);
+
+  // Score / hint area
+  const scoreEl = el('div', { class: 'blurt-score' });
+  wrap.appendChild(scoreEl);
+
+  // Reveal area (filled on action)
+  const revealEl = el('div', { class: 'blurt-reveal' });
+  wrap.appendChild(revealEl);
+
+  let resolved = false;
+  let hintLevel = 0; // increments on each hint click
+
+  function bestMatch(text) {
+    if (!text || !opts.targets) return { sim: 0, target: null };
+    let best = { sim: 0, target: null };
+    opts.targets.forEach(t => {
+      const s = similarity(text, t.text);
+      if (s > best.sim) best = { sim: s, target: t };
+    });
+    return best;
+  }
+
+  function showScore(sim) {
+    let label, cls;
+    if (sim >= 0.75) { label = '✓ Strong recall — ' + Math.round(sim*100) + '%'; cls = 'good'; }
+    else if (sim >= 0.40) { label = '~ Close — ' + Math.round(sim*100) + '% match'; cls = 'close'; }
+    else if (sim > 0) { label = '✗ Not quite — ' + Math.round(sim*100) + '%'; cls = 'no'; }
+    else { label = '✗ No match yet'; cls = 'no'; }
+    scoreEl.innerHTML = '';
+    scoreEl.appendChild(el('span', { class: 'blurt-score-pill ' + cls }, label));
+  }
+
+  function reveal(reason) {
+    if (resolved) return;
+    resolved = true;
+    input.disabled = true;
+    checkBtn.disabled = true;
+    hintBtn.disabled = true;
+    dontKnowBtn.disabled = true;
+    // Compute final similarity
+    const guess = input.value.trim();
+    const bm = bestMatch(guess);
+    if (reason === 'check') showScore(bm.sim);
+    else if (reason === 'dontknow') {
+      scoreEl.innerHTML = '';
+      scoreEl.appendChild(el('span', { class: 'blurt-score-pill no' }, 'No problem — here it is. Re-read carefully.'));
+    }
+    // Build the staggered reveal
+    const content = opts.reveal ? opts.reveal() : el('div', { class: 'muted' }, '(no notes)');
+    revealEl.innerHTML = '';
+    revealEl.appendChild(content);
+    // Apply stagger animation to direct children of content
+    const items = Array.from(content.querySelectorAll('.stagger-item'));
+    items.forEach((it, ix) => {
+      it.style.animationDelay = (ix * 140) + 'ms';
+      it.classList.add('stagger-go');
+    });
+    if (opts.onComplete) {
+      // Pass score so caller can set confidence accordingly
+      opts.onComplete({ score: bm.sim, reason });
+    }
+  }
+
+  function showHint() {
+    hintLevel++;
+    let h;
+    if (typeof opts.hint === 'function') h = opts.hint(hintLevel);
+    else if (typeof opts.hint === 'string') h = opts.hint;
+    else if (opts.targets && opts.targets[0]) {
+      // Default: progressive first-letter hint
+      const txt = opts.targets[0].text || '';
+      const words = txt.split(/\s+/).slice(0, 8);
+      if (hintLevel === 1) {
+        // Show first letter of each word
+        h = '🔡 ' + words.map(w => w[0] ? w[0] + '_'.repeat(Math.max(0, w.length - 1)) : '').join(' ');
+      } else if (hintLevel === 2) {
+        // Show first two words
+        h = '✏️ Starts with: \u201c' + words.slice(0, 2).join(' ') + '…\u201d';
+      } else {
+        // Show half the quote
+        h = '📖 First half: \u201c' + txt.slice(0, Math.floor(txt.length / 2)) + '…\u201d';
+      }
+    } else {
+      h = '(no hint available)';
+    }
+    scoreEl.innerHTML = '';
+    scoreEl.appendChild(el('span', { class: 'blurt-score-pill close' }, h));
+  }
+
+  checkBtn.addEventListener('click', () => reveal('check'));
+  dontKnowBtn.addEventListener('click', () => reveal('dontknow'));
+  hintBtn.addEventListener('click', showHint);
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); reveal('check'); }
+  });
+
+  setTimeout(() => input.focus(), 60);
+  return wrap;
+}
+
+/* -------------------------------------------------------------------------
+   wrapStaggerItems(parent) — utility: walks direct children of `parent` and
+   adds the `.stagger-item` class so blurtRecall can animate them in turn.
+   Also assigns visual variation: alternating colour accents, slight font-size
+   variation, and rotating display fonts for memorability.
+   ------------------------------------------------------------------------- */
+function wrapStaggerItems(parent) {
+  const accents = ['var(--c1)','var(--c8)','var(--c5)','var(--c3)','var(--c10)','var(--c4)','var(--c7)','var(--c2)'];
+  const sizes  = ['1.05rem','1.15rem','1rem','1.1rem'];
+  const fonts  = ['var(--font-display)','var(--font-display)','var(--font-sans)']; // mostly serif
+  Array.from(parent.children).forEach((child, i) => {
+    child.classList.add('stagger-item');
+    if (!child.style.borderLeft) child.style.borderLeft = '3px solid ' + accents[i % accents.length];
+    if (!child.style.fontSize)   child.style.fontSize   = sizes[i % sizes.length];
+    if (!child.style.fontFamily) child.style.fontFamily = fonts[i % fonts.length];
+    child.style.paddingLeft = child.style.paddingLeft || '12px';
+    child.style.marginBottom = child.style.marginBottom || '8px';
+  });
+  return parent;
+}
+
+/* -------------------------------------------------------------------------
+   buildClozeQuote(targetText) — returns:
+     { gappedNode: HTMLElement, check: (input) => similarity }
+   Two cloze styles: whole-gap (entire quote hidden, one input box) and
+   first-two-words (shows the first 2 words then a long gap to complete).
+   ------------------------------------------------------------------------- */
+function buildClozeQuote(text, mode) {
+  const wrap = el('div', { class: 'cloze' });
+  const words = text.split(/\s+/);
+  if (mode === 'whole') {
+    wrap.appendChild(el('span', { class: 'cloze-gap' }, '_'.repeat(Math.min(40, text.length))));
+  } else {
+    // first-two-words variant
+    const first = words.slice(0, 2).join(' ');
+    wrap.appendChild(el('span', { class: 'cloze-shown' }, '\u201c' + first + ' '));
+    wrap.appendChild(el('span', { class: 'cloze-gap' }, '_'.repeat(Math.min(40, text.length - first.length))));
+    wrap.appendChild(el('span', { class: 'cloze-shown' }, '\u201d'));
+  }
+  return wrap;
+}
+
+/* -------------------------------------------------------------------------
+   isShareMode() / shareUserName() / shouldHidePersonal()
+   ------------------------------------------------------------------------- */
+function isShareMode() {
+  return location.pathname.includes('/share') ||
+         location.search.includes('share=1') ||
+         location.hash === '#share' ||
+         (typeof sessionStorage !== 'undefined' && sessionStorage.getItem('alice_rev_share_session') === '1');
+}
+
+// Persist share mode for the session so internal links don't break it.
+(function persistShareMode() {
+  if (typeof sessionStorage === 'undefined') return;
+  if (location.search.includes('share=1') || location.pathname.includes('/share')) {
+    try { sessionStorage.setItem('alice_rev_share_session', '1'); } catch (e) {}
+  }
+})();
+
+// In share mode, replace the "Alice's Revision" brand text with a generic label.
+(function rebrandInShareMode() {
+  if (typeof document === 'undefined') return;
+  document.addEventListener('DOMContentLoaded', () => {
+    if (!isShareMode()) return;
+    document.body.classList.add('share-mode');
+    const brand = document.querySelector('.nav .brand');
+    if (brand) brand.textContent = 'A-Level Revision';
+    if (document.title.includes("Alice's Revision")) {
+      document.title = document.title.replace("Alice's Revision", 'A-Level Revision');
+    }
+  });
+})();
+
+// Patch internal navigation in share mode so the ?share=1 flag survives clicks.
+(function patchShareLinks() {
+  if (typeof document === 'undefined') return;
+  document.addEventListener('click', e => {
+    if (!isShareMode()) return;
+    const a = e.target.closest && e.target.closest('a[href]');
+    if (!a) return;
+    const href = a.getAttribute('href');
+    if (!href) return;
+    // Skip external, mailto, and anchor-only links
+    if (/^(https?:|mailto:|tel:|#)/i.test(href)) return;
+    if (href.includes('share=1')) return;
+    // Append ?share=1 (or &share=1) to the href just-in-time
+    const sep = href.includes('?') ? '&' : '?';
+    a.setAttribute('href', href + sep + 'share=1');
+  }, true);
+})();
+function shareUserName() {
+  return recall('share_name', null);
+}
+function setShareUserName(name) {
+  store('share_name', name);
+}
+
 // --- Cache busting hint -----------------------------------------------
-window.APP_VERSION = '20260503180620';
+window.APP_VERSION = '20260503184446';
 
 // --- Register service worker (cache-busted per deploy) ----------------
 (function registerSW() {
