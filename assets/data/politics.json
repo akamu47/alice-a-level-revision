@@ -1,0 +1,2065 @@
+{
+  "subject": "Politics — Paper 1: UK Politics",
+  "exam_date": "2026-05-21T09:00:00",
+  "exam_label": "Thu 21 May, 09:00",
+  "duration": "2h",
+  "seat": "F4",
+  "centre": "MSC Mezzanine",
+  "board": "Edexcel",
+  "code": "9PL0/01",
+  "case_studies": [
+    {
+      "name": "ASH (Action on smoking and health)",
+      "type": "case_study",
+      "buckets": {
+        "Overview": [
+          "Founded in 1967 by academics and interested parties",
+          "Objectives include the spreading of knowledge about the harmful effects of tobacco use and pressing governments to adopt policies and laws to reduce tobacco use"
+        ],
+        "Methods": [
+          "Conducts research and shares existing research into the effects of tobacco with the government and the public",
+          "Sponsored research into the effects of passive smoking and e-cigarettes",
+          "Largely an insider group, concentrating on lobbying law-makers and governments",
+          "It mainly uses scientific data to underpin its case"
+        ],
+        "Successes": [
+          "Restrictions on advertising tobacco products and tobacco sponsorship",
+          "Health warnings on cigarette packs",
+          "Persuading government to increase tax on tobacco to deter consumers",
+          "Restricting point-of-sale advertising and promotion",
+          "Campaigning for the law banning smoking in public spaces",
+          "Persuading government to develop a law banning smoking in cars carrying children",
+          "Persuading government to consider adding messages to quit smoking inside packets of cigarettes"
+        ],
+        "Failures": [
+          "As of yet, has not succeeded in changing government policy in the area of vaping, struggling with colourful adverts for vapes that appeal to children"
+        ]
+      }
+    },
+    {
+      "name": "The RMT union (national union of rail, maritime and transport workers)",
+      "type": "case_study",
+      "buckets": {
+        "Overview": [
+          "Founded in 1990 through the merger of two other union groups",
+          "Objectives include the promotion of better pay and conditions for its members, including shorter hours and safer working environments"
+        ],
+        "Methods": [
+          "Negotiates contracts with major transport companies (e.g TFL) on behalf of its members",
+          "Lobbies governments for better legislative protections and workers’ safety",
+          "Organises and conducts strikes to pressure employers to meet its demands, which can be effective due to the dominance of the RMT in key sectors, such as tube drivers in London",
+          "Runs its own credit union to help support its members financially",
+          "Mostly affiliated with the Labour Party, has in the past put up candidates for election and endorsed other parties that it feels better represents its members’ interests"
+        ],
+        "Successes": [
+          "2016 the RMT secured 500 pound consolidation payment to all operational staff following the introduction of the Night Tube service",
+          "Has helped members bring legal cases following injury and wrongful termination, including a 55,000 pound payment to a member who lost the tip of an index finger in an industrial accident",
+          "Securing bonus payments for workers during the 2012 olympics",
+          "Repeal of the minimum Service Levels 2024",
+          "Improving safety standards on offshore oil platforms as well as on trains and ferries"
+        ],
+        "Failures": [
+          "Union condemned the implementation of Network Rail’s modernising maintenance program which was forced through without union agreement and led to a significant cut in jobs and increased safety risks",
+          "Ticket office closures 2015-2016 – series of 48 hour strikes and legal challenges but failed to stop TFL from closing 289 ticket offices by June 2016",
+          "Pressure group effects:",
+          "Insider groups can have very good leverage such as the NFU and British Bankers Association and Stonewall. If the group is trusted by gov they have more influence",
+          "Pressure groups can mount legal challenges – Gov policy on Rwanda criticised by Amnesty International. Upon the passing of the Safety of Rwanda Bill, Amnesty stated it would ‘leave a stain on this country’s moral reputation’",
+          "Sisters Uncut significantly impact the MET police by challenging their handling of the Sarah Everard case, forcing legal, cultural and leadership changes",
+          "River action – pressuring the government and agricultural supply chains to address pollution, specifically citing the crisis in the River Wye",
+          "The Environment Agency works with government to shape policies for the UK’s 2050 Net Zero target, including developing guidance for carbon capture and storage (CCS) and hydrogen production"
+        ]
+      }
+    },
+    {
+      "name": "Chatham House",
+      "type": "think_tank",
+      "buckets": {
+        "Overview": [],
+        "Funding": [
+          "Charity that does not take any government funding",
+          "Funded by diverse mi of membership fees, corporate partners (shell, Chevron, Apple, BP) and foundations (Carnegie Corp etc)"
+        ],
+        "Client list": [
+          "Chatham House publicly lists its major donors and corporate members which constitute its primary funding source rather than a confidential ‘client list’"
+        ],
+        "Aims": [
+          "Try to champion human rights and strive for a more just world and influence the international stage"
+        ],
+        "Methods": [
+          "Chatham House Rule, a principle for confidential discussions where participants can use information but not reveal the speaker’s identity or affiliation, encouraging open dialogue on sensitive topics by providing anonymity"
+        ],
+        "Successes": [
+          "Venezuela Roadmap: developed a plan to restart democracy negotiations, influencing international business and investors",
+          "Convened experts on climate risk and co-founded the Public AI Network to guide technology policy for the common good",
+          "Contributed research on NATO’s role in climate security challenges"
+        ],
+        "Failures": [
+          "Concerns about outdated image",
+          "Influenced by special interests, perceived elitism, potential alignment with western foreign policy agenda",
+          "Accusations that the ‘Chatham House rule’ has not been properly kept",
+          "Think tank influence:",
+          "IEA (institute of Economic Affairs) is a free-market think tank with close links to the Conservative party. Kwarteng’s failed mini budget of 2020 was heavily in line with the ideas of the IEA",
+          "The Centre for Policy Studies and the Adam Smith Institute were central to Thatcherism (1979-1990)",
+          "2020 Tory government were scrutinised by the National Institute of Economic and Social Research about the gov’s budget and raised questions over the viability of its growth targets",
+          "Senior officials in Demos (politically neutral think tank that is used by lots of sitting governments) were given roles in New Labour"
+        ]
+      }
+    },
+    {
+      "name": "PLMR (political lobbying and media relations limited)",
+      "type": "lobbies",
+      "buckets": {
+        "Overview": [
+          "Funding: Funded by charity clients and donates 5% of its profits to Charity",
+          "Clients :DHL, Cancer Research UK, The Food Foundation (Marcus Rashford)",
+          "Aims :To influence public opinion and help shape political policy"
+        ],
+        "Methods": [
+          "Combining deep political expertise (e.g Anne Milton former Tory MP who had ministerial roles in health) with public relations, media, and digital skills to influence policy and public opinion for clients, focusing on stakeholder engagement",
+          "Success",
+          "Boost Bingo Campaign: Won the Public Affairs Campaign Category at the 2021 PR week awards for the Bingo Association",
+          "Food foundation: supported the creation of a map to show locations providing free school meals to children during the school holidays",
+          "Lobbying scandals:",
+          "Investigations by The Times revealed that major tobacco firms have been secretly funding ‘independent’ activist groups and lobbying campaigns to promote e-cigarettes and block regulations on youth vaping in the UK",
+          "The Guardian reported that Entain, the owner of Ladbrokes, funded a lobbying operation aimed at weakening proposed government gambling reforms, despite publicly supporting them"
+        ]
+      }
+    },
+    {
+      "name": "Starbucks",
+      "type": "corporations",
+      "buckets": {
+        "Overview": [],
+        "Funding": [
+          "The Starbucks Foundation, along with global Licensee partners, have provided over $3million to World Central Kitchen to provide more than 1 million meals to families in Gaza"
+        ],
+        "Successes": [
+          "NHS Charities Together (UK): Supports NHS staff and communities, donating food, drink and funds for well-being",
+          "Harry Kane Foundation/ Bounce Forward (UK): Supports youth mental health initiatives",
+          "Too Good To Go – partnered with Europe to prevent excessive food waste and surplus"
+        ],
+        "Failures": [
+          "Starbucks continues to open new stores in the UAE as part of broader regional expansion, despite the UAE funding the militias groups in the Sudan Civil War",
+          "Boycott related losses: Following the start of the conflict in Gaza in October 2023, Starbucks faced significant boycotts over perceived support for Israel, leading to reported $11billlion drop in market value between November and December 2023",
+          "Do pressure groups enhance or threaten democracy?",
+          "Factors influencing the success of pressure groups",
+          "RIGHTS",
+          "Common law rights: The traditional status of rights in the UK has been that every citizen was assumed to have rights unless they were prohibited by law. ‘Negative rights’. Rights were also sometimes specifically stated as a result of a court case when these rights were in dispute, in doing so a judge was declaring Common Law. This creates judicial precedent.",
+          "HRA 1998: The HRA brought into effect the ECHR, which was established by the Council of Europe in 1950. The UK helped to draft the Convention but did not accept it as binding on its government until 1998.",
+          "Traditionally, the UK relied on a series of negative rights, meaning they existed in an absence of law and were very difficult to enforce, with people’s protections very limited.",
+          "With the introduction of the HRA, these negative rights were supplanted by positive rights that had to be legally protected and respected.",
+          "HRA is binding on all public bodies other than the UK parliament (politically binding but not legally binding) and enforced by all courts in the UK",
+          "Freedom of Information Act 2000: Historically, citizens had no right to see information held by public bodies. Labour gov of 1997 thus passed this Act.",
+          "Has proved an invaluable tool for social and political campaigners, for MPs and for the media, allowing them to discover information that was never available in the past. Helped to improve services such as the health service, the police, the civil service and educational establishments by shedding light on their activities.",
+          "It was through the Freedom of Information Act that the Daily Telegraph was able to publicised the MPs expenses scandal of 2009",
+          "The Equality Act 2010: the two parliamentary statutes prior to the Equality Act that established formal equality in the UK (The Race Relations Act 1965 and The Equal Pay act 1970) missed out many important groups in society who have suffered discrimination)",
+          "The Act requires that all legislation and decision-making made by government at any level must take into account formal equality of different sections of society.",
+          "Civil liberties – protect citizens gains they government and state \nCivil rights – atomising we are all born with",
+          "Individual rights – right to freedom of expression, many codified in HRA and ECHR \nCollective rights – rights of interest groups or communities e.g right to religious groups or native communities",
+          "Ashers Baking Company V Lee 2018",
+          "Bakery refused to make a cake that said ‘Support Gay Marriage’",
+          "SC ruled in favour of bakery, holding that the refusal was based on the opposition to the message rather than the personal characteristics of the customer",
+          "R v Director of Public Prosecutions 2021",
+          "Anti arms trade protestors who obstructed a highway near the site of an arms fair",
+          "SC ruled in their favour based off of freedom of expression and peaceful assembly",
+          "Their actions were in line with their right to protest",
+          "Independent Workers Union of GB v Deliveroo 2021",
+          "Deliveroo drivers wanted union power, but the IWGB said because they were single hours contract they weren’t entitled to it",
+          "SC ruled in favour of Deliveroo",
+          "R v Secretary of State for Housing 2020",
+          "Gov wanted to put limits on who could live in public spaces e.g said that homeless people could not live in public spaces, homeless response was that it infringed on their individual lives",
+          "Gov countered with the collective interest of maintaining public spaces and preventing anti-social behaviour",
+          "Court ruled against he claimants arguing that the collective rights of the community were above the individual rights of the homeless",
+          "How effectively does the UKs democracy protect human rights and civil liberties",
+          "Strengths and weaknesses of rights in the UK"
+        ]
+      }
+    },
+    {
+      "name": "Liberty: National Council for Civil Liberties (NCCL)",
+      "type": "rights_group",
+      "buckets": {
+        "Overview": [
+          "Non-profit, operates like a think tank and membership association, causal pressure group",
+          "Founded in 1934 with the aim of challenging government measures to restrict freedoms in the UK and combat the rising threat of fascism",
+          "Its objectives are to fight to protect and uphold civil rights and liberties across the UK and to develop a wider ‘rights culture’ across society"
+        ],
+        "Methods": [
+          "Carries out research and investigations into rights abuses and restrictions and seeks to publicise these through media campaigns",
+          "Uses both mainstream traditional media and social media to spread awareness and develop support",
+          "Supports and brings legal challenges against rights abuses, challenging what it regards as unfair or unjust laws that restrict civil liberties - E.g recent legal challenge to lockdown restrictions",
+          "Providing legal advice and support to cases of discrimination",
+          "Works with government and parliament to advise on legislation and ensure they comply with the HRA",
+          "Regularly organises petitions, protests and public demonstrations to raise awareness of issues"
+        ],
+        "Successes": [
+          "July 2023 Liberty part of group of 290 organisations that singed a Joint Civil Society Statement on the Illegal Immigration Act 2023, explaining why it believed the Act was in violation of key human rights",
+          "June 2023 launched a legal challenge to the home secretary’s use of secondary legislation to introduce new powers to restrict protocols",
+          "2022 Liberty provided a briefing on the Bill of Rights to advise MPs during the Second Reading Stage in the HOC. 2023, the government announced it wasn’t going to move forward with it",
+          "2020 liberty brought case under HRA to successfully pressurise Bournemouth, Christchurch and Poole (BCP) Council into removing parts of the Public spaces Protection Order that had been used to criminalise rough sleepers and beggars"
+        ],
+        "Failures": [
+          "Liberty has failed in its campaign to achieve a ban on the use of facial recognition in the UK< which is still used by many security organisations",
+          "Despite organising online petitions and campaigns against lockdown restrictions, the government continued to impose such restrictions in the name of public health",
+          "October 2019 the Court of Appeal rejected an application by Liberty to bring a legal case that would have prevented a no-deal Brexit from the European Union"
+        ]
+      }
+    },
+    {
+      "name": "Amnesty international",
+      "type": "rights_group",
+      "buckets": {
+        "Overview": [
+          "Founded in London in 1961 by barrister Peter Benenson, who claimed he was inspired by an account of two Portuguese students who had been sentenced to seven years in prison for drinking a toast to liberty",
+          "Operates as a global campaign group or an international NGO",
+          "Protests wherever it believes justice, freedom, truth, and liberty have been denied",
+          "In addition to exposing and ending abuses, it aims to educate society and mobilise the public to create a safer society"
+        ],
+        "Methods": [
+          "Main focus has been on raising public awareness of human rights abuses and other infringements of civil liberties, while also mobilising public support to put pressure on government to act and support reform",
+          "Traditionally done through a letter-writing campaign – local branches and smaller groups tasked with writing to an ‘at-risk individual’ to show support as well as writing letters to the government concerned or to other governments in the hope that they will pressurise the offending government into taking action",
+          "Today, uses email and twitter such as the hashtags #FreeNazanin, which it used to pressurise the Brutus and Iranian governments into releasing the British-Iranian author Nazanin Zaghari-Ratcliffe",
+          "Gives advice and produces template letters and emails for people to fill in themselves",
+          "Organises petitions, public demonstrations and vigils to raise awareness",
+          "Carries out extensive research and publishes reports to highlight issues and educate the public"
+        ],
+        "Successes": [
+          "March 20200, Nazanin Zachariah-Ratcliffe was freed from Iranian imprisonment and returned to the UK",
+          "2020 Amnesty may have contributed to changes to COVID 19 lockdown laws by having supporters petition the government to ensure emergency laws protected the most vulnerable – poverty, disabled, abusive partners",
+          "2018 declared NI near total ban on abortion services incompatible with HRA. Facilitated the ruling , gathered evidence, pressured the government"
+        ],
+        "Failures": [
+          "Amnesty continued to produce reports and raise public concern over Illegal Immigration Bill, but it passed nonetheless",
+          "UK Public Order Act 2022 was passed despite Amnesty’s opposition to it",
+          "Despite Amnesty arranging 38,000 members in online action, unable to prevent the Chinese government from detaining muslim groups living in Chinese territory",
+          "POLITICAL PARTIES",
+          "How effectively do political parties support democracy in the UK",
+          "Should UK parties be state funded?",
+          "Minor parties",
+          "Are minor parties important?",
+          "Is the UK a two-party system?",
+          "CONSERVATIVE POLICIES",
+          "CONSERVATIVE FACTIONS",
+          "LABOUR POLICY:",
+          "LABOUR FACTIONS",
+          "LIBERAL DEMOCRAT FACTIONS",
+          "Has the Labour Party left behind its traditional values?",
+          "Conservative Party’s greatest weakness is its leaders",
+          "Lib Dem’s influential?",
+          "ELECTORAL SYSTEMS",
+          "AMS – Scotland, Wales",
+          "STV – Northern Ireland",
+          "Criteria for evaluating electoral systems: Voter choice, proportionality, governance, representation",
+          "Referendums",
+          "AV Referendum 2011: 5th May",
+          "Turnout v low (42%) and 68% voted no",
+          "Nick Clegg wanted to reform FPTP to help the Lib Dem’s",
+          "Tories campaigned ‘say no to AV’",
+          "AV requires reasonable degree of numeracy and literacy",
+          "Scottish Independence Referendum 2014:",
+          "Called following the growth in popularity of the SNP in the past decade which indicated significant support for independence among the Scottish population",
+          "84.5% turnout, 55% voted against independence",
+          "Post-Brexit Scotland proposed another referendum in 2018 because they had overwhelmingly voted to stay (62% to 38%) but May refused",
+          "Choice was yes or no even though many voters wanted a third option for ‘greater devolution’",
+          "Brexit Referendum 2016",
+          "Held because Cameron promised in Tory 2015 Manifesto",
+          "Growing Eurosceptisim and Tories faced threat from UKIP – 2014 European Parliament elections where UKIP won 26.6% of the vote and was the largest party",
+          "Cameron wanted the debate to be over and thought that leaving it to the people was the only way to do so",
+          "Most MPs wanted to stay",
+          "High turnout of 72.2% - 52% voted to leave and 48% to remain",
+          "Leave = Michael Gove, BOJO, the SUN, the Daily Telegraph, Daily Mail",
+          "Ken Clarke was the only Conservative MP who voted against Cameron’s referendum legislation and argued that issue of EU membership was far too complex to expect citizens to reach a balanced judgement. Knew it would lead to huge misinformation campaigns",
+          "No plan on how to actually ‘get Brexit done’ and thus only formally left in 2020",
+          "VOTING BEHAVIOUR AND THE MEDIA",
+          "1979- Thatcher, 1997- Blair, 2015- Cameron, 2019- Johnson,  2024 – Stamer",
+          "1979 GENERAL ELECTION",
+          "Labour government, which had come to power with a small majority in 1974 had suffered the loss of a number of MPs and repeated crises. By 1979, public opinion had turned against labour, allowing the conservatives, under Margaret Thatcher, to make large gains and win a clear majority",
+          "Conservatives were to be in power for the next 18 years",
+          "Conservatives: 63 more seats than previous election, 43.9% of the vote, 43 seat majority",
+          "Labour: 50 fewer seats than previous election, 36.9% of the vote",
+          "Demographic:",
+          "Sharp decline in number of people describing themselves as ‘working class’ at the time of this election. May have eroded Labour’s vote.",
+          "Conversely, the middle class was growing, helping the conservatives",
+          "Key issue: power of trade unions and economy",
+          "‘Winter of Discontent’: Winter of 1978-1979 there had been a wave of strikes by public-sector workers, leading to bins being left unemptied, shortages of power and disruption of public transport",
+          "Which party was best placed to control union power?",
+          "UK economy saw high inflation, growing unemployment and falling growth. Conservative response was to plan a return to free markets and to curb union power",
+          "They argued that prices would come down if unemployment continued to rise so that wages would fall",
+          "Party leaders",
+          "James Callaghan, Labour PM before the election, ironically had a more favourable image than Thatcher",
+          "Seen as reliable and likeable where Thatcher was seen as distant and too ‘posh’",
+          "Thatcher had also been unpopular as education secretary in the early 1970s",
+          "Some members of the electorate may have been reluctant to vote for a female PM",
+          "Conservatives thus won in spite of rather than because of their leader",
+          "Turnout",
+          "Turnout was a little down on past trends, largely due to abstentions by the working class and union members, who were labour’s core voters",
+          "Opinion polls may have played a role in boosting Conservative turn-it as they showed an increasingly close race",
+          "Campaign",
+          "1979 election was the first campaign where the parties focused on using the media, rather than having the media passively report on what had happened without sharing opinions",
+          "Press conferences were timed to provide stories for the midday news, afternoon walkabouts by leaders were designed to coincide with the early evening news, and major speeches were timed to make the late evening news",
+          "As a result of opinion polls, which showed that the public did not like adversarial campaigns, the two main parties avoided making attacks on each other, especially after criticism was levelled at the conservatives following an insult-laden first ‘attack and’",
+          "While Callaghan certainly ‘won’ the campaign, coming across as the more popular leader and closing the polling gap between labour and the conservatives, it was not enough to win the election",
+          "1997 GENERAL ELECTION",
+          "In 1992, the conservatives had won a fourth election in a row with a majority of 23 seats. Since then. Their reputation as a party of government had suffered and the Labour Party had reformed as ‘New Labour’ under Tony Blair. The 1997 election resulted in the Tory Party’s worst electoral defeat since 1906 and Labour’s largest ever electoral victory",
+          "Massive defeat for conservatives which took them over 10 years to recover, Labour stayed in power for next 13 years",
+          "Labour: 145 more seats than previous election, 43.2% of vote, 179 seat majority",
+          "Conservative: 165 fewer seats than previous election, 30.7% of the vote,",
+          "Demographic:",
+          "Blair and Labour leadership recognised that the traditional working class, Labour’s natural core vote, was diminishing in size and the party couldn’t rely on it to get into power",
+          "Therefore decided to ‘woo’ the middle classes, part of the conservatives’ core vote, by adopting centrist policies",
+          "Young were also persuaded to vote Labour as it represented a break from traditional, out-of-date politics",
+          "Valence:",
+          "Image of Tory party, which had been in power for 18 years, was tired, and the party was divided over Europe",
+          "Tories had also presided over a deep economic recession in the early 1990s – competence",
+          "Labour had no economic record to defend and appeared to be a younger, fresher party, united around a definable set of policies – the ‘third way’",
+          "The main problem for Tories was that the electorate remembered the recession of the late 80s and early 90s and blamed the party for it. General sense that the conservatives mismanaged the economy",
+          "Party leaders",
+          "Conservative Prime Minister John Major appeared grey, unexciting and weak whereas Tony Blair was clearly in command, young and attractive, with a clear vision",
+          "Liberal Democrat leader, Paddy Ashdown, had a positive image which led to 30 seat increase for Lib Dem’s from previous election",
+          "Turnout",
+          "Figure of 71% seems healthy by moderns tankards but was much lower than typical levels in the past",
+          "Beginning of long-term decline in turnout, a watershed in political participation",
+          "Political issues: NHS/ Education and party image",
+          "Both services had been in decline, Labour promised to make huge investments in both in order to raise standards",
+          "Chancellor Gordon Brown promised to be financially responsible, which was a strong message, especially as Labour had a bad reputation as a ‘tax and spend’ party",
+          "Labour was fortunate that economic recovery was under way when it took office, so it could pay for the improvements in public services",
+          "In the years 1992-94 John Major had presided over Conservative Party divided over the Maastricht treaty, which transferred huge amounts of power to the EU, hangover from this still present in 1997, as was the party’s reputation for ‘sleaze’",
+          "Campaign",
+          "Election campaign lasted 6 weeks, far longer than 31 day average previously",
+          "Major hoped this would expose labour divisions and put pressure on Blair",
+          "Both campaigns focused on the leaders, touring marginal seats and using campaign buses and planes",
+          "Labours campaign was strict and well organised, run from the Millbank Media Centre",
+          "Use of media soundbites, like Blair’s three priorities being ‘education, education, education’ helped galvanise the public",
+          "Conservatives focused on fears of Labour restoring union power and Blair being untrustworthy",
+          "Conservative Party had to spend much of its time dealing with the issue of sleaze and financial corruption, which distracted from its wider campaign",
+          "Conservatives tried to focus on negative anti-labour campaign while Labour focused on positive ‘pro-Blair’ campaign",
+          "Elections saw enormous step towards disciplined, media-focused electioneering modelled on US politics",
+          "Policies",
+          "Conservatives tried to focus policies on economic recovery, but the issue of Europe dominated and divided the party, especially with the presence of the Referendum Party",
+          "Labour focused on five specific pledges: cut class sizes in schools, introduce fast track punishment for young offenders, cut NHS waiting lists, get 250,000 unemployed under 15s into work, cut VAT and not raise income tax",
+          "Opinion polls",
+          "Having been spectacularly wrong in 1992, the polls made a more concerted effort to survey a wider cross-section of society",
+          "Much more accurate in 1997, but the legacy of distrust from 1992 meant that New Labour did not believe them and kept campaigning as if they might lose",
+          "By showing Labour as clear favourite, turnout might have been suppressed slightly",
+          "2015 GENERAL ELECTION",
+          "2010 UK saw the creation of its first coalition government since WW2. Lib Dem’s paid the price and were almost wiped out as a parliamentary party, losing seats across England, mostly to the Conservative Party. The SNP broke Labour’s traditional dominance of Scotland and replaced the Lib Dem’s as the third party in Westminster. Conservatives won their first majority since 1992.",
+          "Shock of defeat completely destabilised Labour Party",
+          "Huge left-wing backlash over failed policies of the leadership, leading to the party electing extreme left-winger Jeremy Corbyn in place of Ed Milliband",
+          "Conservatives: 28 more seats than 2010, 36.9% of the vote, 12 seat majority",
+          "Labour: 24 fewer seats than 2010, 30.4% of vote",
+          "SNP: 50 more seats than 2010, 56 seats",
+          "Lib Dem: 48 fewer seats than 2010, 8 seats",
+          "Demographic:",
+          "Large proportion of Labour’s core working-class vote was captured by UKIP, especially in depressed areas of the country",
+          "Lib Dem’s lost all 15 of their seats in southwest England. Dispelled the idea that they had a core vote in that region",
+          "Conservatives dominated south of England as a whole",
+          "SNP nearly swept the board in Scotland, Labour’s regional heartland taken away",
+          "Valence",
+          "All parties suffered from negative image other than SNP",
+          "Conservatives still divided over Europe and immigration",
+          "Lib Dem’s blamed for many of the shortcomings of the previous coalition government",
+          "Labour not trusted with the economy and its competence was constantly called into question",
+          "Media may have had an impact of warning about the dangers of a likely Labour-SNP coalition, as indicated by opinion polls – some voters turned away from this prospect by voting for conservatives",
+          "UKIP took more votes from Labour than conservatives",
+          "Conservatives benefitted from collapse of Lib Dem voting.",
+          "Party leaders",
+          "All leaders other than SNP Nicola Sturgeon suffered a negative image",
+          "David Cameron’s image was the least negative",
+          "Nick Clegg of Lib Dem and Ed Milliband of Labour were both short of public respect",
+          "Political issues: economic management",
+          "Conservatives still more trusted with the economy than Labour",
+          "Election was dominated by the prospect of a referendum on UK membership of the EU",
+          "Conservatives and UKIP were rewarded fir their support of such a referendum",
+          "Scottish referendum of 2014 was a key event, put the SNP in a powerful position in Scotland",
+          "Campaigns",
+          "Second campaign in which televised debates featured",
+          "Cameron refused to debate with Milliband head-to-head, agreeing only to a seven-person leadership debate, which proved bland and made it difficult for Milliband to stand out",
+          "Although Labour focused on the NHS and many celebrity endorsements, Conservatives focused on working families and questioned ‘Labour’s magic money tree’ which was more effective",
+          "Both sides stressed the dangers of possible coalition, either SNP-Labour or Conservative-UKIP",
+          "Conservatives focused heavily on campaigning agains the Lib Dem’s in England as a means of preventing Labour-SNP coalition",
+          "SNP targeted both Labour and Lib Dems for failing to consider Scottish issues",
+          "Policies",
+          "Labour focused on five key pledges: To balance the books and cut the deficit, to freeze energy bills until 2017, to recruit 20,000 more nurses and 8000 more GPs, to prevent Immigrants claiming benefits for 2 years, to reduce uni tuition fees to 6000 per year",
+          "Conservatives pledged to make welfare cuts, but refused to say where these cuts would be until after the election. Promised in/out EU referendum, tax-free income for those on minimum wage, up to 20 hours per week of free childcare",
+          "Opinion polls",
+          "Increasingly reliant on digital methods, got it wrong by underestimating the number of older voters who would turnout and be more likely to vote Tory",
+          "Labour thus chose to fight a campaign on Labour policies rather than anti-conservative",
+          "Labour-SNP threats may have influenced tactical voting and boosted Conservative turnout",
+          "2019 GENERAL ELECTION",
+          "Following the close election and minority government of 2017, both main parties had seen divisions grow. It was not clear how the 2019 election would play out, but Labour’s vote collapsed across the UK, allowing the conservative’s to win their largest majority since the 1987 election. In Scotland, the SNP made significant gains, having fallen back in 2017.",
+          "Conservatives, 47 more seats, 43.6% of vote, 80 seat majority",
+          "Labour, 59 fewer seats, 32.2% of vote",
+          "Conservatives were given a clear mandate and ensured continued dominance of the Conservative Party since 2010. First sizeable majority since the 2005 election and saw Jeremy Corbyn resign as Labour leader.",
+          "Demographic issues:",
+          "Shift in working class support across northern industrial areas as former labour and UKIP voters - tired of the Brexit deadlock, voted for the conservatives over Labour, reducing the ‘red wall’ of northern support",
+          "Labour continued to focus on younger and working-class voters with more socialist manifesto",
+          "Conservatives focused on appealing to older and working class voters angry over the failure to deliver Brexit",
+          "Valence and Brexit",
+          "Parliament had been in chaos since the previous election and the public had been frustrated by all sides’ inability to move forward on Brexit",
+          "Consequently, the clear message being offered by new PM Boris Johnson on Brexit became the main focus of the campaign, compared with the vague and complicated messages of the Labour Party",
+          "The issue of antisemitism dominated the Labour Party in the run-up to the election, as did the formation of new parties, including Nigel Farage’s Brexit Party and the creation of the Independent Group for Change",
+          "The decision of the Brexit party not to contest seats won by the Conservatives in 2010 and seats with strong Conservative Brexit supporters meant the right predominantly only had one party to choose on the issue",
+          "Liberal Democrat had seen their total number of MPs increase to 21 with defections from both Labour and the Conservatives, but this only seemed to alienate supporters who did not want to be associated with members of one of the main parties",
+          "Issue of Scottish independence saw the SNP gain more seats",
+          "Party leaders",
+          "Boris Johnson benefited from having been PM and leader for a limited time and stuck to a strategy of not appearing too often in the media, instead relying on his existing reputation and media profile from his time as London Mayor",
+          "Unlike Theresa May in 2017, he appeared focused and more determined and clear in his policy-making than Jeremy Corbyn",
+          "Nicola Sturgeon continued to enjoy a positive image in Scotland",
+          "Liberal Democrat leader Jo Swanson alienated the public by appearing to lack sincerity and pledging to repeal Article 50",
+          "Turnout",
+          "Turnout saw a slight drop in 2019 from the 69% of 2017, perhaps because this was a less close election than previously but also perhaps because a December election encouraged some voters",
+          "Campaign",
+          "Campaign was more subdued than previous ones partly because it took place during the winter and partly because Johnson seemed to be absent for much of the campaign, appearing in public relatively rarely for a serving leader",
+          "Although he did participate in a head-to-head debate with Corbyn, the main objective seemed to be to let the issue of Brexit persuade the voters",
+          "The slogan ‘Get Brexit Done’, coined by Dominic Cummings, was particularly influential",
+          "Corbyn managed a solid campaign with lots of public speeches but was unable to whip up the enthusiasm he had in 2017",
+          "Social media attack ads were more prevent in this campaign than in any other and the Electoral commission seemed unable to do much about it",
+          "Political issues/ rational choice",
+          "The election cycle was dominated by the extension of the deadline for leaving the EU from October 2019 to January 2020 and the inability of parliament to find a solution for Brexit",
+          "Former big names from both main parties urged members not to vote for their party, including Michael Heseltine and John Major on the Conservative side and Alistair Campbell for Labour",
+          "During the Campaign, floods hit parts of England and Johnson was criticised for not declaring them an emergency",
+          "Journalists from the Labour-supporting Mirror newspaper were banned from the Conservative campaign bus",
+          "Shortly before the election, a NATO summit was held in Watford, allowing Johnson to appear with other world leaders, including President Donald Trump",
+          "Opinion polls",
+          "Opinion polls were again under scrutiny with the memory of 2015",
+          "The polls seemed to indicate a conservative win throughout, which perhaps shaped the campaign as one for the conservatives to lose rather than for Labour to win",
+          "The polls underestimated the scale of conservative victory",
+          "2024 GENERAL ELECTION",
+          "After 14 years of conservative government, Labour achieved a decisive landslide victory under Kier Stamer.",
+          "Labour: 211 more seats, 33.7%, 174 seat majority",
+          "Conservatives: 244 fewer seats, 23.7% of the vote",
+          "Lib Dem: 61 more seats",
+          "Demographic factors",
+          "Collapse of Conservative support in southern England, including safe seats",
+          "Labour regained much of the ‘red wall’",
+          "Lib Dem’s targeted and won affluent southern seats",
+          "Reform split the right-wing vote, attracting disaffected conservative voters",
+          "Valence",
+          "Strong anti-incumbency after 14 years of Conservative rule",
+          "Government failed to follow its own COVID restrictions, ‘partygate scandal’ late 2021, resulted in the resignation of Boris Johnson who had previously been an electoral asset",
+          "Major drop in Conservative Party support in Liz Truss’ 49 day premiership, as the unfounded tax cuts in her 2022 mini-budget caused the pound’s value to plummet",
+          "Multiple leadership changes damaged party image",
+          "Labour seen as stable, moderate, competent – presented itself as the antithesis of the Tories, moved to the centre ground and promised not to raise income tax, national insurance or corporation tax, making the Tory usual attack line ineffective",
+          "Reform UK capitalised on dissatisfaction, especially on immigration",
+          "2/3 public said the conservatives did not deserve to win re-election and over 3/5 believed that government had handled the economy poorly",
+          "Party leaders",
+          "Rishi Sunak was one of the least popular party leaders fighting an election in history, with a net favourability of -51% with the public",
+          "He was tarnished by his involvement with Partygate, left a D-Day event early to attend ITV interview, viewed as smug and out of touch",
+          "Stamer won despite net favourability of -17% on election day according to YouGov",
+          "Stamer emphasised his small town roots in his first campaign speech in 2024 and called himself a ‘real politician’, emphasised working class background to win Labour supporters approval and to position himself as the opposite of the tories",
+          "Political issues/ Rational choice",
+          "Cost-of-living crisis dominant",
+          "NHS crisis",
+          "78% of voters thought the conservatives were handling immigration poorly",
+          "Policies",
+          "In many areas, Labour and Conservatives policies were very similar – both promised to increase defence spending to 2.5%, both promised not to raise income tax, both promised to invest in NHS and tackle illegal immigration",
+          "Campaign",
+          "Lib Dem’s Ed Davey had unique idea of campaigning where he would do many stunts to encourage voters to ‘take the leap’ and vote for Lib Dem’s for the ‘first time’. Stunt like bungee jumping, paddle boarding, slip and slide.",
+          "Labour focused on winning voters where it mattered and targeted swing seats the most.",
+          "The Media",
+          "Tabloid media tends to focus on big scandals e.g Partygate",
+          "Media exposes corruption e.g 2008 MP expenses scandal, prince Andrew, and when scrutinised on question time",
+          "1995 The Sun backs Blair – can change the course of the election outcome",
+          "Rupert Murdoch",
+          "Banning opinion polls?",
+          "Do Polls have a positive impact on UK democracy?",
+          "Individual voting theories",
+          "Valence",
+          "Rational choice",
+          "Issue voting",
+          "Long-term social factors:",
+          "Social class",
+          "Age",
+          "Region",
+          "Ethnicity",
+          "Gender",
+          "Class dealignment",
+          "Partisan dealignment",
+          "Short-term factors:",
+          "Valence",
+          "Economic voting",
+          "Rational choice",
+          "Issue voting",
+          "Tactical voting",
+          "Party leaders",
+          "The press",
+          "Broadcast media",
+          "Social media",
+          "Opinion polls"
+        ]
+      }
+    }
+  ],
+  "elections": [
+    {
+      "year": 1979,
+      "summary": [
+        "Labour government, which had come to power with a small majority in 1974 had suffered the loss of a number of MPs and repeated crises. By 1979, public opinion had turned against labour, allowing the conservatives, under Margaret Thatcher, to make large gains and win a clear majority",
+        "Conservatives were to be in power for the next 18 years"
+      ],
+      "results": [
+        "Conservatives: 63 more seats than previous election, 43.9% of the vote, 43 seat majority",
+        "Labour: 50 fewer seats than previous election, 36.9% of the vote"
+      ],
+      "buckets": {
+        "Demographic": [
+          "Sharp decline in number of people describing themselves as ‘working class’ at the time of this election. May have eroded Labour’s vote.",
+          "Conversely, the middle class was growing, helping the conservatives"
+        ],
+        "Key issue": [
+          "‘Winter of Discontent’: Winter of 1978-1979 there had been a wave of strikes by public-sector workers, leading to bins being left unemptied, shortages of power and disruption of public transport",
+          "Which party was best placed to control union power?",
+          "UK economy saw high inflation, growing unemployment and falling growth. Conservative response was to plan a return to free markets and to curb union power",
+          "They argued that prices would come down if unemployment continued to rise so that wages would fall"
+        ],
+        "Party leaders": [
+          "James Callaghan, Labour PM before the election, ironically had a more favourable image than Thatcher",
+          "Seen as reliable and likeable where Thatcher was seen as distant and too ‘posh’",
+          "Thatcher had also been unpopular as education secretary in the early 1970s",
+          "Some members of the electorate may have been reluctant to vote for a female PM",
+          "Conservatives thus won in spite of rather than because of their leader"
+        ],
+        "Turnout": [
+          "Turnout was a little down on past trends, largely due to abstentions by the working class and union members, who were labour’s core voters",
+          "Opinion polls may have played a role in boosting Conservative turn-it as they showed an increasingly close race"
+        ],
+        "Campaign": [
+          "1979 election was the first campaign where the parties focused on using the media, rather than having the media passively report on what had happened without sharing opinions",
+          "Press conferences were timed to provide stories for the midday news, afternoon walkabouts by leaders were designed to coincide with the early evening news, and major speeches were timed to make the late evening news",
+          "As a result of opinion polls, which showed that the public did not like adversarial campaigns, the two main parties avoided making attacks on each other, especially after criticism was levelled at the conservatives following an insult-laden first ‘attack and’",
+          "While Callaghan certainly ‘won’ the campaign, coming across as the more popular leader and closing the polling gap between labour and the conservatives, it was not enough to win the election"
+        ]
+      }
+    },
+    {
+      "year": 1997,
+      "summary": [
+        "In 1992, the conservatives had won a fourth election in a row with a majority of 23 seats. Since then. Their reputation as a party of government had suffered and the Labour Party had reformed as ‘New Labour’ under Tony Blair. The 1997 election resulted in the Tory Party’s worst electoral defeat since 1906 and Labour’s largest ever electoral victory",
+        "Massive defeat for conservatives which took them over 10 years to recover, Labour stayed in power for next 13 years"
+      ],
+      "results": [
+        "Labour: 145 more seats than previous election, 43.2% of vote, 179 seat majority",
+        "Conservative: 165 fewer seats than previous election, 30.7% of the vote,"
+      ],
+      "buckets": {
+        "Demographic": [
+          "Blair and Labour leadership recognised that the traditional working class, Labour’s natural core vote, was diminishing in size and the party couldn’t rely on it to get into power",
+          "Therefore decided to ‘woo’ the middle classes, part of the conservatives’ core vote, by adopting centrist policies",
+          "Young were also persuaded to vote Labour as it represented a break from traditional, out-of-date politics"
+        ],
+        "Valence": [
+          "Image of Tory party, which had been in power for 18 years, was tired, and the party was divided over Europe",
+          "Tories had also presided over a deep economic recession in the early 1990s – competence",
+          "Labour had no economic record to defend and appeared to be a younger, fresher party, united around a definable set of policies – the ‘third way’",
+          "The main problem for Tories was that the electorate remembered the recession of the late 80s and early 90s and blamed the party for it. General sense that the conservatives mismanaged the economy"
+        ],
+        "Party leaders": [
+          "Conservative Prime Minister John Major appeared grey, unexciting and weak whereas Tony Blair was clearly in command, young and attractive, with a clear vision",
+          "Liberal Democrat leader, Paddy Ashdown, had a positive image which led to 30 seat increase for Lib Dem’s from previous election"
+        ],
+        "Turnout": [
+          "Figure of 71% seems healthy by moderns tankards but was much lower than typical levels in the past",
+          "Beginning of long-term decline in turnout, a watershed in political participation"
+        ],
+        "Political issues": [
+          "Both services had been in decline, Labour promised to make huge investments in both in order to raise standards",
+          "Chancellor Gordon Brown promised to be financially responsible, which was a strong message, especially as Labour had a bad reputation as a ‘tax and spend’ party",
+          "Labour was fortunate that economic recovery was under way when it took office, so it could pay for the improvements in public services",
+          "In the years 1992-94 John Major had presided over Conservative Party divided over the Maastricht treaty, which transferred huge amounts of power to the EU, hangover from this still present in 1997, as was the party’s reputation for ‘sleaze’"
+        ],
+        "Campaign": [
+          "Election campaign lasted 6 weeks, far longer than 31 day average previously",
+          "Major hoped this would expose labour divisions and put pressure on Blair",
+          "Both campaigns focused on the leaders, touring marginal seats and using campaign buses and planes",
+          "Labours campaign was strict and well organised, run from the Millbank Media Centre",
+          "Use of media soundbites, like Blair’s three priorities being ‘education, education, education’ helped galvanise the public",
+          "Conservatives focused on fears of Labour restoring union power and Blair being untrustworthy",
+          "Conservative Party had to spend much of its time dealing with the issue of sleaze and financial corruption, which distracted from its wider campaign",
+          "Conservatives tried to focus on negative anti-labour campaign while Labour focused on positive ‘pro-Blair’ campaign",
+          "Elections saw enormous step towards disciplined, media-focused electioneering modelled on US politics"
+        ],
+        "Policies": [
+          "Conservatives tried to focus policies on economic recovery, but the issue of Europe dominated and divided the party, especially with the presence of the Referendum Party",
+          "Labour focused on five specific pledges: cut class sizes in schools, introduce fast track punishment for young offenders, cut NHS waiting lists, get 250,000 unemployed under 15s into work, cut VAT and not raise income tax"
+        ],
+        "Opinion polls": [
+          "Having been spectacularly wrong in 1992, the polls made a more concerted effort to survey a wider cross-section of society",
+          "Much more accurate in 1997, but the legacy of distrust from 1992 meant that New Labour did not believe them and kept campaigning as if they might lose",
+          "By showing Labour as clear favourite, turnout might have been suppressed slightly"
+        ]
+      }
+    },
+    {
+      "year": 2015,
+      "summary": [
+        "2010 UK saw the creation of its first coalition government since WW2. Lib Dem’s paid the price and were almost wiped out as a parliamentary party, losing seats across England, mostly to the Conservative Party. The SNP broke Labour’s traditional dominance of Scotland and replaced the Lib Dem’s as the third party in Westminster. Conservatives won their first majority since 1992.",
+        "Shock of defeat completely destabilised Labour Party",
+        "Huge left-wing backlash over failed policies of the leadership, leading to the party electing extreme left-winger Jeremy Corbyn in place of Ed Milliband"
+      ],
+      "results": [
+        "Conservatives: 28 more seats than 2010, 36.9% of the vote, 12 seat majority",
+        "Labour: 24 fewer seats than 2010, 30.4% of vote",
+        "SNP: 50 more seats than 2010, 56 seats",
+        "Lib Dem: 48 fewer seats than 2010, 8 seats"
+      ],
+      "buckets": {
+        "Demographic": [
+          "Large proportion of Labour’s core working-class vote was captured by UKIP, especially in depressed areas of the country",
+          "Lib Dem’s lost all 15 of their seats in southwest England. Dispelled the idea that they had a core vote in that region",
+          "Conservatives dominated south of England as a whole",
+          "SNP nearly swept the board in Scotland, Labour’s regional heartland taken away"
+        ],
+        "Valence": [
+          "All parties suffered from negative image other than SNP",
+          "Conservatives still divided over Europe and immigration",
+          "Lib Dem’s blamed for many of the shortcomings of the previous coalition government",
+          "Labour not trusted with the economy and its competence was constantly called into question",
+          "Media may have had an impact of warning about the dangers of a likely Labour-SNP coalition, as indicated by opinion polls – some voters turned away from this prospect by voting for conservatives",
+          "UKIP took more votes from Labour than conservatives",
+          "Conservatives benefitted from collapse of Lib Dem voting."
+        ],
+        "Party leaders": [
+          "All leaders other than SNP Nicola Sturgeon suffered a negative image",
+          "David Cameron’s image was the least negative",
+          "Nick Clegg of Lib Dem and Ed Milliband of Labour were both short of public respect"
+        ],
+        "Political issues": [
+          "Conservatives still more trusted with the economy than Labour",
+          "Election was dominated by the prospect of a referendum on UK membership of the EU",
+          "Conservatives and UKIP were rewarded fir their support of such a referendum",
+          "Scottish referendum of 2014 was a key event, put the SNP in a powerful position in Scotland"
+        ],
+        "Campaigns": [
+          "Second campaign in which televised debates featured",
+          "Cameron refused to debate with Milliband head-to-head, agreeing only to a seven-person leadership debate, which proved bland and made it difficult for Milliband to stand out",
+          "Although Labour focused on the NHS and many celebrity endorsements, Conservatives focused on working families and questioned ‘Labour’s magic money tree’ which was more effective",
+          "Both sides stressed the dangers of possible coalition, either SNP-Labour or Conservative-UKIP",
+          "Conservatives focused heavily on campaigning agains the Lib Dem’s in England as a means of preventing Labour-SNP coalition",
+          "SNP targeted both Labour and Lib Dems for failing to consider Scottish issues"
+        ],
+        "Policies": [
+          "Labour focused on five key pledges: To balance the books and cut the deficit, to freeze energy bills until 2017, to recruit 20,000 more nurses and 8000 more GPs, to prevent Immigrants claiming benefits for 2 years, to reduce uni tuition fees to 6000 per year",
+          "Conservatives pledged to make welfare cuts, but refused to say where these cuts would be until after the election. Promised in/out EU referendum, tax-free income for those on minimum wage, up to 20 hours per week of free childcare"
+        ],
+        "Opinion polls": [
+          "Increasingly reliant on digital methods, got it wrong by underestimating the number of older voters who would turnout and be more likely to vote Tory",
+          "Labour thus chose to fight a campaign on Labour policies rather than anti-conservative",
+          "Labour-SNP threats may have influenced tactical voting and boosted Conservative turnout"
+        ]
+      }
+    },
+    {
+      "year": 2019,
+      "summary": [
+        "Following the close election and minority government of 2017, both main parties had seen divisions grow. It was not clear how the 2019 election would play out, but Labour’s vote collapsed across the UK, allowing the conservative’s to win their largest majority since the 1987 election. In Scotland, the SNP made significant gains, having fallen back in 2017.",
+        "Conservatives were given a clear mandate and ensured continued dominance of the Conservative Party since 2010. First sizeable majority since the 2005 election and saw Jeremy Corbyn resign as Labour leader."
+      ],
+      "results": [
+        "Conservatives, 47 more seats, 43.6% of vote, 80 seat majority",
+        "Labour, 59 fewer seats, 32.2% of vote"
+      ],
+      "buckets": {
+        "Demographic": [
+          "Shift in working class support across northern industrial areas as former labour and UKIP voters - tired of the Brexit deadlock, voted for the conservatives over Labour, reducing the ‘red wall’ of northern support",
+          "Labour continued to focus on younger and working-class voters with more socialist manifesto",
+          "Conservatives focused on appealing to older and working class voters angry over the failure to deliver Brexit"
+        ],
+        "Valence": [
+          "Parliament had been in chaos since the previous election and the public had been frustrated by all sides’ inability to move forward on Brexit",
+          "Consequently, the clear message being offered by new PM Boris Johnson on Brexit became the main focus of the campaign, compared with the vague and complicated messages of the Labour Party",
+          "The issue of antisemitism dominated the Labour Party in the run-up to the election, as did the formation of new parties, including Nigel Farage’s Brexit Party and the creation of the Independent Group for Change",
+          "The decision of the Brexit party not to contest seats won by the Conservatives in 2010 and seats with strong Conservative Brexit supporters meant the right predominantly only had one party to choose on the issue",
+          "Liberal Democrat had seen their total number of MPs increase to 21 with defections from both Labour and the Conservatives, but this only seemed to alienate supporters who did not want to be associated with members of one of the main parties",
+          "Issue of Scottish independence saw the SNP gain more seats"
+        ],
+        "Party leaders": [
+          "Boris Johnson benefited from having been PM and leader for a limited time and stuck to a strategy of not appearing too often in the media, instead relying on his existing reputation and media profile from his time as London Mayor",
+          "Unlike Theresa May in 2017, he appeared focused and more determined and clear in his policy-making than Jeremy Corbyn",
+          "Nicola Sturgeon continued to enjoy a positive image in Scotland",
+          "Liberal Democrat leader Jo Swanson alienated the public by appearing to lack sincerity and pledging to repeal Article 50"
+        ],
+        "Turnout": [
+          "Turnout saw a slight drop in 2019 from the 69% of 2017, perhaps because this was a less close election than previously but also perhaps because a December election encouraged some voters"
+        ],
+        "Campaign": [
+          "Campaign was more subdued than previous ones partly because it took place during the winter and partly because Johnson seemed to be absent for much of the campaign, appearing in public relatively rarely for a serving leader",
+          "Although he did participate in a head-to-head debate with Corbyn, the main objective seemed to be to let the issue of Brexit persuade the voters",
+          "The slogan ‘Get Brexit Done’, coined by Dominic Cummings, was particularly influential",
+          "Corbyn managed a solid campaign with lots of public speeches but was unable to whip up the enthusiasm he had in 2017",
+          "Social media attack ads were more prevent in this campaign than in any other and the Electoral commission seemed unable to do much about it",
+          "Political issues/ rational choice",
+          "The election cycle was dominated by the extension of the deadline for leaving the EU from October 2019 to January 2020 and the inability of parliament to find a solution for Brexit",
+          "Former big names from both main parties urged members not to vote for their party, including Michael Heseltine and John Major on the Conservative side and Alistair Campbell for Labour",
+          "During the Campaign, floods hit parts of England and Johnson was criticised for not declaring them an emergency",
+          "Journalists from the Labour-supporting Mirror newspaper were banned from the Conservative campaign bus",
+          "Shortly before the election, a NATO summit was held in Watford, allowing Johnson to appear with other world leaders, including President Donald Trump"
+        ],
+        "Opinion polls": [
+          "Opinion polls were again under scrutiny with the memory of 2015",
+          "The polls seemed to indicate a conservative win throughout, which perhaps shaped the campaign as one for the conservatives to lose rather than for Labour to win",
+          "The polls underestimated the scale of conservative victory"
+        ]
+      }
+    },
+    {
+      "year": 2024,
+      "summary": [
+        "After 14 years of conservative government, Labour achieved a decisive landslide victory under Kier Stamer."
+      ],
+      "results": [
+        "Labour: 211 more seats, 33.7%, 174 seat majority",
+        "Conservatives: 244 fewer seats, 23.7% of the vote",
+        "Lib Dem: 61 more seats"
+      ],
+      "buckets": {
+        "Demographic": [
+          "Collapse of Conservative support in southern England, including safe seats",
+          "Labour regained much of the ‘red wall’",
+          "Lib Dem’s targeted and won affluent southern seats",
+          "Reform split the right-wing vote, attracting disaffected conservative voters"
+        ],
+        "Valence": [
+          "Strong anti-incumbency after 14 years of Conservative rule",
+          "Government failed to follow its own COVID restrictions, ‘partygate scandal’ late 2021, resulted in the resignation of Boris Johnson who had previously been an electoral asset",
+          "Major drop in Conservative Party support in Liz Truss’ 49 day premiership, as the unfounded tax cuts in her 2022 mini-budget caused the pound’s value to plummet",
+          "Multiple leadership changes damaged party image",
+          "Labour seen as stable, moderate, competent – presented itself as the antithesis of the Tories, moved to the centre ground and promised not to raise income tax, national insurance or corporation tax, making the Tory usual attack line ineffective",
+          "Reform UK capitalised on dissatisfaction, especially on immigration",
+          "2/3 public said the conservatives did not deserve to win re-election and over 3/5 believed that government had handled the economy poorly",
+          "Rational choice",
+          "Issue voting",
+          "Long-term social factors:",
+          "Social class",
+          "Age",
+          "Region",
+          "Ethnicity",
+          "Gender",
+          "Class dealignment",
+          "Partisan dealignment",
+          "Short-term factors:",
+          "Economic voting",
+          "Rational choice",
+          "Issue voting",
+          "Tactical voting"
+        ],
+        "Party leaders": [
+          "Rishi Sunak was one of the least popular party leaders fighting an election in history, with a net favourability of -51% with the public",
+          "He was tarnished by his involvement with Partygate, left a D-Day event early to attend ITV interview, viewed as smug and out of touch",
+          "Stamer won despite net favourability of -17% on election day according to YouGov",
+          "Stamer emphasised his small town roots in his first campaign speech in 2024 and called himself a ‘real politician’, emphasised working class background to win Labour supporters approval and to position himself as the opposite of the tories",
+          "Political issues/ Rational choice",
+          "Cost-of-living crisis dominant",
+          "NHS crisis",
+          "78% of voters thought the conservatives were handling immigration poorly",
+          "The press",
+          "Broadcast media",
+          "Social media"
+        ],
+        "Policies": [
+          "In many areas, Labour and Conservatives policies were very similar – both promised to increase defence spending to 2.5%, both promised not to raise income tax, both promised to invest in NHS and tackle illegal immigration"
+        ],
+        "Campaign": [
+          "Lib Dem’s Ed Davey had unique idea of campaigning where he would do many stunts to encourage voters to ‘take the leap’ and vote for Lib Dem’s for the ‘first time’. Stunt like bungee jumping, paddle boarding, slip and slide.",
+          "Labour focused on winning voters where it mattered and targeted swing seats the most.",
+          "The Media",
+          "Tabloid media tends to focus on big scandals e.g Partygate",
+          "Media exposes corruption e.g 2008 MP expenses scandal, prince Andrew, and when scrutinised on question time",
+          "1995 The Sun backs Blair – can change the course of the election outcome",
+          "Rupert Murdoch",
+          "Banning opinion polls?",
+          "Do Polls have a positive impact on UK democracy?",
+          "Individual voting theories"
+        ],
+        "Opinion polls": []
+      }
+    }
+  ],
+  "case_law": [
+    {
+      "name": "Ashers Baking Company V Lee 2018",
+      "facts": [
+        "Bakery refused to make a cake that said ‘Support Gay Marriage’"
+      ],
+      "ruling": [
+        "SC ruled in favour of bakery, holding that the refusal was based on the opposition to the message rather than the personal characteristics of the customer"
+      ]
+    },
+    {
+      "name": "R v Director of Public Prosecutions 2021",
+      "facts": [
+        "Anti arms trade protestors who obstructed a highway near the site of an arms fair",
+        "Their actions were in line with their right to protest"
+      ],
+      "ruling": [
+        "SC ruled in their favour based off of freedom of expression and peaceful assembly"
+      ]
+    },
+    {
+      "name": "Independent Workers Union of GB v Deliveroo 2021",
+      "facts": [
+        "Deliveroo drivers wanted union power, but the IWGB said because they were single hours contract they weren’t entitled to it"
+      ],
+      "ruling": [
+        "SC ruled in favour of Deliveroo"
+      ]
+    },
+    {
+      "name": "R v Secretary of State for Housing 2020",
+      "facts": [
+        "Gov wanted to put limits on who could live in public spaces e.g said that homeless people could not live in public spaces, homeless response was that it infringed on their individual lives",
+        "Gov countered with the collective interest of maintaining public spaces and preventing anti-social behaviour",
+        "How effectively does the UKs democracy protect human rights and civil liberties",
+        "Strengths and weaknesses of rights in the UK",
+        "Liberty: National Council for Civil Liberties (NCCL)",
+        "Non-profit, operates like a think tank and membership association, causal pressure group",
+        "Founded in 1934 with the aim of challenging government measures to restrict freedoms in the UK and combat the rising threat of fascism",
+        "Its objectives are to fight to protect and uphold civil rights and liberties across the UK and to develop a wider ‘rights culture’ across society",
+        "Methods",
+        "Carries out research and investigations into rights abuses and restrictions and seeks to publicise these through media campaigns",
+        "Uses both mainstream traditional media and social media to spread awareness and develop support",
+        "Supports and brings legal challenges against rights abuses, challenging what it regards as unfair or unjust laws that restrict civil liberties - E.g recent legal challenge to lockdown restrictions",
+        "Providing legal advice and support to cases of discrimination",
+        "Works with government and parliament to advise on legislation and ensure they comply with the HRA",
+        "Regularly organises petitions, protests and public demonstrations to raise awareness of issues",
+        "Successes",
+        "July 2023 Liberty part of group of 290 organisations that singed a Joint Civil Society Statement on the Illegal Immigration Act 2023, explaining why it believed the Act was in violation of key human rights",
+        "June 2023 launched a legal challenge to the home secretary’s use of secondary legislation to introduce new powers to restrict protocols",
+        "2022 Liberty provided a briefing on the Bill of Rights to advise MPs during the Second Reading Stage in the HOC. 2023, the government announced it wasn’t going to move forward with it",
+        "2020 liberty brought case under HRA to successfully pressurise Bournemouth, Christchurch and Poole (BCP) Council into removing parts of the Public spaces Protection Order that had been used to criminalise rough sleepers and beggars",
+        "Failures",
+        "Liberty has failed in its campaign to achieve a ban on the use of facial recognition in the UK< which is still used by many security organisations",
+        "Despite organising online petitions and campaigns against lockdown restrictions, the government continued to impose such restrictions in the name of public health",
+        "October 2019 the Court of Appeal rejected an application by Liberty to bring a legal case that would have prevented a no-deal Brexit from the European Union",
+        "Amnesty international",
+        "Founded in London in 1961 by barrister Peter Benenson, who claimed he was inspired by an account of two Portuguese students who had been sentenced to seven years in prison for drinking a toast to liberty",
+        "Operates as a global campaign group or an international NGO",
+        "Protests wherever it believes justice, freedom, truth, and liberty have been denied",
+        "In addition to exposing and ending abuses, it aims to educate society and mobilise the public to create a safer society",
+        "Methods",
+        "Main focus has been on raising public awareness of human rights abuses and other infringements of civil liberties, while also mobilising public support to put pressure on government to act and support reform",
+        "Traditionally done through a letter-writing campaign – local branches and smaller groups tasked with writing to an ‘at-risk individual’ to show support as well as writing letters to the government concerned or to other governments in the hope that they will pressurise the offending government into taking action",
+        "Today, uses email and twitter such as the hashtags #FreeNazanin, which it used to pressurise the Brutus and Iranian governments into releasing the British-Iranian author Nazanin Zaghari-Ratcliffe",
+        "Gives advice and produces template letters and emails for people to fill in themselves",
+        "Organises petitions, public demonstrations and vigils to raise awareness",
+        "Carries out extensive research and publishes reports to highlight issues and educate the public",
+        "Successes",
+        "March 20200, Nazanin Zachariah-Ratcliffe was freed from Iranian imprisonment and returned to the UK",
+        "2020 Amnesty may have contributed to changes to COVID 19 lockdown laws by having supporters petition the government to ensure emergency laws protected the most vulnerable – poverty, disabled, abusive partners",
+        "Failures",
+        "Amnesty continued to produce reports and raise public concern over Illegal Immigration Bill, but it passed nonetheless",
+        "UK Public Order Act 2022 was passed despite Amnesty’s opposition to it",
+        "Despite Amnesty arranging 38,000 members in online action, unable to prevent the Chinese government from detaining muslim groups living in Chinese territory"
+      ],
+      "ruling": [
+        "Court ruled against he claimants arguing that the collective rights of the community were above the individual rights of the homeless",
+        "2018 declared NI near total ban on abortion services incompatible with HRA. Facilitated the ruling , gathered evidence, pressured the government"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Direct democracy",
+      "definition": "",
+      "extras": []
+    },
+    {
+      "term": "Representative democracy",
+      "definition": "",
+      "extras": []
+    },
+    {
+      "term": "Digital democracy",
+      "definition": "",
+      "extras": [
+        "Any petition gaining 10,000 signatures would receive a government response and any receiving 100,000 would be considered for parliamentary debate",
+        "Should the UK adopt compulsory voting?:",
+        "Should prisoners be able to vote?:"
+      ]
+    },
+    {
+      "term": "Causal groups",
+      "definition": "Seek to promote a specific cause \nE.g Greenpeace, Liberty, PETA",
+      "extras": []
+    },
+    {
+      "term": "Sectional groups",
+      "definition": "represent a particular section of society \nTry to change parliament policy and require formal membership \nE.g BMA (British medical association), Age UK",
+      "extras": []
+    },
+    {
+      "term": "Insider groups",
+      "definition": "Close links to government, seek to become involved in the early stages of law making, imply professional lobbyists\nMay be directly involved via government special committees e.g NFU (The national farmer’s union) and the IOD (institute of directors)",
+      "extras": []
+    },
+    {
+      "term": "Outsider groups",
+      "definition": "more radical groups, promotional, public campaigning and protests \nE.g Just Stop Oil",
+      "extras": [
+        "Case study: ASH (Action on smoking and health)",
+        "Founded in 1967 by academics and interested parties",
+        "Objectives include the spreading of knowledge about the harmful effects of tobacco use and pressing governments to adopt policies and laws to reduce tobacco use"
+      ]
+    },
+    {
+      "term": "Pressure group effects",
+      "definition": "",
+      "extras": []
+    },
+    {
+      "term": "Think tank influence",
+      "definition": "",
+      "extras": [
+        "IEA (institute of Economic Affairs) is a free-market think tank with close links to the Conservative party. Kwarteng’s failed mini budget of 2020 was heavily in line with the ideas of the IEA",
+        "The Centre for Policy Studies and the Adam Smith Institute were central to Thatcherism (1979-1990)",
+        "2020 Tory government were scrutinised by the National Institute of Economic and Social Research about the gov’s budget and raised questions over the viability of its growth targets"
+      ]
+    },
+    {
+      "term": "Lobbying scandals",
+      "definition": "",
+      "extras": [
+        "Investigations by The Times revealed that major tobacco firms have been secretly funding ‘independent’ activist groups and lobbying campaigns to promote e-cigarettes and block regulations on youth vaping in the UK",
+        "The Guardian reported that Entain, the owner of Ladbrokes, funded a lobbying operation aimed at weakening proposed government gambling reforms, despite publicly supporting them",
+        "Corporations: Starbucks"
+      ]
+    },
+    {
+      "term": "Common law rights",
+      "definition": "The traditional status of rights in the UK has been that every citizen was assumed to have rights unless they were prohibited by law. ‘Negative rights’. Rights were also sometimes specifically stated as a result of a court case when these rights were in dispute, in doing so a judge was declaring Common Law. This creates judicial precedent.",
+      "extras": []
+    },
+    {
+      "term": "HRA 1998",
+      "definition": "The HRA brought into effect the ECHR, which was established by the Council of Europe in 1950. The UK helped to draft the Convention but did not accept it as binding on its government until 1998.",
+      "extras": [
+        "Traditionally, the UK relied on a series of negative rights, meaning they existed in an absence of law and were very difficult to enforce, with people’s protections very limited.",
+        "With the introduction of the HRA, these negative rights were supplanted by positive rights that had to be legally protected and respected.",
+        "HRA is binding on all public bodies other than the UK parliament (politically binding but not legally binding) and enforced by all courts in the UK"
+      ]
+    },
+    {
+      "term": "Freedom of Information Act 2000",
+      "definition": "Historically, citizens had no right to see information held by public bodies. Labour gov of 1997 thus passed this Act.",
+      "extras": [
+        "Has proved an invaluable tool for social and political campaigners, for MPs and for the media, allowing them to discover information that was never available in the past. Helped to improve services such as the health service, the police, the civil service and educational establishments by shedding light on their activities.",
+        "It was through the Freedom of Information Act that the Daily Telegraph was able to publicised the MPs expenses scandal of 2009"
+      ]
+    },
+    {
+      "term": "The Equality Act 2010",
+      "definition": "the two parliamentary statutes prior to the Equality Act that established formal equality in the UK (The Race Relations Act 1965 and The Equal Pay act 1970) missed out many important groups in society who have suffered discrimination)",
+      "extras": [
+        "The Act requires that all legislation and decision-making made by government at any level must take into account formal equality of different sections of society."
+      ]
+    },
+    {
+      "term": "Civil liberties",
+      "definition": "protect citizens gains they government and state \nCivil rights – atomising we are all born with",
+      "extras": []
+    },
+    {
+      "term": "Individual rights",
+      "definition": "right to freedom of expression, many codified in HRA and ECHR \nCollective rights – rights of interest groups or communities e.g right to religious groups or native communities",
+      "extras": [
+        "Ashers Baking Company V Lee 2018",
+        "Bakery refused to make a cake that said ‘Support Gay Marriage’",
+        "SC ruled in favour of bakery, holding that the refusal was based on the opposition to the message rather than the personal characteristics of the customer"
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": 0,
+      "label": "Direct vs Representative Democracy",
+      "kind": "pros_cons",
+      "area": "DEMOCRACY",
+      "headers": [
+        "Advantages",
+        "Disadvantages"
+      ],
+      "rows": [
+        [
+          "Purest form of democracy. The people’s voice is clearly heard \nIt can avoid delay and deadlock within a political system\nThe fact that the people are making the decision gives it great legitimacy \n \nReferendums have higher turnout than general elections, with 2024 GE having 60% (second lowest since universal suffrage) and 2014 independence (84%) 2016 Brexit (72%)",
+          "It can lead to the ‘tyranny of the majority’ whereby the winning majority simply ignores the interests of the minority and imposes something detrimental on them \nThe people may be too easily swayed by short-term, emotional appeals by charismatic individuals \nSome issues may be too complex for the ordinary citizen to understand \n\nMisinformation during 2016 Brexit referendum, misleading bus claim ‘We send the EU 350 million a week, lets fund our NHS instead’"
+        ]
+      ]
+    },
+    {
+      "id": 1,
+      "label": "Direct vs Representative Democracy (alt view)",
+      "kind": "pros_cons",
+      "area": "DEMOCRACY",
+      "headers": [
+        "Advantages",
+        "Disadvantages"
+      ],
+      "rows": [
+        [
+          "Representatives can develop expertise to deal with matters the public does not have the time or knowledge to deal with \nRepresentatives can be held to account for their actions at election time \nRepresentatives have the time to deal with a variety of complex matters, leaving the public free to get on with their own lives\nIn a large modern country, it is the only practical way to translate public opinion into political action\nElected representatives may have better judgement and be more rational/ not swayed by emotion \nRepresentatives can protect the interests of minority groups \n\nReform UK MP for Great Yarmouth, Rupert Lowe, voted in favour of the landmark Terminally Ill Adults (End of Life) Bill 2024 after hosting a mini-referendum in his constituency, 75% yes \n\nDecember 5 2023, 22 Conservative MPs supported a Labour amendment aimed at speeding up compensation for victims of the infected blood scandal, rebelling against a 3 line conservative whip to do so",
+          "Representatives may not act in the best interests of their constituents \nIt can be difficult to hold a representative to account between elections \nAllowing voters to delegate responsibility to representatives can lead to the public disengaging from social issues and other responsibilities \nRepresentative bodies can be unrepresentative and may ignore the concerns and needs of minority groups \n\nFPTP leads to votes of unequal value, marginal seats have votes that matter more, e.g Thanet South, Kent which has been won by the winning party at every GE since its creation \n\nEconomist reported in December 2024 that since 2010, former MPs and ministers have spent a total of 50,000 hours an earned 65 million from doing second jobs \n\nYouGov polling, 49% of respondents say they ‘almost never’ trust the British government to place the needs of the nation above the interests of their own party"
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Participation Crisis",
+      "kind": "comparison",
+      "area": "DEMOCRACY",
+      "headers": [
+        "",
+        "YES",
+        "NO"
+      ],
+      "rows": [
+        [
+          "Elections and referendums",
+          "2024, 60% turnout (Second lowest since universal suffrage)\nTurnout among 65+ age group in 2017 was around 25 percentage points higher than among 18-24 year olds",
+          "2014 Scottish independence referendum and 2016 Brexit referendum had turnouts of 85% and 72% \nSignificant engagement around critical issues"
+        ],
+        [
+          "Party membership",
+          "Mass membership is in decline \nLabour membership decreased from 1953 (1 million) to 2026 (333,000) – can no longer be identified as the party of the working class \nTory decrease from 1953 (2.8 million) to 2026 (123,000)",
+          "Surge of party membership for Labour in 2015 when Milliband made it possible to join for just 3 pounds (over 500,000) \nGreens membership increased by 80% to 170,000 from September to December 2025\nReforms membership at 268,000 (early 2026)\nSuggest that the public will still use parties as a vehicle for political action if they don’t represent the establishment"
+        ],
+        [
+          "Group politics",
+          "Decline of the trade union movements \n1979 (13.2 million) to 2016 (6.3 million) \nPolitical movements are more fleeting and not seen as a serious form of participation \n‘Slacktivism’ – January 2025 petition to call immediate general election received over 1 million signatures and was debated in parliament, despite the fact this is very unlikely to happen (more performative than legitimate)",
+          "Rise of new groups around environmental issues since 60s, people feel that single issue groups are more effective than parties \nE.g 2013 the Passionate Collaboration study found that 139 environmental groups they analysed has a total membership of 4.5 million which is nearly 1/10 adults \nSocial movements are loosely organised and flexible, seeming to emerge quickly in response to issues as they appear\nE.g 2003 Iraq protests or 2020 BLM movement \n2024 consistent protests in London and across UK for an immediate ceasefire in Gaza \nAge UK e-petition urging gov to reverse winter fuel payments policy received 650,000 signatures"
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "label": "How democratic is the UK system?",
+      "kind": "criteria_pos_neg",
+      "area": "DEMOCRACY",
+      "headers": [
+        "Democratic features",
+        "Positives",
+        "Negatives"
+      ],
+      "rows": [
+        [
+          "Peaceful transition of power",
+          "The uk is remarkably conflict-free",
+          "Short-lived disputes have arisen when the results were not clear, in 2010 and in 2017, leading to some claims of a lack of legitimacy"
+        ],
+        [
+          "Free elections",
+          "Nearly everyone over 18 can vote \nThere is little electoral fraud and there exist strong legal safeguards",
+          "Some groups, such as prisoners and effectively the homeless, are denied their right to vote and new voter ID laws are believed to have added to the disenfranchised \nThe HOL is not elected, nor is the head of state (monarch)"
+        ],
+        [
+          "Fair elections",
+          "There are proportional systems in place in Scotland, Wales and Northern Ireland and other devolved and local bodies",
+          "The FPTP system for general elections leads to disproportionate results and many wasted votes \nGovernments are often elected on a modest proportion of the popular vote"
+        ],
+        [
+          "Widespread participation",
+          "There is extensive membership of pressure groups, which are free and active. There is also a growing level of participation in e-democracy",
+          "Since 2001, voter turnout in general elections has been, on average, lower than in previous elections, while party membership, especially among the young, has generally been in decline. \nDespite some increases in party membership after 2015, it is still below levels experienced in the 1950s"
+        ],
+        [
+          "Freedom of expression",
+          "The press and broadcast media are free of government interference. Broadcast media maintain political neutrality. There is free access to the internet",
+          "Much ownership of the press is in the hands of a few large, powerful companies such as News international, the owners of which tend to have their own political preferences \nSome information available on the internet is false and detrimental \nThere is some dependent over how independent the BBC is and attempts by politicians to influence its reporting"
+        ],
+        [
+          "Freedom of association",
+          "There are no restrictions on legal organisations \nPeople may organise and instigate public protests",
+          "The government has the power to ban some groups based on the potentially unfair perception of their activities \nPublic meetings and demonstrations can be restricted on the grounds of ‘public order’"
+        ],
+        [
+          "Protection of rights and liberties",
+          "The country is singed up to the ECHR \nThe HOL advocates for rights",
+          "Parliament is sovereign, which means rights are at the mercy of a government with a strong majority in the commons \nThe ECHR is not binding on the UK parliament"
+        ],
+        [
+          "The rule of law",
+          "Upheld strictly by the judiciary \nThe right to judicial review underpins this \nThe judiciary is independent and non-political",
+          "The monarch is exempt from legal restrictions \nThere is statistical evidence to suggest social and economic standing impact severity of sentencing"
+        ],
+        [
+          "A constitution",
+          "Parliament and the courts ensure the government acts within the law \nThe HRA acts as a restraint on the actions of the gov, and constitutional checks exist to limit the power of gov",
+          "There is no codified UK constitution so the limits on government power are vague \nParliamentary sovereignty means the government’s power could be increased without a constitutional safeguard \nThe prerogative powers of the PM are extensive and arbitrary"
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "label": "Potential UK democratic reforms",
+      "kind": "comparison",
+      "area": "DEMOCRACY",
+      "headers": [
+        "Potential reform",
+        "Advantages",
+        "Disadvantages"
+      ],
+      "rows": [
+        [
+          "Replace the HOL with an elected chamber",
+          "It would remove an unelected, unaccountable body from the UK’s democratic process",
+          "What replaced it might cause greater rivalry with the commons, leading to gridlock in the legislative process \nThe expertise in the lords could be replaced by career politicians"
+        ],
+        [
+          "Replace FPTP with more proportional system",
+          "Remove the negative features of FPTP such as safe seats, minority constituencies, unfair representation and minority governments",
+          "Proportional systems make coalitions mor likely and harder to hold to account. The systems are more complex and risk losing the close MP constituency link"
+        ],
+        [
+          "Codify the UK constitution",
+          "Would clarify the processes of the UK political system and provide a higher law that would be entrenched\n59% in YouGOV poll want a written constitution",
+          "A codified constitution might prove too rigid and there are questions about who would write it and how it would be implemented \nIt would raise questions over the location of sovereignty \nWould give more power to unelected judges"
+        ],
+        [
+          "Create a devolved English Parliament to equalise devolution",
+          "Would solve the West Lothian question and create a more equal level of representation across the UK",
+          "England is too large a single entity to work within a devolved system, but regional devolution has been rejected by voters"
+        ],
+        [
+          "Introduce full state party funding",
+          "Would allow politicians to focus on their main job rather than fundraising \nWould potentially remove the need to acquire money from powerful groups and vested interests that donate for their own ends, not national interest",
+          "The process of fundraising helps to keep politicians and parties connected to voters \nQuestions would be raised over how funding would be allocated and whether taxpayer money should be given to parties that some may disagree with"
+        ],
+        [
+          "Introduce compulsory voting",
+          "Would increase turnout in all elections, helping improve the legitimacy of elected officials \nIn Australia turnout increased from 70% to 90%",
+          "Forcing people to vote may not improve public engagement in politics \nThe right to vote also includes the right not to vote"
+        ],
+        [
+          "Replace the monarch with an elected head of state (President)",
+          "Would remove an unelected figurehead and replace them with an elected and accountable figure",
+          "The monarchy is popular, and, being neutral, can act as a unifying figure in a way an elected politician cannot \n48% of population in favour of replacement"
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "label": "E-petition outcomes",
+      "kind": "year_subject_signatures_outcome",
+      "area": "DEMOCRACY",
+      "headers": [
+        "Year",
+        "Subject",
+        "Signatures",
+        "Outcome"
+      ],
+      "rows": [
+        [
+          "2011",
+          "Calling for the release of documents relating to the Hillsborough football disaster of 1989",
+          "139,000",
+          "Following a parliamentary debate, the papers were released, and a new inquest was launched"
+        ],
+        [
+          "2016",
+          "Should there be a second EU referendum?",
+          "3.8 million",
+          "A parliamentary debate was held on the issue but no second referendum was allowed"
+        ],
+        [
+          "2019",
+          "‘Don’t put our NHS up for negotiation’",
+          "169,000",
+          "The government responded by saying: ‘the NHS is not and never will be for sale to the private sector’"
+        ],
+        [
+          "2020",
+          "End child food poverty – no child should be going hungry",
+          "1 million",
+          "Debated in parliament but the aim of expanding lunch provisions during the school holidays failed \nHowever, in response, the government announced over 400million in funding for the next 12 months to support low income families with the cost of food and bills"
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "label": "Compulsory voting",
+      "kind": "yes_no",
+      "area": "DEMOCRACY",
+      "headers": [
+        "YES",
+        "NO"
+      ],
+      "rows": [
+        [
+          "May force voters, especially the young, to make themselves more informed about political issues\nBy increasing turnout, it would give greater democratic legitimacy to the party or individuals who win an election\nBy ensuring that more sections of society are involved, decision-makers would have to ensure that policies address the concerns of all parts of society, not just those who typically vote in larger numbers \nVoting is a civic duty so citizens should be obliged to carry out that duty \nEnsures that marginalised and disadvantaged groups are more likely to participate \nIn 2005 General Election, Labour won a commons majority with the support of only 22% of the electorate \nUK general elections consistently show lower turnout among young people, renters and those in lower income groups",
+          "Civil liberties violation. The right to vote also includes the right not to vote \nMany voters are not well informed and yet they would be voting, so there would be low quality participation \nWould involve large amounts of public expenditure to administer and enforce the system \nWould favour large parties against small parties. This because less-informed citizens would vote and they may have heard only of better-known parties and can assured \nHigh turnout isn’t inherently indicative of a healthy democracy \nThe Hansard Society Audit of political Engagement repeatedly shows that many non-voters report distrust, not apathy, as their reason for abstaining \nCompulsory voting has been criticised for increasing protest or extremist voting rather than informed participation"
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "label": "Prisoners voting",
+      "kind": "yes_no",
+      "area": "DEMOCRACY",
+      "headers": [
+        "YES",
+        "NO"
+      ],
+      "rows": [
+        [
+          "Hirst V UK (2005): The ECHR ruled that the UK’s blanket ban on prisoner voting breached the right to free elections, prisoner voting would thus bring the UK into line w human rights norms \nIf prisoners are able to continue their lives as citizens then they should not be excluded from political participation \nCivil liberties for all are key to a healthy democracy \nSome prisoners with equal sentences for the same crime can vote whilst others cannot based off of when they are released \nPrison disproportionately affects ethnic minorities – so we should enfranchise to adapt to ongoing racial discrimination \nParliamentary committee stage – draft voting eligibility (prisoners) bill or franchise prisoners if serving a sentence of less than 4 years \nPrisoner reintegration made more difficult with right to vote taken away – reoffending rate 25% \nThe UK is in a minority in Europe, with many counties allowing either full or partial prisoner voting\nPrison populations disproportionately include people from working class and ethnic minority backgrounds, intensifying political exclusion",
+          "Freedom from executive coercion is essential if people are to produce/ consume policy alternatives \nPrisoners shouldn’t be on par with other citizens when it comes to democratic rights \nAppropriate punishment for committing crime, no longer allowed civil liberties \nAllowing prisoners to vote would not achieve the harder and more pressing aim of having fewer people imprisoned \nIf you violate the social contract, then your right to vote and participate is taken away \nCross-party opposition in Parliament to prisoner voting has remained strong since the 1970s \nFormer PM David Cameron described Prisoner voting as making him feel ‘physically ill’ \nEmpirical studies show that voter turnout among eligible prisoners remains extremely low, largely due to administrative barriers \nPublic opinion surveys consistently show limited public support for extending voter rights to prisoners"
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "label": "16-17 year-olds voting",
+      "kind": "yes_no",
+      "area": "DEMOCRACY",
+      "headers": [
+        "YES",
+        "NO"
+      ],
+      "rows": [
+        [
+          "With the spread of citizen education, young people are now better informed about politics than ever before \nVoting turnout among the 18-24 year old age group is very low. This may encourage more people to vote and become engaged with politics \nThe internet and social media now enable young people to be better informed about politics \nIf one is old enough to serve in the army and pay tax, one should be old enough to vote \nThe radicalism of younger people could ascot as a balance to the conservatism of some older voters \nCitizenship education has been compulsory in secondary schools since 2002, weakening arguments that young voters lack political knowledge \nTurnout among 16-17 year olds was estimated at around 75% in the 2014 Scottish independence referendum compared with approx 54% among 18-24 year olds",
+          "16 and 17 year olds are too young to be able to make informed decisions and are now required to be in some form of education until 18 \nMany issues are apparently too complex for younger people to understand \nNot all people in this age group pay tax so they are seen to have a lower stake in society \nYounger people can be excessively radical as they have not had enough life experience to consider issues carefully \nEssentially gives parents another vote \nYounger voters remain the least likely age group to vote in the UK wide general elections, even after major political events such as Brexit – risks lowering overall turnout"
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "label": "Pressure groups: enhance or threaten democracy?",
+      "kind": "for_against",
+      "area": "PRESSURE GROUPS",
+      "headers": [
+        "Enhance democracy",
+        "Threaten democracy"
+      ],
+      "rows": [
+        [
+          "Help to disperse power and influence more widely \nEducate the public about important political issues \nGive people more opportunities to participate in politics without having to sacrifice too much time and attention \nPromote and protect the interests and rights of minority groups \nHelp to call government to account by publicising the effects of policy",
+          "Some pressure groups are considered elitist and tend to concentrate power in too few hands \nInfluential pressure groups may distort information in their own interests \nPressure groups that are internally undemocratic may not accurately represent the views of their members and supporters \nFinance is a key factor in political influence, so groups that are wealthy may wield a disproportionate amount of influence \nThe use of civil disobedience, particularly illegal actions, can undermine the freedoms and rights of other citizens"
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "label": "Factors influencing pressure group success",
+      "kind": "factor_examples",
+      "area": "PRESSURE GROUPS",
+      "headers": [
+        "Factors",
+        "Success",
+        "Failure"
+      ],
+      "rows": [
+        [
+          "Size of membership",
+          "The more supporters a group has, the more pressure It can place on decision-makers \nPoliticians do not like to fly in the face of public opinion because they regularly face the need of re-election",
+          "Smaller groups can be overlooked or ‘drowned out’ by the campaigns of larger groups. They find it harder to raise funds and achieve their goals with fewer participants"
+        ],
+        [
+          "Finance",
+          "Wealthy groups can afford expensive campaigns, employ lobbyists, sponsor political parties and purchase favourable publicity",
+          "Groups with less funding struggle to organise effective campaigns, hire lobbyists and fund production of leaflets, websites and other research, and therefore struggle to make their voices heard"
+        ],
+        [
+          "The strategic position of a particular sectional group",
+          "A group that Is seen as more important to the economy or a key service cam put greater pressure on the government \nCompanies and industrial groups have a great deal of leverage because they are vital to the economy, as do NHS workers",
+          "Groups that are not seen as important can easily be ignored, especially if they are competing against a strategically important group: the Occupy movement failed in part because it was up against the strategically important finance sector"
+        ],
+        [
+          "Public mood",
+          "The combination of public sentiment and strong campaigning can be successful in bringing an issue to the attention of decision-makers as politicians are more likely to support a popular cause",
+          "Public mood can turn politicians against certain groups, either for the issue they champion, such as prisoner or terrorist rights, or because the methods they use alienate public opinion"
+        ],
+        [
+          "Attitude of the government",
+          "Groups are far more likely to achieve success if the government of the day is sympathetic to their cause and position",
+          "If the government of the day is determined to follow a particular course of action that a group opposes, it is very unlikely that they will be able to change the government’s decision, notably seen in the failure of the 2003 Stop the War coalition"
+        ]
+      ]
+    },
+    {
+      "id": 11,
+      "label": "How effectively does the UK protect rights?",
+      "kind": "for_against",
+      "area": "RIGHTS",
+      "headers": [
+        "It does",
+        "It doesn’t"
+      ],
+      "rows": [
+        [
+          "Judicial review allows citizens to challenge decisions made by public bodies, including the government, which they believe may be unlawful: \nThe UK has one of the best records amongst the 47 ECHR members of compliance with decisions of the ECHR \nParliament has previously changed decisions based on the rulings of the European Courts e.g Parliament formation of the Modern Slavery Act 2015, Case brought which criticised UK for not having robust laws against forced labour and domestic servitude \nMental Capacity Act 2005 which passed following a ruling in the ECHR which found that the UK lacked adequate legal protection for the liberty of people with mental capacity issues who were detained",
+          "Judicial review – the ECHR and HRA are coming under attack from the right \nJanuary 2026 Reform UK’s Farage and Conservatives Badenoch want to leave the ECHR due to opinions that it destroys parliamentary sovereignty \nTories 2019 electoral pledges to update Human rights with British Bill of Rights \n30th July 2020 – Tory gov established an independent panel to see if there was a requirement to reform the judicial review process \nHRA is an act that can be repealed with simple majority \nJudicial review is not binding on parliament"
+        ],
+        [
+          "During culture for the respect of civil liberties within parliament and public bodies: \nParliament has established a joint committee on Human Rights – made up of both HOL peers and HOC MPs to scrutinise government bills and make sure they are aligned with HRA – e.g March 2020 the committee opened an investigation to assess if the government had dealt with Covid effectively \nPublic organisations such as Mersey Care trust NHS work to make sure that parliament respects public rights \nEquality and Human rights commission investigated into pay discrimination towards women at the BBC",
+          "Is this a real commitment to rights or just ‘lip service’ \nLabour government Anti Terrorism, Crime and Security Act 2001 – introduced indefinite detention for terror suspects which was ruled incompatible in the Belmarsh case and they renewed it with the Prevention of Terrorism Act 2005\nConservatives Coronavirus Act 2020 has been subject to abuse from human rights organisations such as Liberty and the British Institute of Human Rights, especially when it comes to the rights of older adults and children"
+        ],
+        [
+          "Now in society there is a far greater awareness of ones civil liberties and thus a protection of civil rights as there is greater public support: \nThe Howard League and Prison Reform Trust has run a long term campaign about human rights in prisons and has achieved legislative success e.g Books for Prisoners 2024 – overturned restrictions on books and allowed 84,000 inmates access to reading materials \nLiberty has been vocal about the HRA weaknesses and a lack of care for discrimination policies e.g The campaign of Zero Discrimination Day in March 2025 – focused on combatting discrimination in the workplace and healthcare",
+          "Whilst there is a support for laws dealing with human rights in the UK, there is growing criticism for how they work: \nTories want to re-establish the HRA and make it a British Bill of Human Rights after issues with the European court who have been accused of not understanding the UK’s human rights traditions \nHuman rights inflations e.g the inflation of the right to family life has severely limited the state in deporting illegal immigrants in recent years, around 61,000 appeals were successful in their first tier tribunal"
+        ]
+      ]
+    },
+    {
+      "id": 12,
+      "label": "Strengths and weaknesses of UK rights",
+      "kind": "strengths_weaknesses",
+      "area": "RIGHTS",
+      "headers": [
+        "Strengths",
+        "Weaknesses"
+      ],
+      "rows": [
+        [
+          "There is a strong common law tradition \nThe UK is subject to the ECHR \nThe judiciary has a reputation for being independent and upholding the rule of law, even against the expressed wishes of government and parliament \nThe principle of equal rights is clearly established",
+          "Common law can be vague and disputed. It can also be set aside by parliamentary statutes \nParliament remains sovereign and so can ignore the ECHR or even repeal the HRA \nThere is increasing political pressure on government to suspend laws or ignore rulings relating to a variety of political issues, such as terrorist behaviour or the rights of asylum seekers \nThat equality means can be subject to interpretation and see some groups coming into conflict over the enforcement of their rights, for example religious groups and LGBTQ+ groups"
+        ]
+      ]
+    },
+    {
+      "id": 13,
+      "label": "How effectively do parties support democracy?",
+      "kind": "comparison",
+      "area": "PARTIES",
+      "headers": [
+        "",
+        "Yes",
+        "No"
+      ],
+      "rows": [
+        [
+          "Policy formulation",
+          "Political parties are one of the key means through which societies set collective goals and formulate public policy \nIn the process of seeking power, parties develop programmes for government in manifestos which try publish prior to an election so the public can better decide who to vote for \nE.g 2024 election Green Party manfiesto highlighted increasing green energy and Labour highlighted giving more funds to the NHS",
+          "Effectiveness of parties in formulating policy has been questioned – parties have moved away from their original ideological goals for society \nE.g Labour 2024 manifesto highlighted doing better than the Tories and ending 14 years of chaotic rule"
+        ],
+        [
+          "Recruitment of leaders",
+          "Parties control the process to choose a candidate to stand for election \nParties act as a training ground for future party leaders, allowing politicians to gain experience \nE.g Stamer shadow Secretary of State for Exiting the European Union from 2016-2020 prior to leadership",
+          "Parties will choose leaders who are most popular rather than competent \nSelection of party leadership has switched from elected MPs to the party membership -  membership of the party is only about 2% of the population and is not democratically accountable yet has disproportionate power \nE.g Election of JC who was ideologically out of tough with large proportion of his party and BOJO who was closed in 2019 by a small group of members"
+        ],
+        [
+          "Organisation of Gov",
+          "Operation of gov relies on party in many ways: parties help to form gov and give it a degree of stability and coherence\nThey organise the legislative program and opposition parties provide a source of opposition and scrutiny to keep gov in check",
+          "Minimal party unity and chaotic internal conflict \nE.g 2025 when many backbench MPs disagreed with Stamer about cutting winter fuel allowances which resulted in huge rebellion and 52 Labour MPs didn’t participate in the vote \nInstability can occur if a party has a small majority such as May post-2017 election, alliance with DUP"
+        ],
+        [
+          "Participation and mobilisation",
+          "Political parties provide opportunities for citizens to join a group of like-minded people and therefore help to shape party policy \nHelp to educate and to mobilise the electorate through a range of acitivites: public meetings, canvassing, party broadcasts",
+          "Voter party alignment has declined – in 2015 only 9% of voters claim to have very strong attachment to the party \nPreviously in 1965 it was 44% \nTurnout in GE has decreased since 1997 \nMembership of Labour and conservatives has fallen showing a distancing of party alignment \nDespite new high membership for Green and Reform, 2024 had second lowest turnout since universal suffrage (60%)"
+        ],
+        [
+          "Representation",
+          "Seen as primary function of liberal democracy \nWinning party can claim a popular mandate to govern as they were voted in based off their manifesto \nE.g Labour associated with representing the working class and Tories representing private businesses \nAllowed TB to implement wide-scale constitutional change post 1997",
+          "Labour are questionably representing the working class \nPIP scandal in April 2025 (100 MP rebellion threat so u-turned) and cut to WFA (52 MPs didn’t vote) \nNo longer represent the socialist values that the party was built on\nLabour seemingly attacking weakest members of society which does not represent their mass of working-class more socialist voters"
+        ]
+      ]
+    },
+    {
+      "id": 14,
+      "label": "Should UK parties be state funded?",
+      "kind": "yes_no",
+      "area": "PARTIES",
+      "headers": [
+        "YES",
+        "NO"
+      ],
+      "rows": [
+        [
+          "State funding would reduces parties perceived dependence on vested interest – state funding would allow parties to be more responsive to the views of party members and voters – increase public trust as they can’t be swayed by private investors \nState funding could be allocated based on an agreed measure of parties popularity and democratic engagement – would create level playing field for the parties and remove unfair advantages that some parties have due to wealthy donors e.g 2019 Election Tories got 12 million in party donations and Labour only got 4 million \nCurrent regulation of party funding is poor – since passed PPARA in 2000, allegations that donations secure peerages have continued e.g 1997 ecclestone scandal\nPhillips report in 2006 highlighted how each party could be given around 25 million per year of taxpayers money to carry out their functions",
+          "Taxpayers may object to funding what can be considered ‘private’ organisations or parties with views that contradict their own \nParties might lose some of their independence and be seen as organs of the state \nA reliable income stream from the state would weaken party links to the electorate and larger society – at the moment, parties need to reach out to society and recruit members and gain public trust. If given state allowance, they wouldn’t need to do this E.g under JC the party generated a very healthy membership income stream. Tory party also looked to reach out to society by expanding its base and increasing membership from 124,000 (2018) to 160,000 (2019)\nCurrently Green Party have huge membership of 170,000 which has increased by 80% since September when ZP came to leadership. Shows how leaders need to make an effort to create a mass movement and rally support \nCould create a bias in favour of existing parties if the level of state funding reflects past party performance – would solidify UK as two party system"
+        ]
+      ]
+    },
+    {
+      "id": 15,
+      "label": "Are minor parties important?",
+      "kind": "minor_parties",
+      "area": "PARTIES",
+      "headers": [
+        "SNP",
+        "centre left party who prioritise calls for Scottish independence\nFounded in 1934 and broke into gov in 2007 \nAlex Salmond led campaign up to 2014 independence referendum \nKey policies: Scottish independence, progressive taxation, stronger welfare state, investment to public services, rejoining EU, environmental stability \nInfluence: amplified calls for constitutional reform, shape debates on Brexit and fiscal policy (e.g consistently oppose UK departure from EU and wants Scotland to have different status) \nIrrelevance: Parliament rejected calls for a second referendum, arrest of former chief of executive Peter Murrell 2023"
+      ],
+      "rows": [
+        [
+          "DUP",
+          "Pro union and anti Republican Party in NI, conservative socially and oppose same sex marriage and abortion \nFounded by Ian Paisley \nKey policy: leading voice against NI protocol, say that post-Brexit customs in NI undermine UK constitution \nInfluence: 2017 general election entered a confidence and supply agreement wit Theresa May due to her losing overall majority in 2017 election. In exchange given 1billion for NI \nIrrelevance: since 2019 tories got a majority so no need to appease them. In 2022 DUP lost position as NI largest party to Sinn Feinn"
+        ],
+        [
+          "Plaid Cymru",
+          "Want to safeguard welsh culture and language, soft form nationalism \nCurrent leader= Run ap Lorweth \nKey policies: Welsh independence, environmental stability and social equality\nInfluence: advocated for referendums in 1997 and 2011 that later expanded devolved powers to the Senedd. Push for welsh language protection and influenced the creation of S4C (Welsh language broadcaster) to increase cultural symbols. Formal cooperation agreement with Welsh labour \nIrrelevance: return only 3-4 MPs in HOC, support is concentrated in welsh speaking areas, don’t appeal to urban groups. 2023= report of internal misconduct as leaders failed to address bullying and harassment"
+        ],
+        [
+          "Green",
+          "Originally only focused on climate policy but now represent broad left-leaning party \nCurrent leader is Zack Polanski as of September 2025\nKey policies: PR, progressive taxation, net zero by 2050, protect nature and animal life, greener and fairer homes, rent control, legalisation of drugs \nInfluence: Greens opposed 2 child benefit cap and Rachel Reeves removed in Nov 2025. ZP = bringing greater scrutiny to Labour about Gaza and putting more pressure on gov to act (170,000 members as of Dec 2025), seen as replacement of labour in left-wing policies \nIrrelevance: 2024 only have 4 seats in parliament and only won 6.4% of the vote, ambitions seen as unrealistic and extreme, only have access to properly scrutinise gov on 3 opposition days, ZP not in parliament"
+        ],
+        [
+          "Reform UK",
+          "Eurosceptics, champion immigration reform, successor of previous parties such as UKIP and Brexit Party \nLeader is Nigel Farage who is an MP for Clacton as of 2024 \nKey policies: pledge to freeze all non essential immigration, oppose current UK net zero 2050 climate target, lower taxes and stop wasteful government spending, changing FPTP, want to hire 40,000 new police and abolish Lords \nInfluence: Labour w harsher immigration policies – Shabana Mahmoud as of Nov 2025 has stated that migrants will be split up from families upon arrival (labour co-opt reform ideas) Farage influenced 2016 Brexit referendum, 2024 Lee Anderson, suella braverman defected from Tories to Reform \nIrrelevance: despite 14% of the vote share, FPTP holds them back, public prestige ruined in 2023 when Welsh leader Mark Reckless was implicated in scandal involving Russian Influence"
+        ]
+      ]
+    },
+    {
+      "id": 16,
+      "label": "Is the UK a two-party system?",
+      "kind": "yes_no",
+      "area": "PARTIES",
+      "headers": [
+        "Yes",
+        "No"
+      ],
+      "rows": [
+        [
+          "Greens membership increased by 80% to 170,000 from September to December \nReform has double the amount of members as the conservatives \n2016 UKIP influence Cameron to enact referendum of leaving EU \nReform have influenced Labour’s immigration laws e.g Nov 2025 Shabana Mahmoud new policies \nMost important and effective when small gov e.g May and DUP confidence and supply agreement in 2017 \nInfluence election despite not winning many seats – 2024 election Reform were huge competition to tories despite winning only 5 seats and 14% of vote. Contributed to Labour landslide victory as no cohesive opposition",
+          "Small amount of MPs in parliament so not a huge influence on policy (reform only have 5 and greens only have 4) so despite external influence, influence in HOC small \nNever won an election alone\nFPTP makes it difficult to win seats as it only rewards geographically concentrated parties \nGov debates official opposition which is the Tories. \nOnly 17 opposition days for official opposition and 3 days shared amongst all other parties, so not a lot of time for open scrutiny apart from PMQs"
+        ]
+      ]
+    },
+    {
+      "id": 17,
+      "label": "Has Labour left behind traditional values?",
+      "kind": "yes_no",
+      "area": "PARTIES",
+      "headers": [
+        "Yes",
+        "No"
+      ],
+      "rows": [
+        [
+          "In terms of General Elections, the UK remains a two party system. All gov formed 1945 have been Tory or Labour, these two parties continue to dominate in terms of percentage of votes and number of seats, and the two main parties obtain the most funding \nTwo main parties still control policy agenda and dominate the media = key policy ideas still generated by the main parties as being gov and official opposition they get most space and time \nKey elections take place in Westminster, so whilst minor parties can have external influence, not in HOC to vote – 2019 the two major parties won 87% of seat",
+          "Two party system no longer due to breakdown of party identification – Labour was dominant in Scotland until the independence debate in 2014 and in 2015 the SNP picked up 56 of 59 seats \n2010 did not deliver a majority gov – coalition\nReform is a large minority party who won 14% of the vote share \nEvents are making single issue parties more popular e.g Brexit in 2016 has led to the rise of Reform, single issue on immigration and Green with current climate crisis \nDUP supported Tories in 2017 when TM lost her overall majority \nOutside HOC, two party system is fragmented – e.g Reform and Greens get much more media time than the two main parties due to the gains they are making at such a startling rate. Polanski and Farage are both charismatic leaders compared to Stamer and Badenoch"
+        ]
+      ]
+    },
+    {
+      "id": 18,
+      "label": "Conservative policies: Right vs Centre-right",
+      "kind": "policy_comparison",
+      "area": "PARTIES",
+      "headers": [
+        "Policy area",
+        "Right tendency",
+        "Centre-right tendency"
+      ],
+      "rows": [
+        [
+          "Economic management",
+          "Support for free trade and deregulation of business; lowering of taxation on all with trade agreements negotiated on bilateral basis",
+          "The economy should be managed to ensure society does not become divided, nor the markets volatile, with support for furlough and lower rates of taxation for the poorest \n\nE.g further reducing employee national insurance to 6% by 2027 and making the 425,000 stamp duty threshold for first time buyers permanent"
+        ],
+        [
+          "Social justice",
+          "Support for traditional, Christian-centred society based on individual value, and clear hierarchies and social structures\nE.g Focus on banning mobile phones in schools and tightening oversight of sex education",
+          "Ensuring the provision of a safety net, e.g during the COVID 19 crisis, a desire to ‘level up’ society, the idea of social mobility \nSupport for more progressive ideas, such as same-sex marriage"
+        ],
+        [
+          "Industry",
+          "Extensive privatisation of all areas\nDecrease union protections\nLimited government intervention",
+          "Government investment in infrastructure, like HS2 and new airports to facilitate private industry \nFinancial support for struggling businesses to prevent economic hardship \nAcceptance of some necessary state services that can work with the private sector"
+        ],
+        [
+          "Welfare",
+          "Seeks to reduce, if not end, welfare provisions, including proposals to privatise parts of the NHS\nMore stringent tests of welfare recipients",
+          "Support for the NHS as part of the national identity \nThe need for welfare provision, but with a purpose to encourage people into work for social stability \nE.g Launching new ‘help to buy’ scheme to foster an ‘ownership society’"
+        ],
+        [
+          "Law and Order",
+          "Support for strong law and order to ensure that society operates in a traditional, well-ordered way \nE.g increased prison sentences and increased police recruitment",
+          "Support for law and order, but also for individual freedoms and liberties \nLaw and order should not be imposed in a draconian way"
+        ],
+        [
+          "Foreign policy",
+          "Focus in British nationalism, and opposed to membership of supranational organisations like the EU \nSupport for a strong and independent military capacity \nE.g Mandatory national service for 18 year olds or weekend civic service",
+          "Favours international cooperation to facilitate free trade and to intervene in foreign disputes that may not directly impact UK interests, such as international aid and peacekeeping services as part of supranational organisations"
+        ],
+        [
+          "Environment",
+          "Opposition to environmental policies that may hinder business \nAt the extreme end, may be climate deniers",
+          "Support for environmental initiatives and a focus on reducing the UK’s carbon footprint \nE.g backing new small nuclear power stations and accelerating renewable energy projects"
+        ],
+        [
+          "Constitutional reform",
+          "Opposition to progressive reforms \nSupport for traditional systems and laws, including the monarchy, the HOL and the abolition of the HRA",
+          "Seeks to ‘fix’ problems left over from previous reforms, rather than removing those reforms"
+        ]
+      ]
+    },
+    {
+      "id": 19,
+      "label": "Conservative factions",
+      "kind": "faction_table",
+      "area": "PARTIES",
+      "headers": [
+        "Faction",
+        "Core ideas",
+        "Key members"
+      ],
+      "rows": [
+        [
+          "Cornerstone",
+          "Traditional values: Christian, nationalist, and focused on family values \nReactionary, opposed to social reforms such as same-sex marriage and legal abortion",
+          "Edward Leigh \nJacob Rees-Mogg"
+        ],
+        [
+          "Conservative way forward",
+          "Thatcherite, neoliberal \nRegulation of free markets through low taxation nad deregulation \nOpposed to trade union power and welfare provision",
+          "Gerald Howarth (former defence minister) \nChristopher Chope"
+        ],
+        [
+          "Tory Reform Group",
+          "One-nation conservatives, seeking national unity and believing that too much economic inequality is divisive",
+          "Ken Clarke (now in the Lords)"
+        ],
+        [
+          "European Research Group (ERG)",
+          "Euroscepticism and the removal of the UK from EU membership",
+          "Past membership includes Suella Braverman, Jacob Rees-Mogg, Michael Gove"
+        ]
+      ]
+    },
+    {
+      "id": 20,
+      "label": "Labour policies: Left vs Centre-left",
+      "kind": "policy_comparison",
+      "area": "PARTIES",
+      "headers": [
+        "Policy area",
+        "Left tendency",
+        "Centre-left tendency"
+      ],
+      "rows": [
+        [
+          "Economic management",
+          "Expansionist: high public expenditure should be used to promote investment, improve public services and create jobs\nE.g removing inheritance tax loophole for farmers",
+          "A pragmatic view including targets to reduce public-sector debt"
+        ],
+        [
+          "Social justice",
+          "Radical tax reforms to promote significant redistribution of income from rich to poor",
+          "Some adjustments to taxation to promote mild redistribution of income from high to low income groups"
+        ],
+        [
+          "Industry",
+          "Large infrastructure industries to be brought into public ownership \nStrong regulation of private-sector industries and finance \nE.g imposing VAT on private schools \nE.g nationalising rail companies",
+          "Industry to remain in private hands and be regulated by the state"
+        ],
+        [
+          "Welfare",
+          "Strong support for the NHS and state education \nAbolition of uni tuition fees\nMore generous welfare benefits to help redistribute real income\n E.g bans on exploitative zero-hours contracts and new restrictions on ‘fire and rehire’ practices \nE.g removes the lower earnings limit and waiting period for statutory sick pay",
+          "Supports a strong welfare state and well-funded health service and education \nHowever, welfare benefits to be capped to ensure work pays and prevent abuse of the system \n\nE.g decision to keep Tory two child benefit cap"
+        ],
+        [
+          "Law and order",
+          "Emphasis on social remedies to crime",
+          "A mixture of authoritarian measures and ‘social’ remedies to crime"
+        ],
+        [
+          "Foreign policy",
+          "Largely ‘isolationist’, favouring non-intervention in world conflicts",
+          "Strong support for NATO and the alliance with the USA \n\nE.g unwavering commitment to UK’s nuclear deterrent"
+        ],
+        [
+          "Environment",
+          "Strong support for environmental protection and emissions control",
+          "Strong support for environmental protection and emissions control"
+        ],
+        [
+          "Constitutional reform",
+          "More radical reforms, possibly including abolition of the lords, and more independence for local governments",
+          "Some reforms are supported, including an elected second chamber and a proportional electoral system"
+        ]
+      ]
+    },
+    {
+      "id": 21,
+      "label": "Labour factions",
+      "kind": "faction_table",
+      "area": "PARTIES",
+      "headers": [
+        "Faction",
+        "Core ideas",
+        "Key members"
+      ],
+      "rows": [
+        [
+          "Momentum",
+          "Far left wing, seeking wealth redistribution through taxation, public ownership of key industries and the abandonment of the nuclear deterrent",
+          "John McDonnell \nRebecca Long-Bailey"
+        ],
+        [
+          "Blairites/ Social democrats",
+          "Centrist, key supporters of New Labour and Third Way",
+          "Yvette Cooper"
+        ],
+        [
+          "Blue Labour",
+          "Focused on working-class issues and employment \nSocially Conservative, believing in traditional ‘British values’, anti-large scale immigration, pro-free markets, but with protection for UK industry from foreign competition",
+          "Maurice glasman \nShabana Mahmood"
+        ]
+      ]
+    },
+    {
+      "id": 22,
+      "label": "Lib Dem factions",
+      "kind": "faction_table",
+      "area": "PARTIES",
+      "headers": [
+        "Faction",
+        "Core ideas",
+        "Key members"
+      ],
+      "rows": [
+        [
+          "Orange Book liberals",
+          "Traditional liberal values of free markets and the withdrawal of the state from excessive interference \nFocus on individual liberties",
+          "Ed Davey"
+        ],
+        [
+          "Social liberals",
+          "Policies concerning social justice, with wealth distribution from rich to poor throug taxation and welfare provision",
+          "Tim Farron \nJo Swanson"
+        ]
+      ]
+    },
+    {
+      "id": 23,
+      "label": "Lib Dem influence",
+      "kind": "comparison",
+      "area": "PARTIES",
+      "headers": [
+        "Area",
+        "YES",
+        "NO"
+      ],
+      "rows": [
+        [
+          "Economy",
+          "Minimum wage increase to 8 pounds and freezing income tax brackets may appear old Labour however this creates fiscal drag which mean people end up moving up the income tax brackets and paying more anyways \nCurrently Labour pirates around the belief in a mixed economy with some Keynesian demand management, sees the benefit of the market for competition and generating growth e.g Blair’s gov introduced academia programmes which converted state schools into institutions funded by charitable trusts and sponsors \nTB tried to privatise the Royal Mail but failed",
+          "Mansion tax (properties worth more than 2m will have a tax of 2.5k per year) aligns with old labour values of redistributive taxation \nLabour May 2025 nationalised Southwestern, C2C and Greater Anglia railway – aligns with old labour value of ‘Common ownership of the means of production, distribution and exchange’ Clause IV Labour constitution \nOpposed against TB trying to privatise Royal Mail"
+        ],
+        [
+          "Welfare",
+          "PIP scandal – Kier government proposed tightening the eligibility criteria for PIP to save billions of pounds in April 2025. Goes against old Labour values of welfare state with safety net \nWinter Fuel Payments – July 2024 Labour announced to cut winter fuel payments, restricting to households with pensioners receiving pension credit – wanted to save 1.5 billion. Cut would reduce the amount of families eligible from 11.4 to 1.5 million",
+          "Scrapped the two child benefit cap in the 2025 budget – which aligns with old Labour beliefs in a safety net and benefits for the most needy \nThreat of rebellion against Kier of 100 Labour MPs so the gov backed down and made a U-turn in July 2025 \nWFP decision widely criticised and due to wide-scale uproar they reversed this decision in may 2025, 52MPs did not participate in the vote"
+        ],
+        [
+          "Law and Order",
+          "Jury trials scrapped for defendants who would be jailed for up to 5 years – new labour idea of pragmatism and efficiency over fairness, goes against idea of fair trial for all \nSenior Lawyers have said ‘David Lamy is proposing to massively restrict this ancient right’ that went back to the Magna Carta. Trying to fix Court backlog \nPrescribing Palestine action as terrorist organisation – surveillance, tough on crime, new Labour by Yvette Cooper – goes against traditional values of right to protest",
+          "Serious Violence duty act 2022, forces policing agencies to work together preserving the concept of crime as having root causes – aligns with old labour of rehabilitation \nSentencing and early release – prisoners being released early under Labour’s justice plan"
+        ]
+      ]
+    },
+    {
+      "id": 24,
+      "label": "Conservative leaders' weaknesses",
+      "kind": "comparison",
+      "area": "PARTIES",
+      "headers": [
+        "Year",
+        "YES",
+        "NO"
+      ],
+      "rows": [
+        [
+          "2017",
+          "During a visit to the scene of the fire, May was booed by locals and heckled with chants of ‘resign’ \nFollowing the Chequers agreement announced in July 2018 and the subsequent resignations of David Davis and Boris Johnson, a plurality of the public by September believed May was no more incompetent than competent",
+          "‘Strong and Stable’ Theresa May initially seen as a strong and reliable leader, especially in comparison to Corbyn \nGrenfell tower fire – a week after the pubic went to the polls. YouGov found that 64% of respondents don’t think the gov responded well \n2018 Windrush Scandal of dozens of Windrush immigrants being detained and erroneously threatened with deportation – 64% thought the gov handled the situation poorly but only 22% thought May herself was responsible"
+        ],
+        [
+          "2019",
+          "PartyGate – parties in Downing Street in 2020 and 2021 when public health restrictions banned gatherings due to Covid, irresponsible \nJohnson illegally prorogued parliament in September 2019 to avoid scrutiny on the Brexit legislation he was trying to force through at the time \n2021 independent investigation found that Priti Patel, home sec, was treating her Civil service team so badly that her behaviour amounted to bullying – he ignored IMR",
+          "Covid was responsible \nApril 2020, 66% of respondents in YouGov poll thought BOJO was good PM \n200,000 died in the UK \nLockdown from April to June 2020 caused fall In UK GDP by 20% \nClosure of many small businesses \nMixed messages – ‘eat out to help out’ ’stay home, save lies, and help the NHS’"
+        ],
+        [
+          "2024",
+          "Rwanda, seen by SC as violation of human rights, immigration policy under Sunak\n75 Tory MPs quit in the run-up to the election \nRishi Sunak dubbed ‘bad PM’ by 68% in a poll by Sky News",
+          "3/5 believed the gov had handled the economy badly \nMore than 80% of the public was dissatisfied with the gov’s OVERALL performance \nPaula Surrige: “First and foremost a verdict on the performance of the conservative government”"
+        ]
+      ]
+    },
+    {
+      "id": 25,
+      "label": "Lib Dem influential?",
+      "kind": "comparison",
+      "area": "PARTIES",
+      "headers": [
+        "Area",
+        "Yes",
+        "No"
+      ],
+      "rows": [
+        [
+          "Coalition",
+          "Succeeded in scrapping the national ID card, one of their key promises \nUniversal infant free school meals \nInstrumental in passing legislation to legalise same sex marriage",
+          "Promise to scrap uni fees – one of their most important manifesto promises in the run up to the election, one of the key reasons why they won, gave it up in the coalition showing and allowed the cap of annual tuition fees to nearly triple, showing weakness in their authority compared to the tories – thousands of people took to the street, widespread anger \n2015 General election saw the party reduced from 57 MPs to just 8 – loss of 80% of their parliamentary representation"
+        ],
+        [
+          "Pushing policy",
+          "Windfall tax on energy companies, something Ed Davey has pointed out - led to labour 2024 stealing this policy and including a commitment to ‘proper windfall tax’ in their manifesto to help fund its green prosperity plan and establish great British energy \nWera Hobhouse – Worker Protection Act, provides employees with protection against sexual harassment in the workplace \nCarer’s Leave Act – Wendy Chamberlain’s act gives 2.4 million unpaid carers the statutory right to 5 days unpaid leave per year",
+          "Conversions therapy prohibition bill November 2023: aimed to ban conversion practices for sexual orientation, the bills progression not guaranteed, Tory gov did not include the ban in its own legislative agenda – still hasn’t become law \nAbolition of the water services regulation authority bill: MP Tim Farron bill to abolish the OFWAT and replace it with a new clean water authority to improve regulation of water companies – never passed through parliament"
+        ],
+        [
+          "Stragglers",
+          "2024:A string of by-election successes, gained 64 seats, ousted 4 Tory cabinet ministers like Gillian Keegan, former education secretary \nBroke the ‘blue wall’ – denied Tory success in constituencies once held by Cameron, May and Johnson\nIn response to FPTP system – Party has rebuilt its councillor base, increasing its influence at the local level and strengthening its ability to campaign on local issues",
+          "Small number of seats in parliament means they aren’t a significant opposition force \nFirst time in British history, 3rd parties are seeing significant success, such as Reform UK and Greens\nLib Dem’s membership has halved in the past 5 years compared to Green membership (increased by 80% since September 2025) \nAs of September 2025, just 17% believe the Lib Dem’s would run the country well"
+        ]
+      ]
+    },
+    {
+      "id": 26,
+      "label": "FPTP strengths and weaknesses",
+      "kind": "strengths_weaknesses",
+      "area": "ELECTIONS",
+      "headers": [
+        "Strengths of FPTP",
+        "Strengths of FPTP",
+        "Weaknesses of FPTP",
+        "Weaknesses of FPTP"
+      ],
+      "rows": [
+        [
+          "Easy to understand – one vote, one candidate \nProvides ‘strong and stable, stable and strong’ (Theresa May) as they can pass laws easier e.g Since 1945 there has only been one coalition \nWinners bonus where the party with the most votes gets a larger number of seats than proportional, allowing them to have a clear majority – Stamer won landslide victory, 174 seat majority despite 33.7% of the popular vote \nLarge majority governments can deliver on their manifesto commitments with minimal resistance, without relying on coalition partners – TB government with 179 seat majority, suffered only 4 defeats in total in the commons \nStrong constituency link with MPs directly accountable to their constituents – each constituency elects single MP who represents specific geographical area \nMPs tend to place considerable emphasis on constituency work such as holding local surgeries, answering emails and addressing local issues, answering emails and addressing local issues. Research shows MPs spend around 48% of their time on constituency work\nAttempts to reform the system have lacked popular support – 2011 AV referendum 68% voters rejected replacing FPTP with AV, suggesting that the public is satisfied with the current system  \nIn 2024, the first constituency result (Sunderland South) was announced at 23:15 on the day of the election, the result was clear the next morning and Stamer arrived at Downing Street as the new PM at 12:40pm the day after the election \n1980s FPTP allowed Thatcher to bring about widespread changes to the economy whilst in 1997 it gave Blair’s government the mandate to carry out extensive constitutional reforms \nStrong constituency link: December 2023 Conservative MPs supported Labour amendment aimed at speeding up compensation for victims of infected blood scandal, rebelling against 3 line conservative whip – influenced by local movements – Tory MP Caroline Nokes rebelled to represent local movement in Romsey and Southampton North constituency",
+          "Easy to understand – one vote, one candidate \nProvides ‘strong and stable, stable and strong’ (Theresa May) as they can pass laws easier e.g Since 1945 there has only been one coalition \nWinners bonus where the party with the most votes gets a larger number of seats than proportional, allowing them to have a clear majority – Stamer won landslide victory, 174 seat majority despite 33.7% of the popular vote \nLarge majority governments can deliver on their manifesto commitments with minimal resistance, without relying on coalition partners – TB government with 179 seat majority, suffered only 4 defeats in total in the commons \nStrong constituency link with MPs directly accountable to their constituents – each constituency elects single MP who represents specific geographical area \nMPs tend to place considerable emphasis on constituency work such as holding local surgeries, answering emails and addressing local issues, answering emails and addressing local issues. Research shows MPs spend around 48% of their time on constituency work\nAttempts to reform the system have lacked popular support – 2011 AV referendum 68% voters rejected replacing FPTP with AV, suggesting that the public is satisfied with the current system  \nIn 2024, the first constituency result (Sunderland South) was announced at 23:15 on the day of the election, the result was clear the next morning and Stamer arrived at Downing Street as the new PM at 12:40pm the day after the election \n1980s FPTP allowed Thatcher to bring about widespread changes to the economy whilst in 1997 it gave Blair’s government the mandate to carry out extensive constitutional reforms \nStrong constituency link: December 2023 Conservative MPs supported Labour amendment aimed at speeding up compensation for victims of infected blood scandal, rebelling against 3 line conservative whip – influenced by local movements – Tory MP Caroline Nokes rebelled to represent local movement in Romsey and Southampton North constituency",
+          "Winners bonus undermines the democratic legitimacy of government by producing highly disproportionate votes: Labour 2005 formed majority government, 63% of seats with just 33% of the vote - FPTP prioritises effective governance over fair representation \nDoesn’t always guarantee stable governments, May government relied on the support from the DUP without a majority and suffered numerous defeats in the commons, especially over Brexit \nSimple plurality system means candidates can win seats without receiving a majority vote in their constituency – Labour’s Terry Jeremy from South West Norfolk elected with just 26.7% of the vote \n2024 according to MakeVotesMatter, roughly 4/10 voters said they were considering voting tactically, where voters support a candidate not because they prefer them but in order to prevent another party from winning, limits voters ability to fully express their political preferences\nMarginalises smaller and emerging parties which is increasingly problematic given the more plural political landscape that has developed – FPTP rewards parties with geographically concentrated support, meaning smaller parties with widespread but thinly distributed support struggle to gain parliamentary representation - 2024 Reform UK 14% but 5 seats (According to Make Votes Matter who modelled how the 2024 election would’ve differed under different electoral systems, Reform would’ve received 71 seats under STV and 91 under AMS \nParties with concentrated regional support, such as SNP, have historically been able to win a great number of seats despite smaller share of national vote  \nFPTP contributes to political disengagement through the creation of ‘safe seats’ where the same party constantly wins by large margins. Elections under FPTP thus decided by few thousand swing voters in a small number of marginal constituencies \nE.g if just 533 people had voted differently in 2017, it would have resulted in a majority gov instead of hung parliament\nManchester Rusholme safe seat won by Labour in 2024 with 51.9% of the vote on 40% turnout \nLeads to perception of ‘wasted votes’ – 2024 only 1 in 4 voters had a vote that made a difference, directly affects turnout, 2024 60% (second lowest since universal suffrage in 1928)",
+          "Winners bonus undermines the democratic legitimacy of government by producing highly disproportionate votes: Labour 2005 formed majority government, 63% of seats with just 33% of the vote - FPTP prioritises effective governance over fair representation \nDoesn’t always guarantee stable governments, May government relied on the support from the DUP without a majority and suffered numerous defeats in the commons, especially over Brexit \nSimple plurality system means candidates can win seats without receiving a majority vote in their constituency – Labour’s Terry Jeremy from South West Norfolk elected with just 26.7% of the vote \n2024 according to MakeVotesMatter, roughly 4/10 voters said they were considering voting tactically, where voters support a candidate not because they prefer them but in order to prevent another party from winning, limits voters ability to fully express their political preferences\nMarginalises smaller and emerging parties which is increasingly problematic given the more plural political landscape that has developed – FPTP rewards parties with geographically concentrated support, meaning smaller parties with widespread but thinly distributed support struggle to gain parliamentary representation - 2024 Reform UK 14% but 5 seats (According to Make Votes Matter who modelled how the 2024 election would’ve differed under different electoral systems, Reform would’ve received 71 seats under STV and 91 under AMS \nParties with concentrated regional support, such as SNP, have historically been able to win a great number of seats despite smaller share of national vote  \nFPTP contributes to political disengagement through the creation of ‘safe seats’ where the same party constantly wins by large margins. Elections under FPTP thus decided by few thousand swing voters in a small number of marginal constituencies \nE.g if just 533 people had voted differently in 2017, it would have resulted in a majority gov instead of hung parliament\nManchester Rusholme safe seat won by Labour in 2024 with 51.9% of the vote on 40% turnout \nLeads to perception of ‘wasted votes’ – 2024 only 1 in 4 voters had a vote that made a difference, directly affects turnout, 2024 60% (second lowest since universal suffrage in 1928)"
+        ]
+      ]
+    },
+    {
+      "id": 27,
+      "label": "AMS strengths and weaknesses",
+      "kind": "strengths_weaknesses",
+      "area": "ELECTIONS",
+      "headers": [
+        "Strengths of AMS",
+        "Weaknesses of AMS"
+      ],
+      "rows": [
+        [
+          "More proportional and so have stronger mandate: 2016 SNP won 49% of seats and 42% of popular vote – if FPTP they would have won 82% of seats\nEach voter has two votes – one for constituency candidates and one for the party \nMore voter choice and potentially greater representation with 2 representatives per constituent \nFPTP Marginalises smaller and emerging parties which is increasingly problematic given the more plural political landscape that has developed – FPTP rewards parties with geographically concentrated support, meaning smaller parties with widespread but thinly distributed support struggle to gain parliamentary representation - 2024 Reform UK 14% but 5 seats (According to Make Votes Matter who modelled how the 2024 election would’ve differed under different electoral systems, Reform would’ve received 71 seats under STV and 91 under AMS \nAMS more proportional as the second ‘top up’ vote for a party acts as a corrective to the first constituency vote – 1999 Scottish Parliament election, Tory party won 0 constituency seats despite getting 15% of the vote but won additional 18 member seats in order to correct this (received 14% of seats overall)",
+          "Complicated and less direct relationship between constituent and MP – AMS has two representatives, one for a constituency and another for larger areas. Confusing and creates different levels of representation that can weaken accountability \nAMS prone to causing minority/ coalition governments who have many issues: Breakdown of Scottish gov in April 2024 – First Minister Humza Youssaf decided to end the coalition agreements after the Greens strongly criticised the SNP for abandoning a key climate change target – as a result the greens supported a no confidence motion against Youssaf who soon resigned"
+        ]
+      ]
+    },
+    {
+      "id": 28,
+      "label": "STV strengths and weaknesses",
+      "kind": "strengths_weaknesses",
+      "area": "ELECTIONS",
+      "headers": [
+        "Strengths of STV",
+        "Weaknesses of STV"
+      ],
+      "rows": [
+        [
+          "FPTP marginalises smaller and emerging parties which is increasingly problematic given the more plural political landscape that has developed – FPTP rewards parties with geographically concentrated support, meaning smaller parties with widespread but thinly distributed support struggle to gain parliamentary representation - 2024 Reform UK 14% but 5 seats (According to Make Votes Matter who modelled how the 2024 election would’ve differed under different electoral systems, Reform would’ve received 71 seats under STV and 91 under AMS \nSTV almost always leads to coalition government, benefit in NI as it brings DUP and Sinn Fein together into cooperation",
+          "Complicated and less direct relationship between constituent and MP – STV has numerous representatives for one constituency. Confusing and creates different levels of representation that can weaken accountability.\n2019 local elections in NI, in district electoral areas where there were 2 candidates running from the same party, the candidate whose surname was first alphabetically was elected 85% of the time – donkey voting \nSTV can lead to governments prone to conflict and indecision: NI assembly was suspended for 2 years following 2022 election as DUP refused to go into coalition with Sinn Fein in protest against the Northern Ireland Protocol – meant thee was no executive and business in NI was run by Westminster until the gov was restored again in Feb 2024 \nSTV leads to coalitions in Scottish local elections, where after the 2022 elections, 94% of councils had no overall control \n2022 NI assembly elections saw 11,000 spoilt ballots which represented 1.3% of all votes cast"
+        ]
+      ]
+    },
+    {
+      "id": 29,
+      "label": "Should the UK adopt PR?",
+      "kind": "for_against",
+      "area": "ELECTIONS",
+      "headers": [
+        "FOR",
+        "AGAINST"
+      ],
+      "rows": [
+        [
+          "Can settle longstanding disputes and issues of interest: AV referendum was rejected 68% by voters\nMake govs more responsive by forcing them to listen to public opinion between elections – i.e provide a check on government power, 2016 Brexit \nPromote participation and give everyone a voice every casted vote is the same worth, 2014 referendum for Scottish Independence had record 84.6% turnout. Direct democracy – public can speak for themselves rather than through an MP \nReferendums help to create a more informed electorate – make the public more active between elections which could increase overall turnout – 2017, 69%, highest since 1997\nYouth mobilisation, turnout among 18-24 year olds rose by 16 percentage points from 2015 \n2015 general election record turnout in Scotland (66.7%) following 2014 referendum\nMedia campaigns can expose voters to more information to increase their knowledge \nAllows single issue to be isolated and unambiguous popular verdict to be given. Especially important when trust in politicians is low and when an issue cuts across party lines – Brexit, public disagreed with parliament (75% of MPs supported remain) and Tories split on the issue \nWell regulated by the Electoral omission – 2016 the government originally proposed to ask “should the UK remain a member of the EU?” But the commission considered it to be insufficiently neutral and insisted the ballot paper should present the two options: “Should the UK remain a member of the EU or leave the EU?”",
+          "Undermine the authority of parliament as it may be sidelined if they are overused. Takes away parliamentary sovereignty\nToo regular use of referendums might result in voter apathy or fatigue – low turnout can reduce the legitimacy of referendums e.g AV referendum had 42% turnout \nReferendums can be called twice to get the right answer – e.g 2014 independence referendum in Scotland they asked for another in 2018 \nCampaigns can be misleading – both remain and leave campaigns in the 2016 referendum made claims that fact checkers have since disproven – e.g Leave NHS bus advert claim that ‘we send 350m a week to the EU’ and Cameron suggestion that if the UK left the EU house prices would plummet, there would be medicine shortages and millions would lose their job\nReal meaning of voting yes and no in both 2016 and 2014 referendum was far from clear – did it mean staying in the single market, customs union or leaving without a deal? \ngov can choose when to call them and use public resources to back their preferred outcome. Gov can control the questions and options on the ballot paper e.g 2014 choice was yes or no even though many voters wanted a third option for ‘greater devolution’ \n2016 the Leave campaign argued that the remain campaign had an unfair advantage because the government and civil service supported it \n2016 the Electoral commission reported that the arguments used by the leaders of both campaigns included a large degree of distortion, and that there should have been a greater regulation of referendum campaigns to ensure people received a far representation of the arguments – e.g the negative impact of EU immigration to the UK was overstated by the Leave campaign \n1997 Welsh Devolution referendum had 50.3% yes on 50% turnout, failed to engage voters leading to illegitimate outcome"
+        ]
+      ]
+    },
+    {
+      "id": 30,
+      "label": "UK class classifications (A-E)",
+      "kind": "class_table",
+      "area": "VOTING",
+      "headers": [
+        "Classification",
+        "Description",
+        "Typical occupation"
+      ],
+      "rows": [
+        [
+          "A and B",
+          "Higher and intermediate managerial, administrative, professional occupations",
+          "Banker\nDoctor \nCompany Director \nSenior executive"
+        ],
+        [
+          "C1",
+          "Supervisory, clerical and junior managerial, administrative, professional occupations",
+          "Teacher \nOffice manager \nIT manager\nSocial worker"
+        ],
+        [
+          "C2",
+          "Skilled manual occupations",
+          "Plumber \nHairdresser \nMechanic \nTrain Driver"
+        ],
+        [
+          "D and E",
+          "Semi-skilled and unskilled manual occupations, unemployed",
+          "Labourer \nBar staff \nCall centre staff \nUnemployed"
+        ]
+      ]
+    },
+    {
+      "id": 31,
+      "label": "Voting by gender",
+      "kind": "gender_voting",
+      "area": "VOTING",
+      "headers": [
+        "Gender",
+        "Men were evenly split between the two main parties \nWomen showed slight preference for the conservatives"
+      ],
+      "rows": [
+        [
+          "Age",
+          "Labour won among the 18-24 age group, but Conservatives won across all other age groups \nLabour support declined most in the 35-45 age group"
+        ],
+        [
+          "Class",
+          "The conservatives remained dominant with the A,B, and C1 voters. Labour won the C2, D and E vote, but the conservatives gained swings of 11% and 9% respectively across these groups"
+        ],
+        [
+          "Region",
+          "All areas swung towards the conservatives, but the swing was much more pronounced in southern England"
+        ]
+      ]
+    },
+    {
+      "id": 32,
+      "label": "Voting by gender 2017",
+      "kind": "gender_voting",
+      "area": "VOTING",
+      "headers": [
+        "Gender",
+        "Labour closed the gender gap, with men and women equally likely to support Labour"
+      ],
+      "rows": [
+        [
+          "Age",
+          "The conservatives remained dominant with over 65s, but Labour won decisively among all other age groups"
+        ],
+        [
+          "Ethnicity",
+          "Labour beat the conservatives among white voters (43%) and BAME voters (70%). The conservatives gained only 32% of the white vote and mere 18% of BAME vote."
+        ],
+        [
+          "Class",
+          "Labour gained across all groups, most notably with C1 (+19%) and C2 (+15%), although conservatives still ‘won’ the A and B vote and the C1 group was tied"
+        ],
+        [
+          "Region",
+          "Labour gained votes across all regions, bucking the trend towards a Conservative South and a Northern Labour. Conservatives wiped out in Scotland and Wales and reduced to only 11MPs in London, becoming a party of the English suburbs and shires"
+        ]
+      ]
+    },
+    {
+      "id": 33,
+      "label": "Voting by age",
+      "kind": "demographic_voting",
+      "area": "VOTING",
+      "headers": [
+        "Gender",
+        "Conservatives won similar share of the vote among men and women (37% and 38%) \nLabour had clear gender gap with more women than men"
+      ],
+      "rows": [
+        [
+          "Age",
+          "Age divide continued \nLabour won with 18-24 age group and tied with conservatives among 40-49\nConservatives won with all other groups, achieving 20% advantage over labour with over-65s"
+        ],
+        [
+          "Ethnicity",
+          "Labour won 67% of the Black Caribbean vote compared with Tory 21%\nConservatives decisively won with people of Asian origins"
+        ],
+        [
+          "Class",
+          "A,B,C1 and C2 categories all voted Conservative \nLabour did win with D and E classes \nConservative votes among A,B,C1 increased from 2010"
+        ],
+        [
+          "Region",
+          "England, outside major cities and industrial centres, overwhelmingly voted conservative, at the expense of the Lib Dem’s \nLabour and Lib Dem’s nearly wiped out in Scotland by SNP who won 56/59 seats"
+        ]
+      ]
+    },
+    {
+      "id": 34,
+      "label": "Voting by ethnicity",
+      "kind": "demographic_voting",
+      "area": "VOTING",
+      "headers": [
+        "Gender",
+        "Slight gender gap between Conservatives and Labour but mainly the result of large gap in the 18-24 group, with 64% of women in this group voting labour \nGender gap far less pronounced elsewhere, with only slight female bias towards Labour"
+      ],
+      "rows": [
+        [
+          "Age",
+          "Age was once again the main dividing line in the British electorate, especially women, far more likely to vote Labour \nThe older a person became, the more likely they were to vote Conservative, with 39 as the tipping point"
+        ],
+        [
+          "Ethnicity",
+          "BAME voters continued to favour Labour over the conservatives, leading 64% to 20%\nConservatives won the white vote over Labour 48% to 29%"
+        ],
+        [
+          "Class",
+          "Conservatives won across all social classes and the percentage split between Labour and the Conservatives remained pretty consistent across all groups \nConservatives won a higher proportion of votes among C2, D and E classes than they did with A, B and C1 groups"
+        ],
+        [
+          "Region",
+          "The conservatives dominated rural and southern England (outside London) and made gains in industrial northern areas and in Wales \nSNP gained seats in Scotland to continue domination there, while the Conservatives lost 7 seats, but remained the second-biggest party\nSlight rise in nationalist parties in NI"
+        ]
+      ]
+    },
+    {
+      "id": 35,
+      "label": "Voting by education",
+      "kind": "demographic_voting",
+      "area": "VOTING",
+      "headers": [
+        "Education",
+        "23% of people with only GCSE or lower voted Reform. Labour beat the Tories in higher and lower social grades. Homes of a 70,000+ income voted 40% Labour"
+      ],
+      "rows": [
+        [
+          "Gender",
+          "Twice as many young women (18-24) voted green than men (23% to 12%). 17% of men voted reform compared to 12% of women"
+        ],
+        [
+          "Age",
+          "Key division in age, young= labour, older = conservative. Only 8% voted conservative under 30, but 46% of 70 and older voted conservative. 18% of 18-24 voted Green."
+        ],
+        [
+          "Ethnicity",
+          "Amongst Pakistani and Bangladeshi Britons, 41% say the issue in Gaza is their top concern and many voted Green (29%). Black voters 72% labour."
+        ],
+        [
+          "Region",
+          "Labour regained Red-wall and won 37 of 28 Red Wall seats, including Blyth Valley who elected a Conservative MP for the first time in its 69 year history, Tories only have 21 of the 73 London constituencies"
+        ]
+      ]
+    },
+    {
+      "id": 36,
+      "label": "Media influence",
+      "kind": "comparison",
+      "area": "VOTING",
+      "headers": [
+        "Influence",
+        "Reinforcement",
+        "Shaping agenda"
+      ],
+      "rows": [
+        [
+          "The sun endorses Brexit 2016 – headlines of ‘beLeave in Britain’ arguably influenced undecided voters \nEd Miliband’s Bacon sandwich incident 2014 – media focus on always photo whilst eating sandwich which symbolised him being unfit for leadership leading up to 2015 election \n2017 Tories spend £2million on Facebook advertising \n1997 The Sun backs Blair influenced voters as the Sun is historically conservative",
+          "Tabloid criticism of Labour in 2019 – the Sun and the Daily Mail amplify criticism of Jeremy Corbyn’s leadership \nThe Daily Mail Consistently supports conservative policies and leadership \nBrexit coverage in Right-leaning outlets with persistent negative portrayals of the EU, e.g in Telegraph – expressed and reinforced Eurosceptic beliefs amongst their core readership, maintaining pressure for a hard-Brexit stance",
+          "2017 campaign – Labour grassroots movement in campaign effectively used social media to shape young voters perception of the 2017 election with videos of JC being relatable \nBBC debates and leadership interviews – high profile televised debates and interviews \nBOJO v Corbyn 2019 where Johnson had an assured performance against Corbyn apparent idealism \nCambridge analytics and microtargeting 2016 – the manipulation of voter data of microtarget ads during the Brexit referendum shaped voter understanding of key issues – e.d ads emphasised the NHS funding ‘dividend’ from leaving the EU"
+        ]
+      ]
+    },
+    {
+      "id": 37,
+      "label": "Media types",
+      "kind": "media_types",
+      "area": "VOTING",
+      "headers": [
+        "Type",
+        "Influence",
+        "Irrelevance"
+      ],
+      "rows": [
+        [
+          "Print media",
+          "The sun 2017 had 30 million monthly reads \nSun and Daily Mail were the two most read newspapers \n58% of over 65 use print news",
+          "Print media readership decrease by 52% from 2010 t0 2018\n2016 the print of the Independent ceased and it became only online \n2005-2017 saw 238 local newspapers shut down \nOnly 4% of 18-24 year old’s get their news from newspapers"
+        ],
+        [
+          "Broadcast media",
+          "54% of 55+ use TV broadcasting for news\nSince 2017 BBC and all commercial stations are monitored by OFCOM \nIn the 200s – national and political culture was created as all families would watch the news at same time together",
+          "9% of 18-24 use this as their source of media"
+        ],
+        [
+          "Social media",
+          "84% of 18-24 get their news from online sources, social media alone is 24% \nCelebrity politics focuses on leadership not the party \n2013 social media rise, Twitter Facebook and TikTok \n2019 – 73% of the public used facebook \n2017 over 1.5 million people under 35 registered to vote one month before the election due to online campaigns encouraging them to vote",
+          "Issues of fake news as social media is unregulated. AI \n2016 Brexit Campagin – remain camp argued that leave camp were misleading voters by spreading false info – especially about the NHS \n2017 election – the Sun argued there were misleading claims made by Labour that the tories wanted to privatise the NHS"
+        ]
+      ]
+    },
+    {
+      "id": 38,
+      "label": "Media moments by election",
+      "kind": "election_media",
+      "area": "VOTING",
+      "headers": [
+        "Election",
+        "Media moment",
+        "How It may have influenced the outcome",
+        "How it may NOT have influenced the outcome"
+      ],
+      "rows": [
+        [
+          "1979",
+          "The sun issued a headline saying ‘crisis? What crisis?’ As Jim Callaghan’s reaction to the ‘winter of discontent’",
+          "Callaghan never actually said this, but it caught the public imagination, suggesting that he was out of touch with public opinion, thereby swinging opinion against a formerly popular PM",
+          "Polls showed that Callaghan remained personally popular throughout the election and was actually far ahead of Thatcher. He was Labour’s biggest electoral asset"
+        ],
+        [
+          "1997",
+          "The sun switched support from the Conservatives to Labour",
+          "The Sun (and most of the press) publicly switched support to Blair and New Labour, persuading many former conservative voters to vote labour instead",
+          "Polls suggested Labour was on course for a large victory anyways \nThe sun and the press were simply reacting to the existing situation"
+        ],
+        [
+          "2010",
+          "The first televised debate was won by Nick Clegg",
+          "Clegg was reported as having won the first leaders’ debate, raising his profile at the expense of David Cameron, perhaps costing the Conservatives the votes needed for an outright majority",
+          "The Liberal Democrats only increased their share of the vote by 1 percent nationally and actually lost seats, suggesting any impact from the debate was, at best, limited"
+        ],
+        [
+          "2015",
+          "The televised leaders’ debate",
+          "Ed Milliband fell off the stage and gave an overexcited ‘Hell yes, I’m tough enough’ response to a question, making him appear less Prime Ministerial than Cameron",
+          "Opinion polls suggested the debate made no real difference to voting intentions, merely confirming existing intentions"
+        ],
+        [
+          "2019",
+          "Facebook advertising",
+          "At the start of December 2019, the Facebook ad library showed the Conservatives had 25000 live paid-for advertisements, while Labour only had 250. The conservatives went on to seal a huge victory over Labour.",
+          "At the same time, the Liberal Democrat’s had 3000 paid ads on Facebook, more than the Conservative Party, yet they lost seats"
+        ]
+      ]
+    },
+    {
+      "id": 39,
+      "label": "Should opinion polls be banned during elections?",
+      "kind": "for_against",
+      "area": "VOTING",
+      "headers": [
+        "For banning",
+        "Against banning"
+      ],
+      "rows": [
+        [
+          "Opinion polls may influence the way people vote \nOpinion polls have proved to be inaccurate so they mislead the public \nArguably politicians should not be captive to changing public opinion as expressed in the polls",
+          "It would infringe on the principle of freedom of expression \nIf publication of opinion polls is banned, they will become available privately for organisations that can afford to pay for them \nOpinion polls give valuable information about people’s attitudes that can usefully guide politicians \nThe polls would still be published abroad and people could access them through the internet"
+        ]
+      ]
+    },
+    {
+      "id": 40,
+      "label": "Should the BBC be privatised?",
+      "kind": "yes_no",
+      "area": "VOTING",
+      "headers": [
+        "Yes",
+        "No"
+      ],
+      "rows": [
+        [
+          "Parties and Govs use polling to help inform decision making: 2017 Labour manifesto chimed with policy issue polls that showed the public backed the re-nationalisation of railways and building of thousands of new council homes \n2019 Manifesto chimed with policy issue polls with its focus on ‘Get Brexit Done’ and increased spending pledges in the police, NHS and education \nOpinion polls can encourage political participation and inform public debate – if the media reports a close contest this is more likely to encourage voters \nVoting intention reported being close in 2010, 2015,2017 and saw 69% turnout\nOpinion polls allow politicians to have access to public attitudes and check voting intentions and so stops the gov misrepresenting the public \n2012 coalition gov was forced to reverse the 3p rise in tax on fuel in response to pressure from monitoring groups, industry leaders and backbench MPs\n2017 TM was forced to reverse her policy to make elderly people pay for their social care and it was nicknamed the ‘dementia tax’ by Labour after her lead in voting intention polls halved in one day",
+          "If voting intention polls help party leaders shape policy and make decision if they are accurate, however they were inaccurate in 2015 and 2017 so the polls can misinform party leaders on public opinion \nWhen TM called a snap election in 2017 the average conservative lead in the polls was 17% but the final result gave the tories only a 2.4% lead – this inaccuracy of polling led to the tories losing their majority in the commons \nQuestions over if DC would have included a referendum about the EU in his 2015 manifesto if the polls hadn’t predicted another hung parliament \n2012 the chancellor George Osborne U-turned on a number of measures in his budget including VAT on hot foods such as the ‘pasty tax’ due to public annoyance. This became known as the ‘omnishambles’ budget making the gov look incoherent \nIf polling comes out that there is clearly huge support for one side there can be low voter turnout e.g 2024 turnout was only 59% because polls predicted Labour landslide \nPolitical parties shouldn’t just follow opinion polls, they should also shape their own agenda and policy. 2025 – Stamer called a pragmatic politician who seems to overly follow polls and do the things to maintain popularity, such as removing the two child benefit cap and creating a mansion tax for houses over 2 million (Nov 2025) \nAlso seen in Labour U-turn on PIP and shrinking the winter fuel allowances \n\nThe impact on elections and referendums: \nReport of the inquiry into the 2015 British General election opinion polls commissioned by the British polling council and market research society stated that ‘the expectation of a hung parliament in the final days and weeks of the campaign was so strong and widely held that the sense of shock and disbelief was palpable when the result of the exit poll was announced’ \nThe polling inaccuracies led the Tories to lead with a campaign that played on the fears of Labour, taking power with the support of the SNP as a coalition government"
+        ]
+      ]
+    }
+  ]
+}

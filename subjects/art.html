@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>History of Art · Alice's Revision</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/styles.css?v=20260503174955">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23B8540A'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='38' fill='%23FBF8F3' font-style='italic'%3EH%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<nav class="nav">
+  <a class="brand" href="../">Alice's Revision</a>
+  <div class="links">
+    <a href="../">Home</a>
+    <a href="./english.html">English</a>
+    <a href="./politics.html">Politics</a>
+    <a href="./art.html" class="active">History of Art</a>
+  </div>
+</nav>
+
+<div class="container">
+
+  <header class="subject-header">
+    <span class="badge art">History of Art · Edexcel</span>
+    <h1>Visual Analysis, Themes & Periods</h1>
+    <p class="meta">Edexcel 9HT0 · Mon 18 May (3h, J1) and Tue 2 Jun (3h, L1)</p>
+    <p class="meta" id="examCountdown" style="margin-top: 8px; font-weight: 500; color: var(--art);"></p>
+  </header>
+
+  <div class="card-stage" style="text-align: center; min-height: 240px">
+    <div style="font-size: 3rem; margin-bottom: 12px">🎨</div>
+    <h2 class="serif" style="margin-bottom: 8px">Notes coming soon</h2>
+    <p class="muted" style="max-width: 520px; margin: 0 auto; line-height: 1.6">
+      Once your notes for History of Art are ready, this section will get the same treatment as English and Politics — flashcards, theme builders, period comparisons, and visual analysis prompts.
+    </p>
+    <p class="muted" style="font-size: 0.85rem; margin-top: 20px">
+      In the meantime, head back to <a href="./english.html" style="color: var(--art); font-weight: 500">English</a> or
+      <a href="./politics.html" style="color: var(--art); font-weight: 500">Politics</a>.
+    </p>
+  </div>
+
+  <footer><a href="../">← back to home</a></footer>
+</div>
+
+<script src="../assets/js/shared.js?v=20260503174955"></script>
+<script>
+  const exam = window.EXAMS.find(e => e.subject === 'art');
+  if (exam) {
+    const t = timeUntil(exam.date);
+    document.getElementById('examCountdown').textContent =
+      t.past ? 'Done' : (t.days + ' day' + (t.days===1?'':'s') + ' to your first paper');
+  }
+</script>
+
+</body>
+</html>

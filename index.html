@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#FBF8F3" />
+  <title>Alice's Revision · A* A* A</title>
+  <meta name="description" content="A-Level revision dashboard for Alice — English, Politics, History of Art." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css?v=20260503174955">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231F1B16'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='38' fill='%23E8C766' font-style='italic'%3EA%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<nav class="nav">
+  <a class="brand" href="./">Alice's Revision</a>
+  <div class="links">
+    <a href="./" class="active">Home</a>
+    <a href="./subjects/english.html">English</a>
+    <a href="./subjects/politics.html">Politics</a>
+    <a href="./subjects/art.html">History of Art</a>
+  </div>
+</nav>
+
+<div class="container">
+
+  <section class="hero">
+    <div class="greeting">
+      Hi Alice — <em>you've got this</em>.
+    </div>
+    <p class="subtitle">A*, A*, A is on the cards. Revise a little every day, and 13 May won't surprise you.</p>
+    <div class="streak-pill" id="streakPill"><span class="dot"></span><span id="streakText">starting fresh today</span></div>
+  </section>
+
+  <!-- Big countdown to next exam -->
+  <section class="countdown" id="countdown">
+    <div class="label">Next paper</div>
+    <div class="next-exam" id="nextExamLabel">—</div>
+    <div class="timer">
+      <div class="unit"><div class="num" id="ctDays">—</div><div class="name">days</div></div>
+      <div class="unit"><div class="num" id="ctHours">—</div><div class="name">hours</div></div>
+      <div class="unit"><div class="num" id="ctMinutes">—</div><div class="name">mins</div></div>
+      <div class="unit"><div class="num" id="ctSeconds">—</div><div class="name">secs</div></div>
+    </div>
+  </section>
+
+  <!-- Daily quote -->
+  <section class="daily-quote">
+    <div class="text" id="quoteText"></div>
+    <span class="author" id="quoteAuthor"></span>
+  </section>
+
+  <!-- Subject cards -->
+  <h2 class="serif" style="margin-top:32px">Pick a subject</h2>
+  <div class="subjects">
+    <a class="subject-card eng" href="./subjects/english.html">
+      <div class="icon">📜</div>
+      <h3>English Literature</h3>
+      <div class="next" id="engNext">—</div>
+      <div class="stats" id="engStats"></div>
+    </a>
+    <a class="subject-card pol" href="./subjects/politics.html">
+      <div class="icon">🏛️</div>
+      <h3>Politics</h3>
+      <div class="next" id="polNext">—</div>
+      <div class="stats" id="polStats"></div>
+    </a>
+    <a class="subject-card art" href="./subjects/art.html">
+      <div class="icon">🎨</div>
+      <h3>History of Art</h3>
+      <div class="next" id="artNext">—</div>
+      <div class="stats" id="artStats"></div>
+    </a>
+  </div>
+
+  <!-- Full timetable -->
+  <section class="timetable">
+    <h2 class="serif">All exams · Summer 2026</h2>
+    <p class="muted" style="margin-bottom: 16px; font-size: 0.9rem">All papers at MSC Mezzanine. Live countdown to each.</p>
+    <div id="timetableList"></div>
+  </section>
+
+  <footer>
+    <span class="pip">★</span> Built for Alice with love · v<span id="appVer"></span> ·
+    <a href="#" id="resetBtn" style="color: var(--ink-mute)">reset progress</a>
+  </footer>
+</div>
+
+<script src="./assets/js/shared.js?v=20260503174955"></script>
+<script>
+  // Daily quote
+  const q = getDailyQuote();
+  document.getElementById('quoteText').textContent = q.text;
+  document.getElementById('quoteAuthor').textContent = '— ' + q.author;
+
+  // Streak
+  const s = getStreak();
+  const text = document.getElementById('streakText');
+  if (s.count > 0) {
+    text.textContent = s.count + (s.count === 1 ? ' day streak — keep it going' : ' day streak — magic');
+  }
+
+  // Next exam countdown
+  const ne = nextExam();
+  if (ne) {
+    document.getElementById('nextExamLabel').textContent = ne.title + ' · ' + formatDate(ne.date) + ' at ' + formatTime(ne.date);
+    startCountdown(ne.date, {
+      days: document.getElementById('ctDays'),
+      hours: document.getElementById('ctHours'),
+      minutes: document.getElementById('ctMinutes'),
+      seconds: document.getElementById('ctSeconds')
+    });
+  } else {
+    document.getElementById('nextExamLabel').textContent = 'All exams complete — enjoy your summer';
+    document.getElementById('countdown').querySelector('.timer').style.display = 'none';
+  }
+
+  // Subject summaries
+  const bySubject = window.EXAMS.reduce((acc, e) => { (acc[e.subject] = acc[e.subject] || []).push(e); return acc; }, {});
+  const subjectMeta = { eng: 'English', pol: 'Politics', art: 'History of Art' };
+  ['eng','pol','art'].forEach(key => {
+    const upcoming = (bySubject[key] || []).filter(e => new Date(e.date) > Date.now());
+    const nextEl = document.getElementById(key + 'Next');
+    const statsEl = document.getElementById(key + 'Stats');
+    if (upcoming.length) {
+      const next = upcoming[0];
+      const t = timeUntil(next.date);
+      nextEl.textContent = `Next: ${next.title.replace(/^[^—]+— /,'')} · ${formatDate(next.date)}`;
+      const total = (bySubject[key] || []).length;
+      statsEl.innerHTML = `<span>${upcoming.length} of ${total} papers ahead</span><span>${t.days} days</span>`;
+    } else {
+      nextEl.textContent = 'All done';
+    }
+  });
+
+  // Full timetable list
+  const list = document.getElementById('timetableList');
+  window.EXAMS.forEach(e => {
+    const t = timeUntil(e.date);
+    const past = t.past;
+    const row = document.createElement('div');
+    row.className = 'exam-row' + (past ? ' past' : '');
+    row.dataset.subject = e.subject;
+    row.innerHTML = `
+      <div class="date">
+        ${formatDate(e.date)}
+        <span class="time">${formatTime(e.date)}</span>
+      </div>
+      <div class="info">
+        <div class="title">${e.title}</div>
+        <div class="meta">${e.paper} · ${e.duration} · seat ${e.seat}</div>
+      </div>
+      <div class="countdown-mini">
+        ${past ? 'done' : `<span class="num">${t.days}</span> day${t.days===1?'':'s'}`}
+      </div>
+    `;
+    list.appendChild(row);
+  });
+
+  // App version
+  document.getElementById('appVer').textContent = window.APP_VERSION;
+
+  // Reset button
+  document.getElementById('resetBtn').addEventListener('click', (e) => {
+    e.preventDefault();
+    if (confirm('Reset all progress? (confidence ratings, streaks, etc.)')) {
+      Object.keys(localStorage).filter(k => k.startsWith('alice_rev_')).forEach(k => localStorage.removeItem(k));
+      location.reload();
+    }
+  });
+</script>
+
+</body>
+</html>

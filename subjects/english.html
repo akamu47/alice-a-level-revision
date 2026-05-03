@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>English Literature · Alice's Revision</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/styles.css?v=20260503174955">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%236B2D5C'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='serif' font-size='38' fill='%23FBF8F3' font-style='italic'%3EE%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<nav class="nav">
+  <a class="brand" href="../">Alice's Revision</a>
+  <div class="links">
+    <a href="../">Home</a>
+    <a href="./english.html" class="active">English</a>
+    <a href="./politics.html">Politics</a>
+    <a href="./art.html">History of Art</a>
+  </div>
+</nav>
+
+<div class="container">
+
+  <header class="subject-header">
+    <span class="badge eng">English Lit · Paper 1 · Poetry</span>
+    <h1 id="title"><em>Paradise Lost</em>, Book 9</h1>
+    <p class="meta">WJEC A720U10-1 · 2 hours · Wed 13 May, 09:00 · Seat H3</p>
+    <p class="meta" id="examCountdown" style="margin-top: 8px; font-weight: 500; color: var(--eng);"></p>
+  </header>
+
+  <!-- Mode picker -->
+  <div id="modePicker">
+    <h2 class="serif" style="margin-bottom: 8px">How do you want to revise?</h2>
+    <p class="muted" style="margin-bottom: 16px; font-size: 0.92rem">
+      Each mode forces active recall — that's what builds memory. Self-rate each card; the shaky ones come back sooner.
+    </p>
+    <div class="mode-grid">
+      <a class="mode-card" data-mode="critics">
+        <span class="icon">🎓</span>
+        <h3>Critics quotefall</h3>
+        <p>Quote → who said it? Each critic has their own colour & icon to lock them in.</p>
+      </a>
+      <a class="mode-card" data-mode="context">
+        <span class="icon">📚</span>
+        <h3>Context recall</h3>
+        <p>Term shown (Felix Culpa, Theodicy…) — recall the bullets, then self-rate.</p>
+      </a>
+      <a class="mode-card" data-mode="sections">
+        <span class="icon">🗺️</span>
+        <h3>Section ↔ quote map</h3>
+        <p>"Satan enters Eden" → recall the quotes. Or quote → which section?</p>
+      </a>
+      <a class="mode-card" data-mode="themes">
+        <span class="icon">🎭</span>
+        <h3>Theme builder</h3>
+        <p>Pick a theme — recall sub-themes, quotes & analysis. Three-stage reveal.</p>
+      </a>
+      <a class="mode-card" data-mode="plath">
+        <span class="icon">🖋️</span>
+        <h3>Plath & Hughes</h3>
+        <p>Theme → which poems & key details from each poet. Comparison practice.</p>
+      </a>
+      <a class="mode-card" data-mode="dashboard">
+        <span class="icon">📊</span>
+        <h3>Dashboard</h3>
+        <p>Heat map of what's solid vs shaky across all modes.</p>
+      </a>
+    </div>
+  </div>
+
+  <!-- Active revision area -->
+  <div id="revisionArea" style="display:none"></div>
+
+  <footer><a href="../">← back to home</a></footer>
+</div>
+
+<script src="../assets/js/shared.js?v=20260503174955"></script>
+<script src="../assets/js/english.js?v=20260503174955"></script>
+
+</body>
+</html>
