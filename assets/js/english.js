@@ -20,8 +20,13 @@ fetch('../assets/data/english.json?v=' + window.APP_VERSION)
   .then(r => r.json())
   .then(d => { DATA = d; bindModePicker(); })
   .catch(err => {
-    document.getElementById('revisionArea').innerHTML = '<p style="color:red">Failed to load notes: ' + err + '</p>';
-    document.getElementById('revisionArea').style.display = 'block';
+    const area = document.getElementById('revisionArea');
+    area.innerHTML = '';
+    const p = document.createElement('p');
+    p.style.color = 'red';
+    p.textContent = 'Failed to load notes: ' + err;
+    area.appendChild(p);
+    area.style.display = 'block';
   });
 
 function bindModePicker() {
