@@ -281,6 +281,35 @@ input[type="text"], textarea, select {
 input[type="text"]:focus, textarea:focus, select:focus { outline: none; border-color: var(--ink); }
 
 /* Reveal block (hidden until revealed) ---------------------------------- */
+/* Today's focus =========================================================== */
+.focus { margin-top: 32px; }
+.focus-header { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 4px; flex-wrap: wrap; }
+.focus-header h2 { margin: 0; }
+.focus-intro { margin: 0 0 16px; font-size: 0.92rem; }
+.focus-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+.focus-card {
+  display: block; padding: 16px; background: var(--bg-elev);
+  border-radius: var(--radius); border: 1px solid var(--line);
+  text-decoration: none; color: var(--ink);
+  transition: transform .15s, border-color .15s, box-shadow .15s;
+  border-left: 4px solid var(--line);
+  min-height: 110px; display: flex; flex-direction: column; justify-content: space-between;
+}
+.focus-card:hover { transform: translateY(-2px); box-shadow: 0 8px 22px -14px rgba(0,0,0,0.18); }
+.focus-card.subj-eng { border-left-color: var(--eng); }
+.focus-card.subj-pol { border-left-color: var(--pol); }
+.focus-card.subj-art { border-left-color: var(--art); }
+.focus-card.level-shaky { background: linear-gradient(180deg, #FFF5F1 0%, var(--bg-elev) 100%); }
+.focus-meta { display: flex; align-items: center; gap: 8px; font-size: 0.78rem; color: var(--ink-mute); margin-bottom: 8px; flex-wrap: wrap; }
+.focus-emoji { font-size: 1.05rem; }
+.focus-label { font-family: var(--font-sans); text-transform: uppercase; letter-spacing: 0.04em; font-weight: 500; }
+.focus-pill { font-size: 0.7rem; padding: 2px 8px; border-radius: 999px; font-family: var(--font-sans); font-weight: 500; letter-spacing: 0.02em; }
+.focus-pill.shaky { background: #F8D7CE; color: #8A2A14; }
+.focus-pill.okay  { background: #FFE9C2; color: #7A4F0E; }
+.focus-pill.new   { background: var(--line-soft); color: var(--ink-mute); }
+.focus-text { font-family: var(--font-display); font-size: 0.98rem; line-height: 1.4; color: var(--ink); margin-bottom: 10px; flex: 1; }
+.focus-foot { font-size: 0.78rem; color: var(--ink-mute); font-family: var(--font-sans); }
+
 .reveal {
   background: var(--line-soft); border-radius: var(--radius); padding: 16px;
   font-family: var(--font-display); font-style: italic; line-height: 1.5; color: var(--ink-soft);

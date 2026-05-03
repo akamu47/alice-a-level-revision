@@ -111,6 +111,40 @@ function getConfidence(deckId, cardId) {
   const map = recall(`confidence_${deckId}`, {});
   return map[cardId] || null;
 }
+// Returns shakiest cards across all decks, sorted by recency (oldest shaky first).
+// `decks` is an object: { deckId: [cardId, ...], ... }. Returns up to `limit` items
+// of shape { deckId, cardId, ts }. If not enough shaky, falls back to 'okay'.
+function getShakyCards(decks, limit) {
+  const out = [];
+  Object.keys(decks).forEach(deckId => {
+    const map = recall(`confidence_${deckId}`, {});
+    Object.keys(map).forEach(cardId => {
+      const c = map[cardId];
+      if (!c) return;
+      if (c.level === 'shaky') out.push({ deckId, cardId, ts: c.ts, level: 'shaky' });
+    });
+  });
+  // Oldest shaky first (forgotten longest)
+  out.sort((a, b) => a.ts - b.ts);
+  if (out.length >= limit) return out.slice(0, limit);
+  // Fallback to okay-rated
+  Object.keys(decks).forEach(deckId => {
+    const map = recall(`confidence_${deckId}`, {});
+    Object.keys(map).forEach(cardId => {
+      const c = map[cardId];
+      if (c && c.level === 'okay') out.push({ deckId, cardId, ts: c.ts, level: 'okay' });
+    });
+  });
+  out.sort((a, b) => (a.level === 'shaky' ? -1 : 1) - (b.level === 'shaky' ? -1 : 1) || a.ts - b.ts);
+  return out.slice(0, limit);
+}
+
+// Returns un-rated cards (not yet seen) — useful for new-user state.
+function getUnseenCards(deckId, allIds, limit) {
+  const map = recall(`confidence_${deckId}`, {});
+  return allIds.filter(id => !map[id]).slice(0, limit);
+}
+
 function getDeckSummary(deckId, cardIds) {
   const map = recall(`confidence_${deckId}`, {});
   let shaky = 0, okay = 0, solid = 0, none = 0;
@@ -300,7 +334,7 @@ function el(tag, attrs = {}, ...children) {
 }
 
 // --- Cache busting hint -----------------------------------------------
-window.APP_VERSION = '20260503174955';
+window.APP_VERSION = '20260503180012';
 
 // --- Register service worker (cache-busted per deploy) ----------------
 (function registerSW() {

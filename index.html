@@ -52,6 +52,16 @@
     <span class="author" id="quoteAuthor"></span>
   </section>
 
+  <!-- Today's focus: surfaces Alice's shakiest cards -->
+  <section class="focus" id="focusSection" hidden>
+    <div class="focus-header">
+      <h2 class="serif">Today's focus</h2>
+      <button class="btn btn-primary" id="warmupBtn">⚡ 60-second warm-up</button>
+    </div>
+    <p class="muted focus-intro" id="focusIntro">The cards you rated shaky — ranked by which you've left longest.</p>
+    <div class="focus-grid" id="focusGrid"></div>
+  </section>
+
   <!-- Subject cards -->
   <h2 class="serif" style="margin-top:32px">Pick a subject</h2>
   <div class="subjects">
@@ -161,6 +171,115 @@
 
   // App version
   document.getElementById('appVer').textContent = window.APP_VERSION;
+
+  // Today's focus -------------------------------------------------------
+  (async function buildFocus() {
+    try {
+      const v = window.APP_VERSION;
+      const [eng, pol] = await Promise.all([
+        fetch('./assets/data/english.json?v=' + v).then(r => r.json()),
+        fetch('./assets/data/politics.json?v=' + v).then(r => r.json())
+      ]);
+
+      // Build the deck → cardId map for each rateable deck
+      const idOf = it => it.id || it.term || it.label || it.name || (it.year != null ? String(it.year) : null) || (it.quote ? it.quote.slice(0, 40) : null);
+
+      const deckSpec = {
+        critics:    { items: eng.critics || [],         label: 'Critic',      subj: 'eng', mode: 'critics',  href: './subjects/english.html',  emoji: '🎓', display: c => '“' + (c.quote || '').slice(0, 90) + ((c.quote||'').length > 90 ? '…' : '') + '” — ' + (c.author || '?') },
+        context:    { items: eng.context || [],         label: 'Context',     subj: 'eng', mode: 'context',  href: './subjects/english.html',  emoji: '📚', display: c => c.term || idOf(c) },
+        themes:     { items: eng.themes || [],          label: 'Theme',       subj: 'eng', mode: 'themes',   href: './subjects/english.html',  emoji: '🎭', display: c => c.label || idOf(c) },
+        plathHughes:{ items: eng.plath_hughes || [],    label: 'Plath/Hughes',subj: 'eng', mode: 'plath',    href: './subjects/english.html',  emoji: '✍️', display: c => c.theme || c.label || idOf(c) },
+        cases:      { items: pol.case_studies || [],    label: 'Case study',  subj: 'pol', mode: 'cases',    href: './subjects/politics.html', emoji: '📂', display: c => c.name || idOf(c) },
+        elections:  { items: pol.elections || [],       label: 'Election',    subj: 'pol', mode: 'elections',href: './subjects/politics.html', emoji: '🗳️', display: c => String(c.year) },
+        caseLaw:    { items: pol.case_law || [],        label: 'Case law',    subj: 'pol', mode: 'caselaw',  href: './subjects/politics.html', emoji: '⚖️', display: c => c.name || idOf(c) },
+        concepts:   { items: pol.concepts || [],        label: 'Concept',     subj: 'pol', mode: 'concepts', href: './subjects/politics.html', emoji: '📖', display: c => c.term || idOf(c) }
+      };
+
+      const decksForShaky = {};
+      Object.keys(deckSpec).forEach(k => {
+        decksForShaky[k] = (deckSpec[k].items || []).map(idOf).filter(Boolean);
+      });
+
+      const shaky = getShakyCards(decksForShaky, 6);
+      const section = document.getElementById('focusSection');
+      const grid = document.getElementById('focusGrid');
+      const intro = document.getElementById('focusIntro');
+
+      if (!shaky.length) {
+        // First-time experience: surface a starter pick
+        const starters = [
+          { spec: deckSpec.critics,    item: (eng.critics || [])[0] },
+          { spec: deckSpec.themes,     item: (eng.themes || [])[0] },
+          { spec: deckSpec.cases,      item: (pol.cases || [])[0] }
+        ].filter(x => x.item);
+        if (!starters.length) return;
+        intro.textContent = 'Start here. Self-rate each card and tomorrow this list will adapt to what you find tricky.';
+        section.hidden = false;
+        starters.forEach(({ spec, item }) => grid.appendChild(renderCard(spec, item, 'new')));
+      } else {
+        section.hidden = false;
+        const shakyCount = shaky.filter(s => s.level === 'shaky').length;
+        intro.textContent = shakyCount
+          ? `${shakyCount} shaky card${shakyCount === 1 ? '' : 's'} — oldest first. Tap to revisit.`
+          : 'No shaky cards. Here are the ones to keep warm.';
+        shaky.forEach(s => {
+          const spec = deckSpec[s.deckId];
+          if (!spec) return;
+          const item = (spec.items || []).find(it => idOf(it) === s.cardId);
+          if (!item) return;
+          grid.appendChild(renderCard(spec, item, s.level, s.ts));
+        });
+      }
+
+      function renderCard(spec, item, level, ts) {
+        const card = document.createElement('a');
+        card.className = 'focus-card subj-' + spec.subj + ' level-' + level;
+        const cardId = idOf(item);
+        card.href = spec.href + '#mode=' + spec.mode + '&id=' + encodeURIComponent(cardId || '');
+        const ago = ts ? humanAgo(ts) : '';
+        card.innerHTML = `
+          <div class="focus-meta">
+            <span class="focus-emoji">${spec.emoji}</span>
+            <span class="focus-label">${spec.label}</span>
+            ${level === 'shaky' ? '<span class="focus-pill shaky">shaky</span>' : ''}
+            ${level === 'okay' ? '<span class="focus-pill okay">okay</span>' : ''}
+            ${level === 'new' ? '<span class="focus-pill new">new</span>' : ''}
+          </div>
+          <div class="focus-text">${escapeHtml(spec.display(item))}</div>
+          <div class="focus-foot">${ago ? 'last seen ' + ago : 'tap to revise →'}</div>
+        `;
+        return card;
+      }
+
+      // Wire the warm-up button
+      document.getElementById('warmupBtn').addEventListener('click', () => {
+        // Pass shaky list via a query string the english page can read
+        const items = shaky.length ? shaky : (function(){
+          // Construct from starters when no shaky exist
+          const out = [];
+          if ((eng.critics || []).length) out.push({ deckId: 'critics', cardId: idOf(eng.critics[0]) });
+          if ((eng.themes || []).length)  out.push({ deckId: 'themes',  cardId: idOf(eng.themes[0]) });
+          return out;
+        })();
+        store('warmup_queue', items);
+        // Send her to the first deck's page
+        const first = items[0];
+        if (!first) return;
+        const spec = deckSpec[first.deckId];
+        location.href = spec.href + '#warmup=1';
+      });
+    } catch (err) {
+      console.warn('focus build failed', err);
+    }
+  })();
+
+  function humanAgo(ts) {
+    const d = Date.now() - ts;
+    if (d < 3600000) return Math.floor(d / 60000) + 'm ago';
+    if (d < 86400000) return Math.floor(d / 3600000) + 'h ago';
+    return Math.floor(d / 86400000) + 'd ago';
+  }
+  function escapeHtml(s) { return String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
 
   // Reset button
   document.getElementById('resetBtn').addEventListener('click', (e) => {
