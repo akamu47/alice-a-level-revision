@@ -215,7 +215,7 @@
         const starters = [
           { spec: deckSpec.critics,    item: (eng.critics || [])[0] },
           { spec: deckSpec.themes,     item: (eng.themes || [])[0] },
-          { spec: deckSpec.cases,      item: (pol.cases || [])[0] }
+          { spec: deckSpec.cases,      item: (pol.case_studies || [])[0] }
         ].filter(x => x.item);
         if (!starters.length) return;
         intro.textContent = 'Start here. Self-rate each card and tomorrow this list will adapt to what you find tricky.';
