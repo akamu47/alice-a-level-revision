@@ -209,7 +209,10 @@
     checkBtn.addEventListener('click', () => showAnswers(true));
     dontKnowBtn.addEventListener('click', () => showAnswers(false));
     clearBtn.addEventListener('click', () => {
-      inputs.forEach(({ quote, analysis }) => { quote.value = ''; analysis.value = ''; });
+      // Re-render the whole table from scratch — works whether or not
+      // answers have been revealed (when revealed, the original textareas
+      // were replaced, so just zeroing values isn't enough).
+      renderPLBlurtTable(area, theme, subtheme);
     });
   }
 
