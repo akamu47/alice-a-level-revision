@@ -1,6 +1,6 @@
 // Service worker — network-first, version-stamped cache.
 // Every deploy bumps CACHE_VERSION so Alice always gets the latest content.
-const CACHE_VERSION = '20260504142258';
+const CACHE_VERSION = '20260504145300';
 const CACHE_NAME = 'alice-revision-' + CACHE_VERSION;
 
 // Files we want available offline (best-effort)

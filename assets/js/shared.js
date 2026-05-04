@@ -588,7 +588,7 @@ function setShareUserName(name) {
 }
 
 // --- Cache busting hint -----------------------------------------------
-window.APP_VERSION = '20260504142258';
+window.APP_VERSION = '20260504145300';
 
 // --- Register service worker (cache-busted per deploy) ----------------
 (function registerSW() {
@@ -597,11 +597,21 @@ window.APP_VERSION = '20260504142258';
   const isSub = location.pathname.includes('/subjects/');
   const swUrl = (isSub ? '../' : './') + 'sw.js?v=' + window.APP_VERSION;
   const scope = isSub ? '../' : './';
+  let refreshed = false;
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register(swUrl, { scope }).catch(() => {});
+    navigator.serviceWorker.register(swUrl, { scope }).then((reg) => {
+      // Force the SW script itself to be re-fetched on every page load and
+      // whenever the tab regains focus. Without this, browsers only re-check
+      // sw.js every ~24h, so a stale SW keeps serving old assets.
+      try { reg.update(); } catch (e) {}
+      document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'visible') {
+          try { reg.update(); } catch (e) {}
+        }
+      });
+    }).catch(() => {});
     // When a new SW takes control (after a deploy), reload once so users
     // see fresh assets without a manual hard refresh.
-    let refreshed = false;
     navigator.serviceWorker.addEventListener('controllerchange', () => {
       if (refreshed) return;
       refreshed = true;
