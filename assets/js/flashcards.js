@@ -46,19 +46,70 @@ function loadAll() {
 function saveAll(data) {
   try { localStorage.setItem(STORAGE_KEY, JSON.stringify(data)); } catch (e) {}
 }
-function getDeck(subjectKey, paperId) {
+function newId(prefix) {
+  return (prefix || 'c') + '_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2, 7);
+}
+function defaultStyle() { return { font: 'serif', color: 'ink', bg: 'cream' }; }
+function newSet(name) {
+  return { id: newId('set'), name: name || 'My set', cards: [], style: defaultStyle() };
+}
+
+/**
+ * Returns `{ sets: [ {id, name, cards, style}, ... ] }` for a paper.
+ * Migrates older shape `{cards, style}` to a single set called "My cards".
+ */
+function getPaper(subjectKey, paperId) {
   const all = loadAll();
   const subj = all[subjectKey] || {};
-  return subj[paperId] || { cards: [], style: { font: 'serif', color: 'ink', bg: 'cream' } };
+  let paper = subj[paperId];
+  if (!paper) return { sets: [] };
+  // Migrate legacy: { cards: [...], style: {...} }  ->  { sets: [{...}] }
+  if (Array.isArray(paper.cards) && !paper.sets) {
+    const migrated = {
+      sets: [{
+        id: newId('set'),
+        name: 'My cards',
+        cards: paper.cards,
+        style: paper.style || defaultStyle()
+      }]
+    };
+    setPaper(subjectKey, paperId, migrated);
+    return migrated;
+  }
+  if (!paper.sets) paper.sets = [];
+  return paper;
 }
-function setDeck(subjectKey, paperId, deck) {
+function setPaper(subjectKey, paperId, paperData) {
   const all = loadAll();
   if (!all[subjectKey]) all[subjectKey] = {};
-  all[subjectKey][paperId] = deck;
+  all[subjectKey][paperId] = paperData;
   saveAll(all);
 }
-function newId() {
-  return 'c_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2, 7);
+function getSet(subjectKey, paperId, setId) {
+  const paper = getPaper(subjectKey, paperId);
+  return paper.sets.find(s => s.id === setId);
+}
+function updateSet(subjectKey, paperId, setId, mutator) {
+  const paper = getPaper(subjectKey, paperId);
+  const set = paper.sets.find(s => s.id === setId);
+  if (!set) return;
+  mutator(set);
+  setPaper(subjectKey, paperId, paper);
+}
+function addSet(subjectKey, paperId, name) {
+  const paper = getPaper(subjectKey, paperId);
+  const set = newSet(name);
+  paper.sets.push(set);
+  setPaper(subjectKey, paperId, paper);
+  return set;
+}
+function deleteSet(subjectKey, paperId, setId) {
+  const paper = getPaper(subjectKey, paperId);
+  paper.sets = paper.sets.filter(s => s.id !== setId);
+  setPaper(subjectKey, paperId, paper);
+}
+function renameSet(subjectKey, paperId, setId, name) {
+  updateSet(subjectKey, paperId, setId, s => { s.name = name; });
 }
 
 // ---- Paper enumeration from EXAMS ----------------------------------------
@@ -76,11 +127,27 @@ function paperIdFromExam(e) {
   return (e.paper || e.title).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
-// ---- Public entry point ---------------------------------------------------
+// ---- Helpers: preserve subject-page "back to modes" button across rerenders
+function grabModesBackBtn(area) {
+  return Array.from(area.children).filter(c =>
+    c.tagName === 'BUTTON' && /back to modes/i.test(c.textContent || ''));
+}
+function resetWithBack(area, backLabel, onBack) {
+  const preserved = grabModesBackBtn(area);
+  area.innerHTML = '';
+  preserved.forEach(b => area.appendChild(b));
+  if (backLabel) {
+    const back = el('button', { class: 'btn btn-ghost', style: 'margin: 4px 0 8px 8px' }, backLabel);
+    back.addEventListener('click', onBack);
+    area.appendChild(back);
+  }
+}
+
+// ---- Public entry point: paper picker --------------------------------------
 window.buildFlashcards = function buildFlashcards(area, subjectKey) {
   area.appendChild(el('h2', { class: 'serif' }, '🃏 Flashcards'));
   area.appendChild(el('p', { class: 'muted', style: 'margin-bottom: 18px; font-size:.92rem' },
-    'Make your own deck for each paper. Click a card to flip it. Use ←/→ or the buttons to move. Cards shuffle each session.'));
+    'Make your own decks for each paper. You can have several sets per paper — name each one (e.g. "Critics", "Quotes", "Concepts").'));
 
   const papers = papersForSubject(subjectKey);
   if (!papers.length) {
@@ -88,51 +155,145 @@ window.buildFlashcards = function buildFlashcards(area, subjectKey) {
     return;
   }
 
-  // Paper picker
+  // Paper picker — show paper title + how many sets / total cards exist
   const grid = el('div', { class: 'mode-grid', style: 'margin-bottom: 18px' });
   papers.forEach(p => {
-    const deck = getDeck(subjectKey, p.id);
-    const count = deck.cards.length;
+    const paperData = getPaper(subjectKey, p.id);
+    const setCount = paperData.sets.length;
+    const totalCards = paperData.sets.reduce((sum, s) => sum + s.cards.length, 0);
+    const summary = setCount === 0
+      ? 'No sets yet'
+      : setCount + ' set' + (setCount === 1 ? '' : 's') + ' · ' +
+        totalCards + ' card' + (totalCards === 1 ? '' : 's');
     const card = el('a', { class: 'mode-card', href: '#' },
       el('span', { class: 'icon' }, '🃏'),
       el('h3', {}, p.title),
-      el('p', {}, p.paper + ' · ' + count + ' card' + (count === 1 ? '' : 's'))
+      el('p', {}, p.paper + ' · ' + summary)
     );
     card.addEventListener('click', e => {
       e.preventDefault();
-      // Preserve any sibling "back to modes" button that the host (subject page) added
-      const preserved = Array.from(area.children).filter(c =>
-        c.tagName === 'BUTTON' && /back to modes/i.test(c.textContent || ''));
-      area.innerHTML = '';
-      preserved.forEach(b => area.appendChild(b));
-      const back = el('button', { class: 'btn btn-ghost', style: 'margin: 4px 0 8px 8px' },
-        '← back to papers');
-      back.addEventListener('click', () => {
-        // Wipe everything except the preserved "back to modes" button
-        const keep = Array.from(area.children).filter(c =>
-          c.tagName === 'BUTTON' && /back to modes/i.test(c.textContent || ''));
-        area.innerHTML = '';
-        keep.forEach(b => area.appendChild(b));
+      resetWithBack(area, '← back to papers', () => {
+        resetWithBack(area, null);
         window.buildFlashcards(area, subjectKey);
       });
-      area.appendChild(back);
-      renderDeck(area, subjectKey, p);
+      renderSetsPicker(area, subjectKey, p);
     });
     grid.appendChild(card);
   });
   area.appendChild(grid);
 };
 
-// ---- Per-deck view --------------------------------------------------------
-function renderDeck(area, subjectKey, paper) {
+// ---- Sets picker (one per paper) ------------------------------------------
+function renderSetsPicker(area, subjectKey, paper) {
   area.appendChild(el('h2', { class: 'serif' },
     SUBJECT_LABEL[subjectKey] + ' · ' + paper.title));
+  area.appendChild(el('p', { class: 'muted', style: 'font-size:.88rem; margin-bottom: 16px' }, paper.paper));
+
+  const paperData = getPaper(subjectKey, paper.id);
+
+  const refresh = () => {
+    resetWithBack(area, '← back to papers', () => {
+      resetWithBack(area, null);
+      window.buildFlashcards(area, subjectKey);
+    });
+    renderSetsPicker(area, subjectKey, paper);
+  };
+
+  // "+ New set" form (always visible)
+  const newWrap = el('div', { class: 'fc-newset' });
+  newWrap.appendChild(el('h3', { class: 'serif', style: 'margin: 0 0 8px' }, '+ New set'));
+  const nameInput = el('input', {
+    class: 'fc-input', type: 'text',
+    placeholder: 'e.g. "Critics", "Key quotes", "Concepts"',
+    maxlength: '60'
+  });
+  const newRow = el('div', { class: 'fc-newset-row' }, nameInput);
+  const createBtn = btn('Create set', () => {
+    const name = (nameInput.value || '').trim() || ('Set ' + (paperData.sets.length + 1));
+    const set = addSet(subjectKey, paper.id, name);
+    // Jump straight into the new set's editor
+    resetWithBack(area, '← back to sets', () => {
+      resetWithBack(area, '← back to papers', () => {
+        resetWithBack(area, null);
+        window.buildFlashcards(area, subjectKey);
+      });
+      renderSetsPicker(area, subjectKey, paper);
+    });
+    renderDeck(area, subjectKey, paper, set.id, 'edit');
+  }, 'btn-primary');
+  newRow.appendChild(createBtn);
+  newWrap.appendChild(newRow);
+  area.appendChild(newWrap);
+
+  // List of existing sets
+  if (!paperData.sets.length) {
+    area.appendChild(el('p', { class: 'muted', style: 'margin-top: 16px' },
+      'No sets yet. Create your first one above — give it a name like "Critics" or "Key quotes".'));
+    return;
+  }
+
+  area.appendChild(el('h3', { class: 'serif', style: 'margin: 22px 0 8px' },
+    'Your sets (' + paperData.sets.length + ')'));
+
+  const grid = el('div', { class: 'mode-grid', style: 'margin-bottom: 8px' });
+  paperData.sets.forEach(set => {
+    const count = set.cards.length;
+    const card = el('a', { class: 'mode-card fc-set-card', href: '#' },
+      el('span', { class: 'icon' }, '📚'),
+      el('h3', {}, set.name),
+      el('p', {}, count + ' card' + (count === 1 ? '' : 's'))
+    );
+    card.addEventListener('click', e => {
+      e.preventDefault();
+      // If the click was on a control button inside, ignore (handled separately)
+      if (e.target.closest('.fc-set-controls')) return;
+      resetWithBack(area, '← back to sets', () => {
+        resetWithBack(area, '← back to papers', () => {
+          resetWithBack(area, null);
+          window.buildFlashcards(area, subjectKey);
+        });
+        renderSetsPicker(area, subjectKey, paper);
+      });
+      renderDeck(area, subjectKey, paper, set.id);
+    });
+    // Inline rename + delete controls
+    const controls = el('div', { class: 'fc-set-controls' });
+    const renameBtn = el('button', { class: 'fc-set-ctrl', type: 'button', title: 'Rename set' }, '✎');
+    renameBtn.addEventListener('click', (ev) => {
+      ev.preventDefault(); ev.stopPropagation();
+      const next = prompt('Rename set:', set.name);
+      if (next && next.trim()) { renameSet(subjectKey, paper.id, set.id, next.trim()); refresh(); }
+    });
+    const delBtn = el('button', { class: 'fc-set-ctrl danger', type: 'button', title: 'Delete set' }, '🗑');
+    delBtn.addEventListener('click', (ev) => {
+      ev.preventDefault(); ev.stopPropagation();
+      if (!confirm('Delete the set "' + set.name + '"? This removes all ' + count + ' card' + (count === 1 ? '' : 's') + ' inside it.')) return;
+      deleteSet(subjectKey, paper.id, set.id);
+      refresh();
+    });
+    controls.appendChild(renameBtn);
+    controls.appendChild(delBtn);
+    card.appendChild(controls);
+    grid.appendChild(card);
+  });
+  area.appendChild(grid);
+}
+
+// ---- Per-set deck view ----------------------------------------------------
+function renderDeck(area, subjectKey, paper, setId, initialTab) {
+  const set = getSet(subjectKey, paper.id, setId);
+  if (!set) {
+    area.appendChild(el('p', { class: 'muted' }, 'Set not found.'));
+    return;
+  }
+  area.appendChild(el('h2', { class: 'serif' },
+    SUBJECT_LABEL[subjectKey] + ' · ' + paper.title + ' · ' + set.name));
   area.appendChild(el('p', { class: 'muted', style: 'font-size:.88rem; margin-bottom:14px' }, paper.paper));
 
   const tabBar = el('div', { class: 'fc-tabs' });
-  const studyTab  = tabEl('Study', true);
-  const editTab   = tabEl('Manage cards', false);
-  const styleTab  = tabEl('Style', false);
+  const studyTab = tabEl('Study', initialTab !== 'edit' && initialTab !== 'style');
+  const editTab  = tabEl('Manage cards', initialTab === 'edit');
+  const styleTab = tabEl('Style', initialTab === 'style');
   tabBar.appendChild(studyTab); tabBar.appendChild(editTab); tabBar.appendChild(styleTab);
   area.appendChild(tabBar);
 
@@ -145,14 +306,14 @@ function renderDeck(area, subjectKey, paper) {
     if (name === 'edit')  editTab.classList.add('active');
     if (name === 'style') styleTab.classList.add('active');
     body.innerHTML = '';
-    if (name === 'study') renderStudy(body, subjectKey, paper);
-    if (name === 'edit')  renderEditor(body, subjectKey, paper, () => show('edit'));
-    if (name === 'style') renderStyle(body, subjectKey, paper, () => show('style'));
+    if (name === 'study') renderStudy(body, subjectKey, paper, setId);
+    if (name === 'edit')  renderEditor(body, subjectKey, paper, setId, () => show('edit'));
+    if (name === 'style') renderStyle(body, subjectKey, paper, setId, () => show('style'));
   }
   studyTab.addEventListener('click', () => show('study'));
   editTab.addEventListener('click',  () => show('edit'));
   styleTab.addEventListener('click', () => show('style'));
-  show('study');
+  show(initialTab === 'edit' ? 'edit' : initialTab === 'style' ? 'style' : 'study');
 }
 
 function tabEl(label, active) {
@@ -160,11 +321,12 @@ function tabEl(label, active) {
 }
 
 // ---- Study mode -----------------------------------------------------------
-function renderStudy(host, subjectKey, paper) {
-  const deck = getDeck(subjectKey, paper.id);
+function renderStudy(host, subjectKey, paper, setId) {
+  const deck = getSet(subjectKey, paper.id, setId);
+  if (!deck) return;
   if (!deck.cards.length) {
     host.appendChild(el('div', { class: 'fc-empty' },
-      el('p', {}, 'No cards yet for this paper.'),
+      el('p', {}, 'No cards yet in this set.'),
       (() => {
         const btn = el('button', { class: 'btn btn-primary', type: 'button' }, '+ Add your first card');
         btn.addEventListener('click', () => {
@@ -274,8 +436,9 @@ function applyStyle(cardEl, style) {
 }
 
 // ---- Editor (manage cards) -----------------------------------------------
-function renderEditor(host, subjectKey, paper, refresh) {
-  const deck = getDeck(subjectKey, paper.id);
+function renderEditor(host, subjectKey, paper, setId, refresh) {
+  const deck = getSet(subjectKey, paper.id, setId);
+  if (!deck) return;
 
   // New card form
   const form = el('div', { class: 'fc-form' });
@@ -288,28 +451,28 @@ function renderEditor(host, subjectKey, paper, refresh) {
     const a = ta1.value.trim();
     const b = ta2.value.trim();
     if (!a || !b) { ta1.focus(); return; }
-    deck.cards.push({ id: newId(), a, b });
-    setDeck(subjectKey, paper.id, deck);
+    updateSet(subjectKey, paper.id, setId, s => { s.cards.push({ id: newId('c'), a, b }); });
     refresh();
   }, 'btn-primary');
   form.appendChild(addBtn);
   host.appendChild(form);
 
-  // Existing cards
+  // Existing cards (re-fetch fresh state since add mutated storage)
+  const fresh = getSet(subjectKey, paper.id, setId);
   host.appendChild(el('h3', { class: 'serif', style: 'margin-top: 24px' },
-    'Cards in this deck (' + deck.cards.length + ')'));
-  if (!deck.cards.length) {
+    'Cards in this set (' + fresh.cards.length + ')'));
+  if (!fresh.cards.length) {
     host.appendChild(el('p', { class: 'muted' }, 'No cards yet.'));
     return;
   }
   const list = el('div', { class: 'fc-list' });
-  deck.cards.forEach((card, idx) => {
-    list.appendChild(renderCardRow(card, idx, deck, subjectKey, paper, refresh));
+  fresh.cards.forEach((card, idx) => {
+    list.appendChild(renderCardRow(card, idx, subjectKey, paper, setId, refresh));
   });
   host.appendChild(list);
 }
 
-function renderCardRow(card, idx, deck, subjectKey, paper, refresh) {
+function renderCardRow(card, idx, subjectKey, paper, setId, refresh) {
   const row = el('div', { class: 'fc-row' });
   const num = el('span', { class: 'fc-num' }, '#' + (idx + 1));
   const aSide = el('div', { class: 'fc-side' },
@@ -331,8 +494,10 @@ function renderCardRow(card, idx, deck, subjectKey, paper, refresh) {
     const save = btn('Save', () => {
       const a = ea.value.trim(), b = eb.value.trim();
       if (!a || !b) return;
-      card.a = a; card.b = b;
-      setDeck(subjectKey, paper.id, deck);
+      updateSet(subjectKey, paper.id, setId, s => {
+        const c = s.cards.find(x => x.id === card.id);
+        if (c) { c.a = a; c.b = b; }
+      });
       refresh();
     }, 'btn-primary');
     const cancel = btn('Cancel', () => refresh(), 'btn-ghost');
@@ -340,8 +505,9 @@ function renderCardRow(card, idx, deck, subjectKey, paper, refresh) {
   }, 'btn-ghost');
   const delBtn = btn('Delete', () => {
     if (!confirm('Delete card #' + (idx + 1) + '?')) return;
-    deck.cards.splice(idx, 1);
-    setDeck(subjectKey, paper.id, deck);
+    updateSet(subjectKey, paper.id, setId, s => {
+      s.cards = s.cards.filter(x => x.id !== card.id);
+    });
     refresh();
   }, 'btn-ghost danger');
   row.appendChild(num);
@@ -359,12 +525,13 @@ function label(text, control) {
 }
 
 // ---- Style tab ------------------------------------------------------------
-function renderStyle(host, subjectKey, paper, refresh) {
-  const deck = getDeck(subjectKey, paper.id);
+function renderStyle(host, subjectKey, paper, setId, refresh) {
+  const deck = getSet(subjectKey, paper.id, setId);
+  if (!deck) return;
 
   host.appendChild(el('h3', { class: 'serif' }, 'Card style'));
   host.appendChild(el('p', { class: 'muted', style: 'font-size:.88rem' },
-    'Choose how this deck looks. Settings are saved per paper.'));
+    'Choose how this set looks. Settings are saved per set.'));
 
   // Font picker
   host.appendChild(el('h4', { style: 'margin-top:18px' }, 'Font'));
@@ -376,8 +543,7 @@ function renderStyle(host, subjectKey, paper, refresh) {
       style: 'font-family: ' + f.css
     }, 'Aa · ' + f.label);
     sw.addEventListener('click', () => {
-      deck.style.font = f.id;
-      setDeck(subjectKey, paper.id, deck);
+      updateSet(subjectKey, paper.id, setId, s => { s.style.font = f.id; });
       refresh();
     });
     fontWrap.appendChild(sw);
@@ -394,8 +560,7 @@ function renderStyle(host, subjectKey, paper, refresh) {
       style: 'color:' + c.value
     }, '● ' + c.label);
     sw.addEventListener('click', () => {
-      deck.style.color = c.id;
-      setDeck(subjectKey, paper.id, deck);
+      updateSet(subjectKey, paper.id, setId, s => { s.style.color = c.id; });
       refresh();
     });
     colWrap.appendChild(sw);
@@ -412,8 +577,7 @@ function renderStyle(host, subjectKey, paper, refresh) {
       style: 'background:' + c.value
     }, c.label);
     sw.addEventListener('click', () => {
-      deck.style.bg = c.id;
-      setDeck(subjectKey, paper.id, deck);
+      updateSet(subjectKey, paper.id, setId, s => { s.style.bg = c.id; });
       refresh();
     });
     bgWrap.appendChild(sw);
