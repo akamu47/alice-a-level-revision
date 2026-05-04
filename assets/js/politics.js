@@ -49,6 +49,7 @@ function switchMode(mode) {
   else if (mode === 'concepts')  buildConcepts(area);
   else if (mode === 'debates')   buildDebates(area);
   else if (mode === 'tables')    buildTables(area);
+  else if (mode === 'flashcards') window.buildFlashcards(area, 'pol');
   else if (mode === 'dashboard') buildPolDashboard(area);
 }
 

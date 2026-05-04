@@ -77,6 +77,7 @@ function switchMode(mode) {
   else if (mode === 'themes')   buildThemes(area);
   else if (mode === 'plath')    buildPlath(area);
   else if (mode === 'cloze')    buildCloze(area);
+  else if (mode === 'flashcards') window.buildFlashcards(area, 'eng');
   else if (mode === 'dashboard') buildDashboard(area);
 }
 
