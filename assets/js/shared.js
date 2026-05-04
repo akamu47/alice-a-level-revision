@@ -588,7 +588,7 @@ function setShareUserName(name) {
 }
 
 // --- Cache busting hint -----------------------------------------------
-window.APP_VERSION = '20260504145300';
+window.APP_VERSION = '20260504150139';
 
 // --- Register service worker (cache-busted per deploy) ----------------
 (function registerSW() {
