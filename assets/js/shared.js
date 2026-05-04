@@ -436,8 +436,12 @@ function blurtRecall(opts) {
     const content = opts.reveal ? opts.reveal() : el('div', { class: 'muted' }, '(no notes)');
     revealEl.innerHTML = '';
     revealEl.appendChild(content);
-    // Apply stagger animation to direct children of content
-    const items = Array.from(content.querySelectorAll('.stagger-item'));
+    // Apply stagger animation: include the content root itself if it carries the class,
+    // plus any descendants. Without this, a content node with `class="stagger-item"` would
+    // stay at opacity:0 and hide all children visually (the "empty white box" bug).
+    const items = [];
+    if (content.classList && content.classList.contains('stagger-item')) items.push(content);
+    items.push(...content.querySelectorAll('.stagger-item'));
     items.forEach((it, ix) => {
       it.style.animationDelay = (ix * 140) + 'ms';
       it.classList.add('stagger-go');
@@ -584,7 +588,7 @@ function setShareUserName(name) {
 }
 
 // --- Cache busting hint -----------------------------------------------
-window.APP_VERSION = '20260503191645';
+window.APP_VERSION = '20260504103342';
 
 // --- Register service worker (cache-busted per deploy) ----------------
 (function registerSW() {
