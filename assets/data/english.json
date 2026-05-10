@@ -1495,8 +1495,8 @@
       ]
     },
     {
-      "label": "Tragedy",
-      "headline": "Tragedy",
+      "label": "Genre",
+      "headline": "Genre — tragedy, epic, pastoral, dramatised, humanised",
       "subthemes": [
         {
           "name": "Tragedy",
@@ -2127,7 +2127,7 @@
       ]
     },
     {
-      "label": "Postlapsarian Lust",
+      "label": "Blame for the Fall",
       "headline": "Eve’s ambition and agency causes the fall",
       "subthemes": [
         {
@@ -2291,7 +2291,7 @@
       ]
     },
     {
-      "label": "Blame for the Fall — Eve",
+      "label": "Ambition",
       "headline": "Eve is ambitious before she ever meets the Devil",
       "subthemes": [
         {
@@ -2409,7 +2409,7 @@
       ]
     },
     {
-      "label": "Eve's Ambition",
+      "label": "Human Flaws",
       "headline": "Adam and Eve are by definition perfect and Milton presents them as different from post-lapsarian humans AND himself, the postlapsarian narrator",
       "subthemes": [
         {
@@ -2531,11 +2531,107 @@
       ]
     },
     {
-      "label": "Human Perfection",
-      "headline": "Satan as the tragic protagonist that propels the epic’s action",
+      "label": "Satan",
+      "headline": "Satan as a tragic, sympathetic, but ultimately undercut figure",
       "subthemes": [
         {
-          "name": "Satan as the tragic protagonist that propels the epic’s action",
+          "name": "Human perfection",
+          "alt_names": [],
+          "items": [
+            {
+              "quote": "His creating hand nothing imperfect or deficient left",
+              "analysis": [
+                "Absolute terms establish Edenic humanity as divinely perfect",
+                "Reflects theological orthodoxy: creation is flawless, reinforcing that the Fall cannot originate in divide error",
+                "“Her prelapsarian actions … are not foreshadowings of necessary sin, but illustrations of actual and potential virtue … a fall is always possible but never inevitable” – Diane McColley"
+              ]
+            },
+            {
+              "quote": "With Nymphlike step fair virgin pass",
+              "analysis": [
+                "Idealised pastoral imagery elevates Eve beyond ordinary humanity into a mythic, perfected State, aligning her with classical purity",
+                "“If [Eve’s] failure is to have meaning, we must grant with our whole hearts that she possessed the capacity for success” – Stella Revard"
+              ]
+            },
+            {
+              "quote": "Conjugal love",
+              "analysis": [
+                "Suggests a perfectly ordered relationship, governed by harmony"
+              ]
+            },
+            {
+              "quote": "Mee of these nor skilled nor studious",
+              "analysis": [
+                "Narrator explicitly distinguishes himself as a postlapsarian human from the perfection of Adam and Eve"
+              ]
+            },
+            {
+              "quote": "Into her heart too easie entrance won",
+              "analysis": [
+                "Suggests structural vulnerability",
+                "Implies that even in innocence, the human mind is susceptible to deception"
+              ]
+            },
+            {
+              "quote": "Fixt on the fruit she gazed",
+              "analysis": [
+                "Sustained gaze suggests active engagement with temptation, indicating that desire and curiosity exist prior to the fall"
+              ]
+            },
+            {
+              "quote": "Force upon free will hath no place",
+              "analysis": [
+                "The necessity of free will implies that possibility of error, meaning perfection cannot be absolute – it must include the capacity to fall"
+              ]
+            },
+            {
+              "quote": "Let us divide our labours",
+              "analysis": [
+                "Dissatisfaction",
+                "Desire for elevation shows that hierarchical tension exists before the fall",
+                "Adam and Eve are relatable because they posses recognisably human flaws"
+              ]
+            },
+            {
+              "quote": "Render me more equal … perhaps superior",
+              "analysis": [
+                "Dissatisfaction",
+                "Desire for elevation shows that hierarchical tension exists before the fall",
+                "Adam and Eve are relatable because they posses recognisably human flaws"
+              ]
+            },
+            {
+              "quote": "Not deceived but fondly overcome with Femal charm",
+              "analysis": [
+                "Adam prioritises attachment over divine command",
+                "“The fall occurs when reason, stronger in the person of Adam, relinquishes its sovereignty over judgement … to passion, which is stronger in the person of Eve. Eve’s weaker reason falls victim …” – Fredson Bowers",
+                "“Milton, in contrast to Adam, illuminates strengths in Eve” – Mike Edward (“Domestick Adam” vs “Adventurous Eve”)"
+              ]
+            },
+            {
+              "quote": "The bond of nature draw me to my owne",
+              "analysis": [
+                "Adam prioritises attachment over divine command",
+                "“The fall occurs when reason, stronger in the person of Adam, relinquishes its sovereignty over judgement … to passion, which is stronger in the person of Eve. Eve’s weaker reason falls victim …” – Fredson Bowers",
+                "“Milton, in contrast to Adam, illuminates strengths in Eve” – Mike Edward (“Domestick Adam” vs “Adventurous Eve”)"
+              ]
+            },
+            {
+              "quote": "good lost, and Evil got",
+              "analysis": [
+                "Balanced phrasing suggests a clear moral reversal, revealing that the prior ‘good’ was unstable"
+              ]
+            },
+            {
+              "quote": "To sensual appetite … usurping over Sovran reason",
+              "analysis": [
+                "The fall reveals the latent instability of human nature, where reason can be overthrown and overridden by baser desires"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Satan as tragic hero",
           "alt_names": [],
           "items": [
             {
@@ -2620,15 +2716,9 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "label": "Satan as Tragic Hero",
-      "headline": "Satan is not the protagonist",
-      "subthemes": [
+        },
         {
-          "name": "Satan is not the protagonist",
+          "name": "Satan diminished",
           "alt_names": [],
           "items": [
             {
@@ -2674,18 +2764,10 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "label": "Satan Diminished",
-      "headline": "Satan ultimately functions less as an autonomous tragic centre than as the necessary vehicle through which a providentially anticipated temptation is enacted",
-      "subthemes": [
+        },
         {
-          "name": "Satan ultimately functions less as an autonomous tragic centre than as the necessary vehicle through which a providentially anticipated temptation is enacted",
-          "alt_names": [
-            "The true epic crisis lies in Eve’s agency"
-          ],
+          "name": "Satan as vehicle",
+          "alt_names": [],
           "items": [
             {
               "quote": "O much deceived, much failing, hapless eve",
@@ -2715,18 +2797,10 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "label": "Satan as Vehicle",
-      "headline": "Satan presented sympathetically",
-      "subthemes": [
+        },
         {
-          "name": "Satan presented sympathetically",
-          "alt_names": [
-            "Tragic/ heroic figure"
-          ],
+          "name": "Satan sympathised",
+          "alt_names": [],
           "items": [
             {
               "quote": "O foul decent! That I who erst contended with Gods … am now constrain’d into a Beast",
@@ -2755,13 +2829,7 @@
                 "Internal conflict presents Satan as psychologically complex and emotionally tortured, evoking pity",
                 "William Hazlitt: “The most heroic subject that was ever chosen for a poem”"
               ]
-            }
-          ]
-        },
-        {
-          "name": "Psychological depth humanises Satan",
-          "alt_names": [],
-          "items": [
+            },
             {
               "quote": "From inward griefe … thus pour’d",
               "analysis": [
@@ -2779,13 +2847,7 @@
               "analysis": [
                 "Moment where Satan is briefly overcome by Eve’s beauty – suggests he’s still capable of goodness, complicating his role as absolute evil"
               ]
-            }
-          ]
-        },
-        {
-          "name": "Satan as a displaced, alienated figure",
-          "alt_names": [],
-          "items": [
+            },
             {
               "quote": "As one who long in populous city pent … among the pleasant villages and farmes",
               "analysis": [
@@ -2797,13 +2859,7 @@
               "analysis": [
                 "Satan excluded from paradise"
               ]
-            }
-          ]
-        },
-        {
-          "name": "Satan as rhetorically powerful",
-          "alt_names": [],
-          "items": [
+            },
             {
               "quote": "As when of some old Orator renowned in Athens or free Rome",
               "analysis": [
@@ -2816,13 +2872,7 @@
               "analysis": [
                 "Satan presented as a performer, commanding the attention of Eve and the reader, charisma"
               ]
-            }
-          ]
-        },
-        {
-          "name": "Milton ultimately undercuts such heroism",
-          "alt_names": [],
-          "items": [
+            },
             {
               "quote": "The enemie of mankind",
               "analysis": [
@@ -2835,14 +2885,12 @@
       ]
     },
     {
-      "label": "Satan Sympathised",
-      "headline": "Satan’s skilful seduction-",
+      "label": "Seduction",
+      "headline": "Seduction is rhetorical, mutual, and aesthetic",
       "subthemes": [
         {
-          "name": "Satan’s skilful seduction-",
-          "alt_names": [
-            "Satan’s rhetorical campaign actively engineers Eve’s self-conception and distorts her moral framework"
-          ],
+          "name": "Satan's seduction",
+          "alt_names": [],
           "items": [
             {
               "quote": "Empress of this fair world",
@@ -2963,15 +3011,9 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "label": "Satan's Seduction",
-      "headline": "Eve self-seduction",
-      "subthemes": [
+        },
         {
-          "name": "Eve self-seduction",
+          "name": "Mutual seduction",
           "alt_names": [],
           "items": [
             {
@@ -3019,13 +3061,7 @@
                 "EVE FALLS WITH OPEN EYES",
                 "Perfect beings by definition, not psychologically or dramatically or theologically satisfying that they are simply deceived, they can see the consequences but cannot overt it, tragic inevitability"
               ]
-            }
-          ]
-        },
-        {
-          "name": "Eve seduces Satan",
-          "alt_names": [],
-          "items": [
+            },
             {
               "quote": "Her graceful innocence … overawed his malice",
               "analysis": [
@@ -3042,13 +3078,7 @@
                 "McColley – Eve is “Superior to Circe”",
                 "“It was Eve who tempted Satan and turned him into a serpent” – Empson (if anything, she makes him momentarily ‘stupidly good’)"
               ]
-            }
-          ]
-        },
-        {
-          "name": "Eve seduces Adam",
-          "alt_names": [],
-          "items": [
+            },
             {
               "quote": "But to Adam in what sort Shall I appear? Shall I to him make known as yet my change",
               "analysis": [
@@ -3080,15 +3110,9 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "label": "Mutual Seduction",
-      "headline": "Milton’s expansion of Genesis into psychological epic is itself a form of aesthetic and intellectual seduction.",
-      "subthemes": [
+        },
         {
-          "name": "Milton’s expansion of Genesis into psychological epic is itself a form of aesthetic and intellectual seduction.",
+          "name": "Milton's aesthetic seduction",
           "alt_names": [],
           "items": [
             {
@@ -3155,15 +3179,7 @@
                 "We do not merely observe the fall",
                 "We experience it internally"
               ]
-            }
-          ]
-        },
-        {
-          "name": "Milton’s treatment of seduction operates in service of his overarching aim to “justify the ways of God to men”",
-          "alt_names": [
-            "Milton presents Seduction as inherent and imperative"
-          ],
-          "items": [
+            },
             {
               "quote": "So near grows death to life",
               "analysis": [
@@ -3211,16 +3227,12 @@
       ]
     },
     {
-      "label": "Milton's Aesthetic Seduction",
-      "headline": "The allure of sin",
+      "label": "Sin",
+      "headline": "Sin as alluring, consequential, and theologically necessary",
       "subthemes": [
         {
           "name": "The allure of sin",
-          "alt_names": [
-            "Sin looks magnificent but ends in fragmentation",
-            "That gap proves divine justice",
-            "Through Satan’s rhetoric, Milton shows the reader all the reasons why Sin has such allure – sensory, intellectually, for freedom, transcendence"
-          ],
+          "alt_names": [],
           "items": [
             {
               "quote": "Fixed on the fruit she gazed, which to behold might tempt alone",
@@ -3291,13 +3303,7 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "label": "The Allure of Sin",
-      "headline": "The consequences of sin",
-      "subthemes": [
+        },
         {
           "name": "The consequences of sin",
           "alt_names": [],
@@ -3411,19 +3417,10 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "label": "Consequences of Sin",
-      "headline": "Sin as structural and theological necessity",
-      "subthemes": [
+        },
         {
           "name": "Sin as structural and theological necessity",
-          "alt_names": [
-            "Milton shows that sin is chosen, rationalised, necessary for freedom and ultimately self-destructive",
-            "“Justify the ways of God to men”"
-          ],
+          "alt_names": [],
           "items": [
             {
               "quote": "Reason he made right, but bid her well beware",
