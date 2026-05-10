@@ -588,7 +588,7 @@ function setShareUserName(name) {
 }
 
 // --- Cache busting hint -----------------------------------------------
-window.APP_VERSION = '20260510202436';
+window.APP_VERSION = '20260510203045';
 
 // --- Register service worker (cache-busted per deploy) ----------------
 (function registerSW() {
@@ -628,3 +628,35 @@ window.APP_VERSION = '20260510202436';
     // don't bump until they interact - this is touched by setConfidence / submit answers
   }
 })();
+
+// --- Silence Chrome/Safari autofill on every textarea & text input -----
+// These are revision blurt fields, never personal data. Without this, Chrome
+// pops 'Autofill with email' bubbles on every keystroke; LastPass/1Password
+// also inject icons inside the field. spellcheck stays ON — we still want typo help.
+function silenceAutofill(root) {
+  const nodes = (root || document).querySelectorAll('textarea, input[type="text"]:not([data-fc-style])');
+  nodes.forEach(n => {
+    if (n.dataset.silenced === '1') return;
+    n.setAttribute('autocomplete', 'off');
+    n.setAttribute('autocorrect', 'on');
+    n.setAttribute('autocapitalize', 'sentences');
+    if (!n.hasAttribute('spellcheck')) n.setAttribute('spellcheck', 'true');
+    n.setAttribute('data-form-type', 'other');
+    n.setAttribute('data-lpignore', 'true');
+    n.setAttribute('data-1p-ignore', 'true');
+    // Random unique name/id breaks Chrome's heuristic match against past form values
+    if (!n.getAttribute('name')) n.setAttribute('name', 'rev-' + Math.random().toString(36).slice(2, 10));
+    n.dataset.silenced = '1';
+  });
+}
+// Run on initial load and watch for textareas added later (every flow renders them dynamically)
+document.addEventListener('DOMContentLoaded', () => {
+  silenceAutofill();
+  const mo = new MutationObserver((mutations) => {
+    for (const m of mutations) {
+      if (m.addedNodes && m.addedNodes.length) silenceAutofill(document);
+    }
+  });
+  mo.observe(document.body, { childList: true, subtree: true });
+});
+window.silenceAutofill = silenceAutofill;
