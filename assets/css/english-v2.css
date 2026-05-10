@@ -300,6 +300,22 @@
   font-size: 0.95rem;
   line-height: 1.4;
 }
+.v2-arg-list {
+  margin: 8px 0 0;
+  padding-left: 22px;
+  display: grid;
+  gap: 8px;
+}
+.v2-arg-list li {
+  font-family: var(--font-display, 'Fraunces', serif);
+  line-height: 1.45;
+  font-size: 0.98rem;
+  padding: 8px 12px;
+  background: rgba(107,45,92,0.05);
+  border-left: 3px solid var(--eng, #6B2D5C);
+  border-radius: 4px;
+}
+
 .v2-context-line,
 .v2-bullet-line {
   padding: 6px 10px;

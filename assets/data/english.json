@@ -5034,5 +5034,143 @@
         }
       }
     ]
-  }
+  },
+  "theme_arguments": [
+    {
+      "name": "Marriage",
+      "arguments": [
+        "Their marriage is utterly unique due to its theological origin as the only marriage untainted by sin.",
+        "A+E shown to be logical, considering the different interpretations of God's intentions.",
+        "Milton humanises A+E through psychological realism — realistic dialogue, linguistic nuance: grounds the biblical story in recognisable emotional experience.",
+        "Consciously echoes and critiques the marriage debates of the time, situating PL within a current and highly relevant time of political and theological discourse."
+      ]
+    },
+    {
+      "name": "Love",
+      "arguments": [
+        "Love is a contributing factor to the fall and becomes a form of moral weakness.",
+        "Milton distinguishes between prelapsarian and postlapsarian love."
+      ]
+    },
+    {
+      "name": "Power",
+      "arguments": [
+        "Power is primarily rhetorical — Eve is persuaded rather than overpowered.",
+        "Persuasion interacts with pre-existing desires: power coproduced between tempter and tempted.",
+        "Pursuit of power is fundamentally self-defeating.",
+        "Power does have real, albeit limited, effects.",
+        "Milton upholds the existence of true, absolute power in the form of divine authority."
+      ]
+    },
+    {
+      "name": "Gender",
+      "arguments": [
+        "Milton encodes Eve's fall within a framework of gender hierarchy: morally corrupt and dangerous.",
+        "Innocent and naive woman.",
+        "Grants Eve psychological depth and rhetorical agency. Her decision is reasoned rather than impulsive. Stems from universal human faculties.",
+        "Male flaws represented too.",
+        "Gender equality shown."
+      ]
+    },
+    {
+      "name": "Setting",
+      "arguments": [
+        "Eden not merely a backdrop but active participant in the fall.",
+        "Eden is reflective: symbolically externalising internal fates.",
+        "Environment amplifies existing vulnerabilities: moral testing ground rather than active agent."
+      ]
+    },
+    {
+      "name": "Genre",
+      "arguments": [
+        "Tragedy.",
+        "Epic.",
+        "Pastoral.",
+        "Dramatised.",
+        "Humanised."
+      ]
+    },
+    {
+      "name": "Free will",
+      "arguments": [
+        "Milton suggests that exercising your free will is worth losing paradise. Freedom is valuable, even if it creates the possibility of sin.",
+        "Temptation necessary for freedom: not a flaw in creation but genuine necessity.",
+        "True test of free will is to resist temptation.",
+        "Paradise constructed as perfect to emphasise the cost of free will gone wrong.",
+        "The outcome validates God's warning, proving divine authority is just and true."
+      ]
+    },
+    {
+      "name": "Hierarchy and order",
+      "arguments": [
+        "Presents the fatal consequences of disobeying one's superior.",
+        "Disorder begins with separation and culminates in chaos.",
+        "Adam misuses his authority.",
+        "Eve's resistance can be seen as rational/admirable."
+      ]
+    },
+    {
+      "name": "Innocence",
+      "arguments": [
+        "Prelapsarian perfection vs postlapsarian lust.",
+        "Eve's innocence caused the fall.",
+        "Eve never innocent to begin with."
+      ]
+    },
+    {
+      "name": "Blame for the fall",
+      "arguments": [
+        "Eve's ambition and agency.",
+        "Satan.",
+        "Adam."
+      ]
+    },
+    {
+      "name": "Ambition",
+      "arguments": [
+        "Eve ambitious before she meets Satan.",
+        "Satan exploits her ambition.",
+        "Adam not ambitious."
+      ]
+    },
+    {
+      "name": "Human flaws / perfection",
+      "arguments": [
+        "A+E by definition perfect. Presents them as different from postlapsarian humans and himself.",
+        "A+E could never be perfect because they are human. Perfect in creation but capable of error.",
+        "Already flawed before the fall.",
+        "Fall exposes the illusion of perfection."
+      ]
+    },
+    {
+      "name": "Satan",
+      "arguments": [
+        "Tragic protagonist that propels the epic action.",
+        "Necessary vehicle through which a providentially anticipated temptation is enacted.",
+        "Presented sympathetically as tragic heroic figure.",
+        "Psychological depth humanises him: displaced, alienated figure.",
+        "Rhetorically powerful.",
+        "Milton ultimately undercuts any heroism."
+      ]
+    },
+    {
+      "name": "Seduction",
+      "arguments": [
+        "Satan's rhetorical campaign actively distorts Eve's moral framework.",
+        "Eve self-seduces.",
+        "Eve seduces Satan.",
+        "Eve seduces Adam.",
+        "Milton's expansion of Genesis is a form of aesthetic and intellectual seduction.",
+        "Presents seduction as inherent and imperative."
+      ]
+    },
+    {
+      "name": "Sin",
+      "arguments": [
+        "The allure of sin looks magnificent.",
+        "Presents the tragic consequences of sin.",
+        "Sin is a structural and theological necessity."
+      ]
+    }
+  ]
 }

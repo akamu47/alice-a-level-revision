@@ -51,13 +51,69 @@
       document.getElementById('modePicker').style.display = '';
     });
     area.appendChild(back);
-    if (mode === 'pl-themes') renderPLThemes(area);
+    if (mode === 'pl-arguments') renderPLArguments(area);
+    else if (mode === 'pl-themes') renderPLThemes(area);
     else if (mode === 'sections') renderSections(area);
     else if (mode === 'ph-topics') renderPHTopics(area);
   }
 
   // ===========================================================================
-  // FLOW 1 — Paradise Lost · Themes
+  // FLOW 0 — Paradise Lost · Theme arguments (theme → blurt sub-themes)
+  // ===========================================================================
+  function renderPLArguments(area) {
+    const themes = (DATA && DATA.theme_arguments) || [];
+    if (!themes.length) {
+      area.appendChild(el('p', { class: 'muted' }, 'No theme arguments loaded.'));
+      return;
+    }
+    area.appendChild(el('h2', { class: 'serif' }, '🧠 Paradise Lost · Theme arguments'));
+    area.appendChild(el('p', { class: 'muted', style: 'margin-bottom: 14px' },
+      'Pick a theme. Blurt every critical argument / sub-theme you can think of — the page tells you how many you’re aiming for, but stays blank until you check.'));
+
+    const grid = el('div', { class: 'v2-grid' });
+    themes.forEach(t => {
+      const n = (t.arguments || []).length;
+      const card = el('a', { class: 'v2-card', href: '#' },
+        el('span', { class: 'v2-card-title' }, t.name),
+        el('p', { class: 'v2-card-meta' }, n + ' argument' + (n === 1 ? '' : 's'))
+      );
+      card.addEventListener('click', (e) => {
+        e.preventDefault();
+        renderPLArgumentsBlurt(area, t);
+      });
+      grid.appendChild(card);
+    });
+    area.appendChild(grid);
+  }
+
+  function renderPLArgumentsBlurt(area, theme) {
+    resetArea(area, '← back to themes', () => renderPLArguments(area));
+    area.appendChild(el('h2', { class: 'serif' }, '🧠 ' + theme.name));
+    const args = theme.arguments || [];
+    area.appendChild(el('p', { class: 'v2-subhead' },
+      'Aim for ' + args.length + ' distinct argument' + (args.length === 1 ? '' : 's') + '. Each on its own line.'));
+    area.appendChild(el('p', { class: 'muted', style: 'margin: 6px 0 12px' },
+      'Don’t worry about wording — the gist is what matters. We’ll match against the model list.'));
+
+    const widget = blurtRecall({
+      prompt: 'Blurt the arguments / sub-themes for ' + theme.name + '.',
+      placeholder: 'One argument per line…',
+      targets: args.map(a => ({ label: 'arg', text: a })),
+      reveal: () => {
+        const wrap = el('div');
+        wrap.appendChild(el('div', { class: 'v2-reveal-head stagger-item' },
+          'Model arguments (' + args.length + '):'));
+        const ol = el('ol', { class: 'v2-arg-list stagger-item' });
+        args.forEach(a => ol.appendChild(el('li', {}, a)));
+        wrap.appendChild(ol);
+        return wrap;
+      }
+    });
+    area.appendChild(widget);
+  }
+
+  // ===========================================================================
+  // FLOW 1 — Paradise Lost · Quotes by theme
   // ===========================================================================
   function renderPLThemes(area) {
     const themes = (DATA && DATA.themes) || [];
